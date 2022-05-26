@@ -1,0 +1,94 @@
+/* Utilities for fonts on the webpage */
+
+/* Font Families */
+.font-primary {
+	font-family: var(--font-primary);
+}
+
+.font-secondary {
+	font-family: var(--font-secondary);
+}
+
+
+/* Font Sizes */
+.text-xs {
+	font-size: var(--text-xs);
+}
+
+.text-sm {
+	font-size: var(--text-sm);
+}
+
+.text-base {
+	font-size: var(--text-unit, 1em);
+}
+
+.text-md {
+	font-size: var(--text-md);
+}
+
+.text-lg {
+	font-size: var(--text-lg);
+}
+
+.text-xl {
+	font-size: var(--text-xl);
+}
+
+.text-xxl {
+	font-size: var(--text-xxl);
+}
+
+.text-xxxl {
+	font-size: var(--text-xxxl);
+}
+
+
+/* Font Weights */
+.font-light {
+	font-weight: 300;
+}
+
+.font-normal {
+	font-weight: 400;
+}
+
+.font-medium {
+	font-weight: 500;
+}
+
+.font-semibold {
+	font-weight: 600;
+}
+
+.font-bold {
+	font-weight: 700;
+}
+
+
+/* Text Decorations */
+.text-em {
+	font-style: italic;
+}
+
+.text-under {
+	text-decoration: underline;
+}
+
+
+/* Text Align */
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}

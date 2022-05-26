@@ -1,0 +1,206 @@
+/* Utilities for positioning objects on the web page */
+
+/* Displays */
+.flex {
+	display: flex;
+}
+
+.block {
+	display: block;
+}
+
+.grid {
+	display: grid;
+}
+
+.none {
+	display: none;
+}
+
+.hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
+
+/* Flex */
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-top {
+	align-items: center;
+	justify-content: start;
+}
+
+.flex-bottom {
+	align-items: center;
+	justify-content: end;
+}
+
+.flex-left {
+	align-items: start;
+	justify-content: center;
+}
+
+.flex-right {
+	align-items: end;
+	justify-content: center;
+}
+
+.gap-1 {
+	gap: 1rem;
+}
+
+.gap-2 {
+	gap: 2rem;
+}
+
+
+/* Align Items */
+.items-center {
+	align-items: center;
+}
+
+.items-start {
+	align-items: start;
+}
+
+.items-end {
+	align-items: end;
+}
+
+.items-baseline {
+	align-items: baseline;
+}
+
+
+/* Justify Content */
+.content-start {
+	justify-content: start;
+}
+
+.content-center {
+	justify-content: center;
+}
+
+.content-end {
+	justify-content: end;
+}
+
+.content-between {
+	justify-content: space-between;
+}
+
+.content-around {
+	justify-content: space-around;
+}
+
+.content-evenly {
+	justify-content: space-evenly;
+}
+
+
+/* Self */
+.self-center {
+	justify-self: center;
+	align-self: center;
+}
+
+.self-start {
+	justify-self: start;
+	align-self: start;
+}
+
+.self-end {
+	justify-self: end;
+	align-self: end;
+}
+
+.align_self-center {
+	align-self: center;
+}
+
+.align_self-start {
+	align-self: start;
+}
+
+.align_self-end {
+	align-self: end;
+}
+
+.justify_self-center {
+	justify-self: center;
+}
+
+.justify_self-start {
+	justify-self: start;
+}
+
+.justify_self-end {
+	justify-self: end;
+}
+
+
+/* Object Fit */
+.object-cover {
+	object-fit: cover;
+}
+
+.object-contain {
+	object-fit: contain;
+}
+
+
+/* Positioning */
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.position-fixed {
+	position: fixed;
+}
+
+.position-sticky {
+	position: sticky;
+}
+
+.top-0 {
+	top: 0;
+}
+
+.bottom-0 {
+	bottom: 0;
+}
+
+.left-0 {
+	left: 0;
+}
+
+.right-0 {
+	right: 0;
+}

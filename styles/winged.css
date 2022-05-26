@@ -1,0 +1,485 @@
+/* Wings Animation Library CSS */
+
+/* Control Center */
+:root {
+  --wings-duration: 1s;
+  --wings-delay: 1s;
+  --wings-repeat: 1;
+}
+
+
+/* Reduced Motion Banner to be Displayed when Setting is Active */
+.reduced-motion-banner {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 1rem;
+  text-align: center;
+
+  background: var(--color-dark);
+  color: var(--color-light);
+  border-top: 1px solid var(--color-warning);
+}
+
+
+/* Animation Utility Classes */
+.wings {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--wings-duration);
+  animation-duration: var(--wings-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.wings_infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+/* Reduced Motion Accessibility */
+@media print, (prefers-reduced-motion: reduce) {
+  .wings {
+    -webkit-animation-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    -webkit-transition-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .wings[class*='Out'] {
+    opacity: 0;
+  }
+  
+  .reduced-motion-banner {
+	  display: block;
+  }
+}
+
+
+/* Core Attention Animations  */
+/* BOUNCE */
+@-webkit-keyframes bounce {
+	from,
+	20%,
+	53%,
+	to {
+		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+
+	40%,
+	43% {
+		-webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+		-webkit-transform: translate3d(0, -30px, 0) scaleY(1.1);
+	}
+
+	70% {
+		-webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+		-webkit-transform: translate3d(0, -15px, 0) scaleY(1.05);
+	}
+
+	80% {
+		-webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		-webkit-transform: translate3d(0, 0, 0) scaleY(0.95);
+	}
+
+	90% {
+		-webkit-transform: translate3d(0, -4px, 0) scaleY(1.02);
+	}
+}
+
+@keyframes bounce {
+	from,
+	20%,
+	53%,
+	to {
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		transform: translate3d(0, 0, 0);
+	}
+
+	40%,
+	43% {
+		animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+		transform: translate3d(0, -30px, 0) scaleY(1.1);
+	}
+
+	70% {
+		animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+		transform: translate3d(0, -15px, 0) scaleY(1.05);
+	}
+
+	80% {
+		transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		transform: translate3d(0, 0, 0) scaleY(0.95);
+	}
+
+	90% {
+		transform: translate3d(0, -4px, 0) scaleY(1.02);
+	}
+}
+
+.wings_bounce {
+	-webkit-animation-name: bounce;
+	animation-name: bounce;
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+}
+
+/* SWELL */
+@-webkit-keyframes swell {
+	from,
+	to
+	{
+		-webkit-transform: scale3d(1, 1, 1);
+	}
+	
+	50% {
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+	}
+}
+
+@keyframes swell {
+	from,
+	to
+	{
+		transform: scale3d(1, 1, 1);
+	}
+	
+	50% {
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+}
+
+.wings_swell {
+	-webkit-animation-name: swell;
+	animation-name: swell;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+}
+
+/* BEAT */
+@-webkit-keyframes beat {
+	0%,
+	28%,
+	70%
+	{
+		-webkit-transform: scale(1);
+	}
+	
+	14%,
+	42%
+	{
+		-webkit-transform: scale(1.1);
+	}
+}
+
+@keyframes beat {
+	0%,
+	28%,
+	70%
+	{
+		transform: scale(1);
+	}
+	
+	14%,
+	42%
+	{
+		transform: scale(1.1);
+	}
+}
+
+.wings_beat {
+	-webkit-animation-name: beat;
+	animation-name: beat;
+	-webkit-animation-duration: calc(1s * 1.1);
+	animation-duration: calc(1s * 1.1);
+	-webkit-animation-duration: calc(var(--wings-duration) * 1.1);
+	animation-duration: calc(var(--wings-duration) * 1.1);
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+}
+
+
+/* Fade Animations */
+/* FADE IN */
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
+
+.wings_fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+/* FADE IN DOWN */
+@-webkit-keyframes fadeInDown {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -50%, 0);
+	}
+	
+	to {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -50%, 0);
+	}
+	
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.wings_fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+
+/* FADE IN UP */
+@-webkit-keyframes fadeInUp {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 50%, 0);
+	}
+	
+	to {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 50%, 0);
+	}
+	
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.wings_fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+/* FADE OUT */
+@-webkit-keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	
+	to {
+		opacity: 0;
+	}
+}
+
+.wings_fadeOut {
+	-webkit-animation-name: fadeOut;
+	animation-name: fadeOut;
+}
+
+/* FADE OUT DOWN */
+@-webkit-keyframes fadeOutDown {
+	from {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+	
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 50%, 0);
+	}
+}
+
+@keyframes fadeOutDown {
+	from {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+	
+	to {
+		opacity: 0;
+		transform: translate3d(0, 50%, 0);
+	}
+}
+
+.wings_fadeOutDown {
+	-webkit-animation-name: fadeOutDown;
+	animation-name: fadeOutDown;
+}
+
+/* FADE OUT UP */
+@-webkit-keyframes fadeOutUp {
+	from {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+	
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -50%, 0);
+	}
+}
+
+@keyframes fadeOutUp {
+	from {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+	
+	to {
+		opacity: 0;
+		transform: translate3d(0, -50%, 0);
+	}
+}
+
+.wings_fadeOutUp {
+	-webkit-animation-name: fadeOutUp;
+	animation-name: fadeOutUp;
+}
+
+/* SLIDE OUT */
+@keyframes slideOut {
+	0% {
+		transform: translate(-50%);
+	}
+
+	100% {
+		transform: translate(0%);
+	}
+}
+
+.wings_slideOut {
+	animation: slideOut 0.5s;
+}
+
+/* SLIDE OUT LEFT */
+@keyframes slideOutLeft {
+	0% {
+		transform: translate(50%);
+	}
+
+	100% {
+		transform: translate(0%);
+	}
+}
+
+.wings_slideOutLeft {
+	animation: slideOutLeft 0.5s;
+}
+
+/* SLIDE OUT TOP */
+@keyframes slideOutTop {
+	0% {
+		transform: translateY(-25%);
+	}
+
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.wings_slideOutTop {
+	animation: slideOutTop 0.5s;
+}
+
+/* SLIDE OUT BOTTOM */
+@keyframes slideOutBottom {
+	0% {
+		transform: translateY(50%);
+	}
+
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.wings_slideOutBottom {
+	animation: slideOutBottom 0.5s;
+}
+
+/* SLIDE IN */
+@keyframes slideIn {
+	0% {
+		transform: translate(0%);
+	}
+
+	100% {
+		transform: translate(-100%);
+	}
+}
+
+.wings_slideIn {
+	animation: slideIn 0.5s;
+}
+
+/* SLIDE IN RIGHT */
+@keyframes slideInRight {
+	0% {
+		transform: translate(0%);
+	}
+
+	100% {
+		transform: translate(200%);
+	}
+}
+
+.wings_slideInRight {
+	animation: slideInRight 0.5s;
+}
+
+/* SLIDE IN TOP */
+@keyframes slideInTop {
+	0% {
+		transform: translateY(0%);
+	}
+
+	100% {
+		transform: translateY(-20%);
+	}
+}
+
+.wings_slideInTop {
+	animation: slideInTop 0.5s;
+}

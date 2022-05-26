@@ -1,0 +1,140 @@
+/* Final CSS Page */
+@import url("rebirth.css"); /* RESET for uniformity */
+@import url("compositions.css"); /* STRUCTURES */
+@import url("utilities/utilities.css"); /* ATOMIC Styles */
+@import url("blocks.css"); /* UNIQUE components */
+@import url("exceptions.css"); /* DATA driven classes */
+@import url("winged.css"); /* ANIMATIONS */
+
+
+/* --- START OF UNIQUE STYLING FOR PROJECT (RESPONSIVE FIRST) --- */
+/* --- FONT IMPORTS --- */
+
+/*@font-face {
+	src: url(fonts/Poppins-Bold.otf);
+	font-family: Poppins-Bold;
+}
+
+@font-face {
+	src: url(fonts/Nunito-Regular.ttf);
+	font-family: Nunito-Regular;
+}*/
+
+/*:root {
+	font: 18px/1 "Nunito-Regular", sans-serif;
+}*/
+
+
+/* CONTROL CENTER */
+
+:root {
+	/* COLORS */
+	--color-system-success: green;
+	--color-system-warning: yellow;
+	--color-system-urgent: red;
+	--color-system-attention: orange;
+	--color-system-notification: blue;
+
+	--color-main-black: #000000;
+	--color-main-white: #FFFFFF;
+	--color-main-primary: #D80D0D,;
+	--color-main-secondary: #1BB6D5;
+	--color-main-tertiary: #E9CB08;
+	
+	/* RADIUS */
+	--radius: 0.25em;
+	--radius-sm: calc(var(--radius)/2);
+	--radius-md: var(--radius);
+	--radius-lg: calc(var(--radius)*2);
+	
+	/* SHADOWS */
+	--shadow-xs: 0 0.1px 0.3px rgba(0, 0, 0, 0.06),
+				0 1px 2px rgba(0, 0, 0, 0.12);
+	--shadow-sm: 0 0.3px 0.4px rgba(0, 0, 0, 0.025),
+				0 0.9px 1.5px rgba(0, 0, 0, 0.05),
+				0 3.5px 6px rgba(0, 0, 0, 0.1);
+	--shadow-md: 0 0.9px 1.5px rgba(0, 0, 0, 0.03),
+				0 3.1px 5.5px rgba(0, 0, 0, 0.08),
+				0 14px 25px rgba(0, 0, 0, 0.12);
+	--shadow-lg: 0 1.2px 1.9px -1px rgba(0, 0, 0, 0.014),
+				0 3.3px 5.3px -1px rgba(0, 0, 0, 0.038),
+				0 8.5px 12.7px -1px rgba(0, 0, 0, 0.085),
+				0 30px 42px -1px rgba(0, 0, 0, 0.15);
+	--shadow-xl: 0 1.5px 2.1px -6px rgba(0, 0, 0, 0.012),
+				0 3.6px 5.2px -6px rgba(0, 0, 0, 0.035),
+				0 7.3px 10.6px -6px rgba(0, 0, 0, 0.07),
+				0 16.2px 21.9px -6px rgba(0, 0, 0, 0.117),
+				0 46px 60px -6px rgba(0, 0, 0, 0.2);
+
+	/* FONTS */
+	--font-primary: "Nunito-Regular", sans-serif;
+	--font-secondary: "Poppins-Bold", sans-serif;
+
+	--text-base-size: 1em;
+	--text-scale: 1.2;
+
+	--text-xs: calc((var(--text-base-size) / var(--text-scale)) / var(--text-scale));
+	--text-sm: calc(var(--text-xs) * var(--text-scale));
+	--text-md: calc(var(--text-sm) * var(--text-scale) * var(--text-scale));
+	--text-lg: calc(var(--text-md) * var(--text-scale));
+	--text-xl: calc(var(--text-lg) * var(--text-scale));
+	--text-xxl: calc(var(--text-xl) * var(--text-scale));
+	--text-xxxl: calc(var(--text-xxl) * var(--text-scale));
+
+	/* SPACING */
+	--spacing: 1em;
+
+	--space-xxxxs: calc(0.125 * var(--spacing)); 
+	--space-xxxs:  calc(0.25 * var(--spacing));
+	--space-xxs:   calc(0.375 * var(--spacing));
+	--space-xs:    calc(0.5 * var(--spacing));
+	--space-sm:    calc(0.75 * var(--spacing));
+	--space-md:    calc(1.25 * var(--spacing));
+	--space-lg:    calc(2 * var(--spacing));
+	--space-xl:    calc(3.25 * var(--spacing));
+	--space-xxl:   calc(5.25 * var(--spacing));
+	--space-xxxl:  calc(8.5 * var(--spacing));
+	--space-xxxxl: calc(13.75 * var(--spacing));
+	
+	/* TRANSITIONS */
+	--trans-time: all 0.25s ease-in-out;
+}
+
+
+/* CUSTOM STYLES */
+/* General */
+body {
+	font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-secondary);
+}
+
+.nav-menu_list {
+	display: none;
+}
+
+.hero {
+	background: blue;
+	color: white;
+}
+
+
+/* MEDIA QUERIES FOR LARGER SCREENS */
+/*Small devices (landscape phones and portrait tablets, 600px and up)*/
+@media (min-width: 600px) {
+	:root {
+		--text-base-size: 1.125em; /* 18px */
+		--text-scale: 1.25;
+	}
+}
+
+/*Medium devices (tablets landscape, 900px and up)*/
+@media (min-width: 900px) { ... }
+
+/*Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*X-Large devices (larger desktops, 1800px and up)*/
+@media (min-width: 1800px) { ... }

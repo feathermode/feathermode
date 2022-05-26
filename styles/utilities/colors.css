@@ -1,0 +1,119 @@
+/* Utilities for colors on the webpage */
+
+/* Backdrop Blur */
+.backdrop_blur-10 {
+	webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.backdrop_blur-20 {
+	webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+}
+
+
+/* Backgrounds */
+
+.bg-dark {
+	background-color: var(--color-dark);
+}
+
+.bg-light {
+	background-color: var(--color-light);
+}
+
+.bg-gray {
+	background-color: var(--color-gray);
+}
+
+.bg-primary {
+	background-color: var(--color-primary);
+}
+
+.bg-secondary {
+	background-color: var(--color-secondary);
+}
+
+.bg-tertiary {
+	background-color: var(--color-tertiary);
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+.bg-0 {
+	opacity: 0;
+}
+
+.bg-success {
+	background-color: var(--color-success);
+}
+
+.bg-warning {
+	background-color: var(--color-warning);
+}
+
+.bg-error {
+	background-color: var(--color-error);
+}
+
+.bg-accent {
+	background-color: var(--color-accent);
+}
+
+
+/* Colors */
+.color-dark {
+	color: var(--color-dark);
+}
+
+.color-light {
+	color: var(--color-light);
+}
+
+.color-primary {
+	color: var(--color-primary);
+}
+
+.color-secondary {
+	color: var(--color-secondary);
+}
+
+.color-tertiary {
+	color: var(--color-tertiary);
+}
+
+.color-transparent {
+	color: transparent;
+}
+
+.color-success {
+	color: var(--color-success);
+}
+
+.color-warning {
+	color: var(--color-warning);
+}
+
+.color-error {
+	color: var(--color-error);
+}
+
+.color-accent {
+	color: var(--color-accent);
+}
+
+
+/* Fills (for svgs) */
+.fill-dark {
+	fill: var(--color-dark);
+}
+
+.fill-light {
+	fill: var(--color-light);
+}
+
+.fill-primary {
+	fill: var(--color-primary);
+}

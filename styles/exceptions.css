@@ -1,0 +1,15 @@
+/* Exceptions are data-attribute based styles */
+
+[data-state="active"] {
+	
+}
+
+[data-state="inactive"] {
+	
+}
+
+.card[data-state="reversed"] {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
