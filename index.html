@@ -15,30 +15,30 @@
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://feathermode.com"/>
 	<meta property="og:site_name" content="feathermode"/>
-	<meta property="og:image" content="PATH TO LOGO"/>
+	<meta property="og:image" content="/assets/fm_logo-white.svg"/>
 	<meta property="og:description" content="feathermode is a service that offers bespoke website creation for individuals and businesses looking to tel their story on the web."/>
 	
 	<!-- ICONS -->
-	<link rel="icon" href="/assets/icon.png" />
+	<link rel="icon" href="/assets/fm_icon-bird.svg" />
 	
 	<!-- CSS STYLESHEETS -->
 	<link rel="stylesheet" href="styles/main.css"/>
 	
 	<!-- JS SCRIPTS -->
-	<script src="" type="text/javascript" defer></script>
+	<script src="functions/main.js" type="module" defer></script>
 	
 	<!-- ANALYTICS -->
 	<!-- <script src="https://cdn.usefathom.com/script.js" site="" defer></script> -->
 </head>
 <body>
 	<!-- NAVIGATION -->
-	<nav class="flex content-between padding-md">
-		<div class="nav-logo_plate">
-			<img src="" alt="feathermode" class="nav-logo"/>
+	<nav class="position-fixed flex content-between width-100 padding-md">
+		<div class="nav-logo_plate bg-dark radius-md padding-sm">
+			<img src="assets/fm_logo-white.svg" alt="feathermode" class="nav-logo"/>
 		</div>
-		<div class="nav-menu">
+		<div class="nav-menu bg-dark color-light radius-md padding-sm">
 			<div class="nav-menu_toggle flex gap-1">
-				<p>platform</p>
+				<p class="font-bold text-sm">platform</p>
 				<!-- toggle button -->
 				<p>></p>
 			</div>
@@ -82,31 +82,33 @@
 	<!-- START OF PAGE SPECIFIC CONTENT -->
 	<!-- HERO -->
 	<section class="hero flex flex-column flex-center height-80vh">
-		<div class="section-wrapper flex flex-column flex-center height-100 width-60 text-center gap-1">
-			<h1 class="text-xxxl">Your Digital Story <br /> Made to Fly</h1>
+		<div class="section-wrapper flex flex-column flex-center height-100 width-80 text-center gap-1">
+			<h1 class="text-xxl font-bold">Your Digital Story <br /> Made to Fly</h1>
 			<p>Take your digital presence to the next level by creating a modern web platform for your story alongside the help of a dedicated web arcitect. Whether you want to take an active role or a passive role in the web creation process, our 5D protocol allows for both flexiblity and growth to determine the best website for your project.</p>
 			<button>Create a Website</button>
 		</div>
 	</section>
 	
 	<!-- PITCH -->
-	<section class="section flex flex-column flex-center height-60vh">
-		<div class="section-wrapper flex flex-column flex-center height-100 width-60 text-center gap-1">
-			<p class="text-xl">Your story deserves a digital home, one that is the best fit, efficient, accessible, reliable and one that uses the best tools to communicate with your audience. We'll help you find the right home and build it with you so you can have the most appropriate representation online.</p>
+	<section class="section flex flex-column flex-center padding-lg">
+		<div class="section-wrapper flex flex-column flex-center height-100 width-80 text-center gap-1">
+			<p class="text-xl font-bold">Your story deserves a digital home, one that is the best fit, efficient, accessible, reliable and one that uses the best tools to communicate with your audience. We'll help you find the right home and build it with you so you can have the most appropriate representation online.</p>
 		</div>
 	</section>
 	
 	<!-- PROTOCOL -->
-	<section class="section flex flex-column flex-center height-60vh">
+	<section class="section flex flex-column flex-center padding-lg bg-dark color-light">
 		<div class="section-wrapper flex flex-column flex-center height-100 width-60 text-center gap-1">
 			<h2>Process</h2>
-			<ul class="flex">
-				<li><button>1 | Discover</button></li>
-				<li><button>2 | Design</button></li>
-				<li><button>3 | Develop</button></li>
-				<li><button>4 | Deploy</button></li>
-				<li><button>5 | Dedicate</button></li>
+			<ul class="flex gap-1">
+				<li><button class="process_button" data-img="assets/graphics/fm_asset-detail.svg" data-description="We first start by discovering all of the media, copy and content required for your platform and whether or not content needs to be created or gathered.">Discover</button></li>
+				<li><button class="process_button" data-img="assets/graphics/fm_asset-design.svg" data-description="Once we have an idea of what your site will contain, we'll look to style, brand and group your content in ways that will be appealing to you and your audience.">Design</button></li>
+				<li><button class="process_button" data-img="assets/graphics/fm_asset-develop.svg" data-description="Once we've agreed upon a design system and theme for your web plaform a web arcitect will start developing it and will ask for your preferences on various things throughout.">Develop</button></li>
+				<li><button class="process_button" data-img="assets/graphics/fm_asset-deploy.svg" data-description="Once we're both happy with the look, feel, and function of the testing site we'll deploy your web platform to the public facing web along with any external connections.">Deploy</button></li>
+				<li><button class="process_button" data-img="assets/graphics/fm_asset-dedicate.svg" data-description="Your site will be maintained and secured by us and every site comes with analytics and a suite of helpful tools depending on your plan.">Dedicate</button></li>
 			</ul>
+			<div class="process_container">
+			</div>
 		</div>
 	</section>
 	
@@ -115,7 +117,7 @@
 		<div class="section-wrapper flex flex-column flex-center height-100 width-60 text-center gap-1">
 			<h2>Plans</h2>
 			<p class="text-xl">Choose the Right Flight Plan for Your Project</p>
-			<div class="cards flex">
+			<div class="cards flex flex-column gap-2">
 				<div class="card">
 					<h3>ontheFLY</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, nihil, expedita eligendi illum architecto earum consequuntur culpa cum reprehenderit nam saepe ratione totam omnis maxime magnam sunt repellendus ipsam odit.</p>
@@ -139,7 +141,7 @@
 	
 	<!-- SPECIAL -->
 	<section class="section flex flex-column flex-center height-60vh">
-		<div class="section-wrapper flex flex-column flex-center height-100 width-60 text-center gap-1">
+		<div class="section-wrapper flex flex-column flex-center height-100 width-80 text-center gap-1">
 			<p class="text-xl">Monthly FlyBy</p>
 			<p>This month we're taking to the streets of Jackson Heights, NY for our first every FlyBy, our initiative to lift up the digital presence of individuals and businesses in various cities. If you live or operate out of Jackson Heights, NY you can create an ontheFLY website for 50% off the original price.</p>
 		</div>
@@ -147,7 +149,7 @@
 	
 	<!-- Case Study -->
 	<section class="section flex flex-column flex-center height-60vh">
-		<div class="section-wrapper flex flex-column flex-center height-100 width-60 text-center gap-1">
+		<div class="section-wrapper flex flex-column flex-center height-100 width-80 text-center gap-1">
 			<p class="text-xl">NJIN TEAS</p>
 		</div>
 	</section>

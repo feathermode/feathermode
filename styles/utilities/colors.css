@@ -15,27 +15,27 @@
 /* Backgrounds */
 
 .bg-dark {
-	background-color: var(--color-dark);
+	background-color: var(--color-main-black);
 }
 
 .bg-light {
-	background-color: var(--color-light);
+	background-color: var(--color-main-white);
 }
 
 .bg-gray {
-	background-color: var(--color-gray);
+	background-color: var(--color-main-gray);
 }
 
 .bg-primary {
-	background-color: var(--color-primary);
+	background-color: var(--color-main-primary);
 }
 
 .bg-secondary {
-	background-color: var(--color-secondary);
+	background-color: var(--color-main-secondary);
 }
 
 .bg-tertiary {
-	background-color: var(--color-tertiary);
+	background-color: var(--color-main-tertiary);
 }
 
 .bg-transparent {
@@ -47,41 +47,41 @@
 }
 
 .bg-success {
-	background-color: var(--color-success);
+	background-color: var(--color-system-success);
 }
 
 .bg-warning {
-	background-color: var(--color-warning);
+	background-color: var(--color-system-warning);
 }
 
 .bg-error {
-	background-color: var(--color-error);
+	background-color: var(--color-system-error);
 }
 
 .bg-accent {
-	background-color: var(--color-accent);
+	background-color: var(--color-system-accent);
 }
 
 
 /* Colors */
 .color-dark {
-	color: var(--color-dark);
+	color: var(--color-main-black);
 }
 
 .color-light {
-	color: var(--color-light);
+	color: var(--color-main-white);
 }
 
 .color-primary {
-	color: var(--color-primary);
+	color: var(--color-main-primary);
 }
 
 .color-secondary {
-	color: var(--color-secondary);
+	color: var(--color-main-secondary);
 }
 
 .color-tertiary {
-	color: var(--color-tertiary);
+	color: var(--color-main-tertiary);
 }
 
 .color-transparent {
@@ -89,31 +89,31 @@
 }
 
 .color-success {
-	color: var(--color-success);
+	color: var(--color-system-success);
 }
 
 .color-warning {
-	color: var(--color-warning);
+	color: var(--color-system-warning);
 }
 
 .color-error {
-	color: var(--color-error);
+	color: var(--color-system-error);
 }
 
 .color-accent {
-	color: var(--color-accent);
+	color: var(--color-system-accent);
 }
 
 
 /* Fills (for svgs) */
 .fill-dark {
-	fill: var(--color-dark);
+	fill: var(--color-main-black);
 }
 
 .fill-light {
-	fill: var(--color-light);
+	fill: var(--color-main-white);
 }
 
 .fill-primary {
-	fill: var(--color-primary);
+	fill: var(--color-main-primary);
 }

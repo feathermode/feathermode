@@ -10,15 +10,15 @@
 /* --- START OF UNIQUE STYLING FOR PROJECT (RESPONSIVE FIRST) --- */
 /* --- FONT IMPORTS --- */
 
-/*@font-face {
-	src: url(fonts/Poppins-Bold.otf);
-	font-family: Poppins-Bold;
+@font-face {
+	src: url("../fonts/Lato-Regular.ttf");
+	font-family: Lato-Regular;
 }
 
 @font-face {
-	src: url(fonts/Nunito-Regular.ttf);
-	font-family: Nunito-Regular;
-}*/
+	src: url("../fonts/Lato-Bold.ttf");
+	font-family: Lato-Bold;
+}
 
 /*:root {
 	font: 18px/1 "Nunito-Regular", sans-serif;
@@ -29,17 +29,21 @@
 
 :root {
 	/* COLORS */
-	--color-system-success: green;
+	--color-system-success: #4CE19A;
 	--color-system-warning: yellow;
 	--color-system-urgent: red;
 	--color-system-attention: orange;
 	--color-system-notification: blue;
 
-	--color-main-black: #000000;
+	--color-main-black: #131316;
 	--color-main-white: #FFFFFF;
-	--color-main-primary: #D80D0D,;
-	--color-main-secondary: #1BB6D5;
-	--color-main-tertiary: #E9CB08;
+	--color-main-gray: #434347;
+	--color-main-primary: #177EFE,;
+	--color-main-secondary: #FFD700;
+	--color-main-tertiary: #D5A224;
+	--color-main-quaternary: #F5F872;
+
+	--gradient-main: to bottom right, #FFD700, #177EFE, #131316;
 	
 	/* RADIUS */
 	--radius: 0.25em;
@@ -67,8 +71,8 @@
 				0 46px 60px -6px rgba(0, 0, 0, 0.2);
 
 	/* FONTS */
-	--font-primary: "Nunito-Regular", sans-serif;
-	--font-secondary: "Poppins-Bold", sans-serif;
+	--font-primary: "Lato-Regular", sans-serif;
+	--font-secondary: "Lato-Bold", sans-serif;
 
 	--text-base-size: 1em;
 	--text-scale: 1.2;
@@ -111,13 +115,45 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-secondary);
 }
 
+button {
+	background: var(--color-main-black);
+	color: var(--color-main-white);
+	border: none;
+	border-radius: var(--radius-md);
+	padding: var(--space-sm);
+	transition: 0.5s;
+}
+
+button:hover, button:focus {
+	background: var(--color-main-gray);
+	color: var(--color-main-white);
+}
+
+ul {
+	list-style: none;
+}
+
+.nav-logo {
+	height: 20px;
+}
+
 .nav-menu_list {
 	display: none;
 }
 
 .hero {
-	background: blue;
+	background: -webkit-linear-gradient(var(--gradient-main));
+	background: -moz-linear-gradient(var(--gradient-main));
+	background: linear-gradient(var(--gradient-main));
 	color: white;
+}
+
+.process_container {
+	position: relative;
+}
+
+.process_container, .process_image {
+	width: 100%;
 }
 
 
