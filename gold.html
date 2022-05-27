@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<!-- GENERAL -->
-	<title>About | feathermode</title>
-	<meta name="description" content="feathermode is a service that offers bespoke website creation for individuals and businesses looking to tel their story on the web." />
+	<title>Gold Form | feathermode</title>
+	<meta name="description" content="feathermode GOLD is feathermode's premium bespoke service where individuals and businesses work with a web architect through every step in the 5D Web Creation Process to create a digital platform that fits their needs." />
 	<meta name="author" content="feathermode">
-	
+
 	<!-- META -->
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -17,16 +17,16 @@
 	<meta property="og:site_name" content="feathermode"/>
 	<meta property="og:image" content="/assets/fm_logo-white.svg"/>
 	<meta property="og:description" content="feathermode is a service that offers bespoke website creation for individuals and businesses looking to tel their story on the web."/>
-	
+
 	<!-- ICONS -->
 	<link rel="icon" href="/assets/fm_icon-bird.svg" />
-	
+
 	<!-- CSS STYLESHEETS -->
 	<link rel="stylesheet" href="styles/main.css"/>
-	
+
 	<!-- JS SCRIPTS -->
 	<script src="functions/main.js" type="module" defer></script>
-	
+
 	<!-- ANALYTICS -->
 	<!-- <script src="https://cdn.usefathom.com/script.js" site="" defer></script> -->
 </head>
@@ -78,15 +78,54 @@
 
 			</div>
 	</nav>
-	
+
 	<!-- START OF PAGE SPECIFIC CONTENT -->
 	<!-- PITCH -->
 	<section class="section flex flex-column flex-center height-100vh padding-lg">
 		<div class="section-wrapper flex flex-column flex-center height-100 width-80 text-center gap-1">
-			<p class="text-xl color-primary">Hi, I'm OOF, a web designer and web developer based in New York City. I created feathermode to help clean up the worldwide web, which has been filled with bloated, inaccessible, ugly, disjointed, heavy and overdeveloped websites. The web can and should be a storytelling haven and feathermode looks to participate in a global effort to revitalize the web.</p>
+			<p class="text-xl">Tell Us About Your Project</p>
+			<form class="flex flex-column gap-1 width-100" name="Gold Form" netlify  netlify-honeypot="bot-field">
+				<p class="hidden">
+	    		<label>
+			      Don’t fill this out if you’re human: <input name="bot-field" />
+			    </label>
+			  </p>
+				<label for="name">
+						<span>Name</span>
+						<input type="text" name="name" placeholder="name" required>
+					</label>
+
+					<label for="email">
+						<span>Email Address</span>
+						<input type="email" name="email" placeholder="email" required>
+					</label>
+
+				<label for="location">
+					<span>Address of current website (optional)</span>
+					<input type="text" name="website" placeholder="https://example.com">
+				</label>
+
+				<label for="webtype">
+					<span>Type of Website</span>
+					<select>
+						<option>Blog/Vlog</option>
+						<option>Portfolio/Showcase</option>
+						<option>eCommerce</option>
+						<option>Landing Page</option>
+						<option>Other</option>
+					</select>
+				</label>
+
+				<label for="subject">
+					<span>Message</span>
+					<textarea name="message" id="" cols="30" rows="10" placeholder="A list of awesome things I want for my website..." class="message" required></textarea>
+				</label>
+				<p>We'll message you back from feathermode@motualis.com</p>
+				<button class="button_main">Submit</button>
+			</form>
 		</div>
 	</section>
-	
+
 	<!-- FOOTER -->
 	<footer class="flex flex-center padding-md">
 		<p>Copyright 2022, motuALIS, LLC, All Rights Reserved</p>

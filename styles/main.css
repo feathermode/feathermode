@@ -162,10 +162,15 @@ nav {
 }
 
 .hero {
-	background: -webkit-linear-gradient(var(--gradient-main));
+	/*background: -webkit-linear-gradient(var(--gradient-main));
 	background: -moz-linear-gradient(var(--gradient-main));
 	background: linear-gradient(var(--gradient-main));
-	color: white;
+	color: white;*/
+
+	background-image: url('../assets/graphics/fm_graphic-portal_birds.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .process_container {
@@ -187,6 +192,18 @@ nav {
 
 .flyby {
 	background: linear-gradient(var(--gradient-blue));
+}
+
+form label {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	margin-bottom: 1rem;
+}
+
+.message {
+	width: 100%;
 }
 
 
