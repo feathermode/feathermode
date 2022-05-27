@@ -43,6 +43,10 @@
 	font-size: var(--text-xxxl);
 }
 
+.text-xxxxl {
+	font-size: var(--text-xxxxl);
+}
+
 
 /* Font Weights */
 .font-light {

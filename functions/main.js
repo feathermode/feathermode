@@ -13,4 +13,11 @@ document.addEventListener('click', function(e) {
 		const template = getContainerImage(location, description);
 		Hydrogen.render(template, '.process_container', 'clean');
 	}
+
+	if (e.target.matches('.nav-menu_toggle')) {
+		const menu = document.querySelector('.nav-menu_list');
+		console.log('clicked')
+		menu.classList.toggle('flex');
+		menu.classList.toggle('none');
+	}
 });

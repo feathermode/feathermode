@@ -38,12 +38,13 @@
 	--color-main-black: #131316;
 	--color-main-white: #FFFFFF;
 	--color-main-gray: #434347;
-	--color-main-primary: #177EFE,;
+	--color-main-primary: #177EFE;
 	--color-main-secondary: #FFD700;
 	--color-main-tertiary: #D5A224;
 	--color-main-quaternary: #F5F872;
 
 	--gradient-main: to bottom right, #FFD700, #177EFE, #131316;
+	--gradient-blue: to bottom right, #177EFE, #131316;
 	
 	/* RADIUS */
 	--radius: 0.25em;
@@ -84,6 +85,7 @@
 	--text-xl: calc(var(--text-lg) * var(--text-scale));
 	--text-xxl: calc(var(--text-xl) * var(--text-scale));
 	--text-xxxl: calc(var(--text-xxl) * var(--text-scale));
+	--text-xxxxl: calc(var(--text-xxxl) * var(--text-scale));
 
 	/* SPACING */
 	--spacing: 1em;
@@ -133,12 +135,30 @@ ul {
 	list-style: none;
 }
 
+nav {
+	z-index: 1000;
+}
+
+.nav-logo_plate {
+	max-height: 45px;
+}
+
 .nav-logo {
 	height: 20px;
 }
 
 .nav-menu_list {
-	display: none;
+	position: absolute;
+	top: 100%;
+	right: 50%;
+	-webkit-transform: translateX(50%);
+	transform: translateX(50%);
+	width: 90%;
+	z-index: 1000;
+}
+
+.nav-menu_list a {
+	color: var(--color-main-white);
 }
 
 .hero {
@@ -150,24 +170,54 @@ ul {
 
 .process_container {
 	position: relative;
+	z-index: 1;
 }
 
 .process_container, .process_image {
 	width: 100%;
 }
 
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	border-radius: var(--radius-md);
+}
+
+.flyby {
+	background: linear-gradient(var(--gradient-blue));
+}
+
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
 /*Small devices (landscape phones and portrait tablets, 600px and up)*/
 @media (min-width: 600px) {
-	:root {
-		--text-base-size: 1.125em; /* 18px */
-		--text-scale: 1.25;
-	}
+
 }
 
 /*Medium devices (tablets landscape, 900px and up)*/
-@media (min-width: 900px) { ... }
+@media (min-width: 900px) {
+	:root {
+		--text-base-size: 1.25em; /* 18px */
+		--text-scale: 1.25;
+	}
+
+	.nav-menu_list {
+		position: absolute;
+		top: 100%;
+		right: 1%;
+		transform: none;
+		width: 30%;
+	}
+
+	.section-wrapper {
+		width: 60%;
+	}
+
+	.cards {
+		flex-direction: row;
+	}
+}
 
 /*Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
