@@ -83,129 +83,157 @@
 	<!-- PITCH -->
 	<section class="section flex flex-column flex-center height-100vh bg-primary color-light padding-lg">
 		<div class="section-wrapper flex flex-column flex-center height-100 width-80 text-center gap-1">
-			<p class="text-xl">Smart Templating</p>
-			<form>
-				<!-- DETAILS -->
-				<div id="detailsSection">
-					<label for="name">
-						<input type="text" name="name" placeholder="Sky Captain" value="" />
-					</label>
-					
-					<label for="email">
-						<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-					</label>
-					
-					<button>Next</button>
-				</div>
-				
-				<!-- DISCOVER -->
-				<div id="discoverSection">
-					<label for="name">
-						<input type="text" name="name" placeholder="Sky Captain" value="" />
-					</label>
-					
-					<label for="email">
-						<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-					</label>
-					
-					<div class="form_navigation">
-						<button>Back</button>
+			<p class="text-xl width-100">Smart Templating</p>
+			<div class="form_display bg-light">
+				<form>
+					<!-- DETAILS -->
+					<div id="detailsSection">
+						<label for="name">
+							Name
+							<input type="text" name="name" placeholder="Sky Captain" value="" />
+						</label>
+						
+						<label for="email">
+							Email Address
+							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
+						</label>
+						
 						<button>Next</button>
 					</div>
-				</div>
-				
-				<!-- DESIGN -->
-				<div id="designSection">
-					<label for="name">
-						<input type="text" name="name" placeholder="Sky Captain" value="" />
-					</label>
 					
-					<label for="email">
-						<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-					</label>
-					
-					<div class="form_navigation">
-						<button>Back</button>
-						<button>Next</button>
+					<!-- DISCOVER -->
+					<div id="discoverSection">
+						<label for="current_website">
+							Do you currently have a website?
+							<select name="current_website">
+								<option value="true">Yes</option>
+								<option value="false">No</option>
+							</select>
+						</label>
+						
+						<label for="primary_use">
+							What will ypu use the site for primarily?
+							<select name="primary_use">
+								<option value="true">Blogging</option>
+								<option value="false">Showcasing Content</option>
+								<option value="false">Company Information</option>
+								<option value="false">Project Information</option>
+							</select>
+						</label>
+						
+						<label for="content_status">
+							Do you have most of the copy and media required for your website? (descriptions, pictures, videos, logos, etc)
+							<select name="content_status">
+								<option value="true">Yes</option>
+								<option value="false">No</option>
+						</label>
+						
+						<label for="content_checklist">
+							Please select all of the following content types that you currently have prepared:
+							<select name="content_status">
+								<option value="true">Yes</option>
+								<option value="false">No</option>
+							</label>
+						
+						<div class="form_navigation">
+							<button>Back</button>
+							<button>Next</button>
+						</div>
 					</div>
-				</div>
-				
-				<!-- DEVELOP -->
-				<div id="developSection">
-					<label for="name">
-						<input type="text" name="name" placeholder="Sky Captain" value="" />
-					</label>
 					
-					<label for="email">
-						<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-					</label>
-					
-					<div class="form_navigation">
-						<button>Back</button>
-						<button>Next</button>
+					<!-- DESIGN -->
+					<div id="designSection">
+						<label for="name">
+							<input type="text" name="name" placeholder="Sky Captain" value="" />
+						</label>
+						
+						<label for="email">
+							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
+						</label>
+						
+						<div class="form_navigation">
+							<button>Back</button>
+							<button>Next</button>
+						</div>
 					</div>
-				</div>
-				
-				<!-- DEPLOY -->
-				<div id="deploySection">
-					<label for="name">
-						<input type="text" name="name" placeholder="Sky Captain" value="" />
-					</label>
 					
-					<label for="email">
-						<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-					</label>
-					
-					<div class="form_navigation">
-						<button>Back</button>
-						<button>Next</button>
+					<!-- DEVELOP -->
+					<div id="developSection">
+						<label for="name">
+							<input type="text" name="name" placeholder="Sky Captain" value="" />
+						</label>
+						
+						<label for="email">
+							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
+						</label>
+						
+						<div class="form_navigation">
+							<button>Back</button>
+							<button>Next</button>
+						</div>
 					</div>
-				</div>
-				
-				<!-- DEDICATE -->
-				<div id="dedicateSection">
-					<label for="name">
-						<input type="text" name="name" placeholder="Sky Captain" value="" />
-					</label>
 					
-					<label for="email">
-						<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-					</label>
-					
-					<div class="form_navigation">
-						<button>Back</button>
-						<button>Next</button>
+					<!-- DEPLOY -->
+					<div id="deploySection">
+						<label for="name">
+							<input type="text" name="name" placeholder="Sky Captain" value="" />
+						</label>
+						
+						<label for="email">
+							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
+						</label>
+						
+						<div class="form_navigation">
+							<button>Back</button>
+							<button>Next</button>
+						</div>
 					</div>
-				</div>
-				
-				<!-- REVIEW -->
-				<div id="reviewSection">
-					<label for="name">
-						<input type="text" name="name" placeholder="Sky Captain" value="" />
-					</label>
 					
-					<label for="email">
-						<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-					</label>
-					
-					<div class="form_navigation">
-						<button>Back</button>
-						<button>Submit</button>
+					<!-- DEDICATE -->
+					<div id="dedicateSection">
+						<label for="name">
+							<input type="text" name="name" placeholder="Sky Captain" value="" />
+						</label>
+						
+						<label for="email">
+							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
+						</label>
+						
+						<div class="form_navigation">
+							<button>Back</button>
+							<button>Next</button>
+						</div>
 					</div>
-				</div>
-				
-				<!-- THANKS -->
-				<div id="thanksSection">
-					<label for="name">
-						<input type="text" name="name" placeholder="Sky Captain" value="" />
-					</label>
 					
-					<label for="email">
-						<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-					</label>
-				</div>
-
-			</form>
+					<!-- REVIEW -->
+					<div id="reviewSection">
+						<label for="name">
+							<input type="text" name="name" placeholder="Sky Captain" value="" />
+						</label>
+						
+						<label for="email">
+							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
+						</label>
+						
+						<div class="form_navigation">
+							<button>Back</button>
+							<button>Submit</button>
+						</div>
+					</div>
+					
+					<!-- THANKS -->
+					<div id="thanksSection">
+						<label for="name">
+							<input type="text" name="name" placeholder="Sky Captain" value="" />
+						</label>
+						
+						<label for="email">
+							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
+						</label>
+					</div>
+	
+				</form>
+			</div>
 		</div>
 	</section>
 	
