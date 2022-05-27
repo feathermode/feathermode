@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-secondary);
 }
 
-button {
+button, .mock_button {
 	background: var(--color-main-black);
 	color: var(--color-main-white);
 	border: none;
@@ -126,7 +126,7 @@ button {
 	transition: 0.5s;
 }
 
-button:hover, button:focus {
+button:hover, button:focus, .mock_button:hover, .mock_button:focus, [data-button-state="active"] {
 	background: var(--color-main-gray);
 	color: var(--color-main-white);
 }

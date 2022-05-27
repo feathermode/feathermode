@@ -8,6 +8,13 @@ function getContainerImage(location, description) {
 
 document.addEventListener('click', function(e) {
 	if (e.target.matches('.process_button')) {
+		const buttons = document.querySelectorAll('.process_button');
+		buttons.forEach(button => {
+			button.dataset.buttonState = "passive";
+		});
+
+		e.target.dataset.buttonState = "active";
+
 		const location = e.target.dataset.img;
 		const description = e.target.dataset.description;
 		const template = getContainerImage(location, description);
