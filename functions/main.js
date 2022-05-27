@@ -2,7 +2,7 @@ import * as Hydrogen from './hydrogen/hydrogen.js';
 
 function getContainerImage(location, description) {
 	return `
-	<p>${description}</p>
+	<p class="text-left">${description}</p>
 	<img src="${location}" alt="process image" class="process_image"/>`
 }
 
