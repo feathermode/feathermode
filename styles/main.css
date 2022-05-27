@@ -148,18 +148,42 @@ nav {
 	height: 20px;
 }
 
+.nav-menu_toggle-icon {
+	height: 20px;
+	transition: 0.5s;
+}
+
+.rotate {
+	transform: rotate(90deg);
+}
+
 .nav-menu_list {
 	position: absolute;
-	top: 100%;
+	top: 80%;
 	right: 50%;
 	-webkit-transform: translateX(50%);
 	transform: translateX(50%);
 	width: 90%;
 	z-index: 1000;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.nav-menu_list.active {
+	top: 100%;
+	opacity: 1;
 }
 
 .nav-menu_list a {
 	color: var(--color-main-white);
+}
+
+.nav-menu_list-arrow {
+	transition: 0.5s;
+}
+
+.nav-menu_list-arrow:hover, .nav-menu_list-arrow:focus {
+	padding-left: 10px;
 }
 
 .hero {
@@ -223,10 +247,11 @@ form label {
 
 	.nav-menu_list {
 		position: absolute;
-		top: 100%;
+		top: 80%;
 		right: 1%;
 		transform: none;
 		width: 30%;
+		transition: 0.5s;
 	}
 
 	.section-wrapper {

@@ -21,10 +21,16 @@ document.addEventListener('click', function(e) {
 		Hydrogen.render(template, '.process_container', 'clean');
 	}
 
-	if (e.target.matches('.nav-menu_toggle')) {
+	if (e.target.matches('.nav-menu_toggle') || e.target.matches('.nav-menu_toggle-icon')) {
 		const menu = document.querySelector('.nav-menu_list');
-		console.log('clicked')
+		const arrow = document.querySelector('.nav-menu_toggle-icon');
+
+		arrow.classList.toggle('rotate');
 		menu.classList.toggle('flex');
 		menu.classList.toggle('none');
+		setTimeout(() => {
+			menu.classList.toggle('active');
+		}, 100);
+
 	}
 });
