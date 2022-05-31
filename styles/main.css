@@ -45,6 +45,7 @@
 
 	--gradient-main: to bottom right, #FFD700, #177EFE, #131316;
 	--gradient-blue: to bottom right, #177EFE, #131316;
+	--gradient-blues: to bottom right, #177EFE, #FFD700;
 	
 	/* RADIUS */
 	--radius: 0.25em;
@@ -231,6 +232,10 @@ form label {
 	width: 100%;
 }
 
+.about {
+	background: linear-gradient(var(--gradient-blues));
+}
+
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
 /*Small devices (landscape phones and portrait tablets, 600px and up)*/
@@ -244,6 +249,10 @@ form label {
 		--text-base-size: 1.25em; /* 18px */
 		--text-scale: 1.25;
 	}
+	
+	mav {
+		display: fixed;
+	}
 
 	.nav-menu_list {
 		position: absolute;
@@ -256,6 +265,10 @@ form label {
 
 	.section-wrapper {
 		width: 60%;
+	}
+	
+	.section-wrapper-form {
+		width: 90%;
 	}
 
 	.cards {

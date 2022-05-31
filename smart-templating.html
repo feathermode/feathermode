@@ -81,12 +81,23 @@
 	<!-- START OF PAGE SPECIFIC CONTENT -->
 	<!-- PITCH -->
 	<section class="section flex flex-column flex-center height-100vh bg-primary color-light padding-lg">
-		<div class="section-wrapper flex flex-column flex-center height-100 width-100 text-center gap-1">
+		<div class="section-wrapper-form section-wrapper flex flex-column flex-center position-relative height-100 width-100 text-start gap-1">
 			<p class="text-xl width-100">Smart Templating</p>
-			<div class="form_display bg-light color-dark">
-				<form>
+			<div class="form_display width-100 height-80 bg-light color-dark padding-lg">
+				<div class="form_navigation flex content-between width-100">
+					<div><p>Details</p></div>
+					<div><p>Discover</p></div>
+					<div><p>Design</p></div>
+					<div><p>Develop</p></div>
+					<div><p>Deploy</p></div>
+					<div><p>Dedicate</p></div>
+					<div><p>Review</p></div>
+					<div><p>Total: $400</p></div>
+				</div>
+				
+				<form class="flex flex-center">
 					<!-- DETAILS -->
-					<div id="detailsSection">
+					<div id="detailsSection" class="flex flex-column flex-center">
 						<label for="name">
 							Name
 							<input type="text" name="name" placeholder="Sky Captain" value="" />
@@ -101,7 +112,7 @@
 					</div>
 					
 					<!-- DISCOVER -->
-					<div id="discoverSection">
+					<div id="discoverSection" class="none">
 						<label for="current_website">
 							Do you currently have a website?
 							<select name="current_website">
@@ -111,7 +122,7 @@
 						</label>
 						
 						<label for="primary_use">
-							What will ypu use the site for primarily?
+							What will you use the site for primarily?
 							<select name="primary_use">
 								<option value="true">Blogging</option>
 								<option value="false">Showcasing Content</option>
@@ -142,11 +153,15 @@
 							<input type="checkbox" name="type" value="Blog Posts" />
 						</label>
 						<label for="content_checklist">
-							Site Media (Pictures, Videos, etc)
+							(If Showcasing Content) At Least 2 Articles of Content (Photography, Videos, Stories, Art, etc)
+							<input type="checkbox" name="type" value="Blog Posts" />
+						</label>
+						<label for="content_checklist">
+							General Site Media (Pictures, Videos, etc)
 							<input type="checkbox" name="type" value="Home Page Copy" />
 						</label>
 						<label for="content_checklist">
-							Logo and/or Brand Icon
+							Logo and/or Brand Icon (If you'd like to use your project name instead still check this box)
 							<input type="checkbox" name="type" value="Logo and Icon" />
 						</label>
 						
@@ -157,7 +172,7 @@
 					</div>
 					
 					<!-- DESIGN -->
-					<div id="designSection">
+					<div id="designSection" class="none">
 						<p>Make Your Design Choices</p>
 						<div class="card-design">
 							<p>Color Palette</p>
@@ -190,7 +205,7 @@
 					</div>
 					
 					<!-- DEVELOP -->
-					<div id="developSection">
+					<div id="developSection" class="none">
 						<p>Please Select the Types of Functionality Needed for Your Site</p>
 						<div class="card-function">
 							<p>Blogging</p>
@@ -223,17 +238,26 @@
 					</div>
 					
 					<!-- DEPLOY -->
-					<div id="deploySection">
-						<p>Pick a Hosting Plan for Your Website</p>
+					<div id="deploySection" class="none">
+						<p>Pick a Hosting Setup for Your Website</p>
+						
+						<div class="card-deploy">
+							<p>Bare Bones</p>
+							<p>$10 per month</p>
+							<p>Minimal Shared Server withough Edge Computing Capabilities</p>
+							<p>Note: if you added any additional functions for your site in the previous step your site will not qualify for this plan.</p>
+						</div>
 						
 						<div class="card-deploy">
 							<p>Basic</p>
-							<p>$10 per month</p>
+							<p>$20 per month</p>
+							<p>Modern Server Functionalities with Edge Computing Capabilities</p>
 						</div>
 						
 						<div class="card-deploy">
 							<p>Pro</p>
 							<p>$50 per month</p>
+							<p>Dedicated Servers positioned for high traffix and quick scalability</p>
 						</div>
 						
 						<div class="form_navigation">
@@ -243,8 +267,28 @@
 					</div>
 					
 					<!-- DEDICATE -->
-					<div id="dedicateSection">
-						<p></p>
+					<div id="dedicateSection" class="none">
+						<p>Choose a Maintenance Package</p>
+						
+						<div class="card-dedicate">
+							<p>Base</p>
+							<p>Included</p>
+							<ul>
+								<li>Monthly Analytics</li>
+								<li>SSL Certificate</li>
+								<li>HTTPS Encryption</li>
+								<li>Newsletter Integration</li>
+							</ul>
+						</div>
+						
+						<div class="card-dedicate">
+							<p>Advanced</p>
+							<p>$20 per month</p>
+							<ul>
+								<li>Everything in Base +</li>
+								<li>Weekly Analytics</li>
+							</ul>
+						</div>
 						
 						<div class="form_navigation">
 							<button>Back</button>
@@ -253,14 +297,11 @@
 					</div>
 					
 					<!-- REVIEW -->
-					<div id="reviewSection">
-						<label for="name">
-							<input type="text" name="name" placeholder="Sky Captain" value="" />
-						</label>
+					<div id="reviewSection" class="none">
+						<p>Please Review Your Flight Blueprint Below:</p>
 						
-						<label for="email">
-							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-						</label>
+						<div class="blueprint">
+						</div>
 						
 						<div class="form_navigation">
 							<button>Back</button>
@@ -269,14 +310,8 @@
 					</div>
 					
 					<!-- THANKS -->
-					<div id="thanksSection">
-						<label for="name">
-							<input type="text" name="name" placeholder="Sky Captain" value="" />
-						</label>
-						
-						<label for="email">
-							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
-						</label>
+					<div id="thanksSection" class="none">
+						<p>Thank you for choosing feathermode as your guide to flying online! <br /> You'll receive an email shortly with a receipt and next steps. We'll have your website ready for you in 3-5 days!</p>
 					</div>
 	
 				</form>
