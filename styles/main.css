@@ -46,6 +46,7 @@
 	--gradient-main: to bottom right, #FFD700, #177EFE, #131316;
 	--gradient-blue: to bottom right, #177EFE, #131316;
 	--gradient-blues: to bottom right, #177EFE, #FFD700;
+	--gradient-yellows: to bottom right, #D5A224, #FFD700;
 	
 	/* RADIUS */
 	--radius: 0.25em;
@@ -236,6 +237,10 @@ form label {
 	background: linear-gradient(var(--gradient-blues));
 }
 
+.gold_section {
+	background: linear-gradient(var(--gradient-yellows));
+}
+
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
 /*Small devices (landscape phones and portrait tablets, 600px and up)*/
@@ -250,8 +255,9 @@ form label {
 		--text-scale: 1.25;
 	}
 	
-	mav {
-		display: fixed;
+	.nav {
+		position: fixed;
+		background: transparent;
 	}
 
 	.nav-menu_list {
