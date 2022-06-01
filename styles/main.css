@@ -45,7 +45,6 @@
 
 	--gradient-main: to bottom right, #FFD700, #177EFE, #131316;
 	--gradient-blue: to bottom right, #177EFE, #131316;
-	--gradient-blues: to bottom right, #177EFE, #FFD700;
 	--gradient-yellows: to bottom right, #D5A224, #FFD700;
 	
 	/* RADIUS */
@@ -223,18 +222,25 @@ form label {
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
+	width: 100%;
 	margin-bottom: 1rem;
+}
+
+form input, form textarea {
+	width: 100%;
+	padding: 0.25rem;
+	border-radius: var(--radius-sm);
 }
 
 .message {
 	width: 100%;
 }
 
-.about {
-	background: linear-gradient(var(--gradient-blues));
+.page-about {
+	background: var(--color-main-primary);
 }
 
-.gold_section {
+.page-gold {
 	background: linear-gradient(var(--gradient-yellows));
 }
 
@@ -253,7 +259,7 @@ form label {
 	}
 	
 	.nav {
-		position: fixed;
+		/*position: fixed;*/
 		background: transparent;
 	}
 
@@ -275,6 +281,11 @@ form label {
 	}
 
 	.cards {
+		flex-direction: row;
+	}
+
+	.form-inputs {
+		display: flex;
 		flex-direction: row;
 	}
 }

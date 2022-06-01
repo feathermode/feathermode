@@ -30,7 +30,7 @@
 	<!-- ANALYTICS -->
 	<!-- <script src="https://cdn.usefathom.com/script.js" site="" defer></script> -->
 </head>
-<body>
+<body class="page-gold">
 	<!-- NAVIGATION -->
 	<nav class="nav position-sticky flex content-between width-100 padding-md">
 		<div class="nav-logo_plate bg-dark radius-md padding-sm">
@@ -45,36 +45,27 @@
 
 		<div class="nav-menu_list none flex-column gap-2 bg-dark color-light radius-md padding-md">
 			<div class="flex flex-column gap-1">
-				<p class="text-xl">Sites</p>
+				<p class="text-xl font-bold">Sites</p>
 				<div class="">
 					<a href="" class="text-lg">ontheFLY <span class="nav-menu_list-arrow">></span></a>
 					<ul>
-						<li>1-3 Days</li>
-						<li>Smart Templating</li>
-						<li>Professionally Finished</li>
+						<li>3 - 5 Days</li>
+						<li>Smart Templating Builder</li>
+						<li>Professionally Finished Website</li>
 					</ul>
 				</div>
 
 				<div class="">
 					<a href="gold.html" class="text-lg">Gold <span class="nav-menu_list-arrow">></span></a>
 					<ul>
-						<li>2-3 Weeks</li>
+						<li>1 - 3 Months</li>
 						<li>1 to 1 Process</li>
-						<li>Modular and Tailored Development</li>
-					</ul>
-				</div>
-
-				<div class="">
-					<a href="" class="text-lg">Prism <span class="nav-menu_list-arrow">></span></a>
-					<ul>
-						<li>1-3 Months</li>
-						<li>State of the Art</li>
-						<li>Application Development</li>
+						<li>Bespoke Web Platform Creation</li>
 					</ul>
 				</div>
 			</div>
-			<a href="about.html" class="text-xl">About <span class="nav-menu_list-arrow">></span></a>
-			<a href="blog.html" class="text-xl">Blog <span class="nav-menu_list-arrow">></span></a>
+			<a href="about.html" class="text-xl font-bold">About <span class="nav-menu_list-arrow">></span></a>
+			<a href="blog.html" class="text-xl font-bold">Blog <span class="nav-menu_list-arrow">></span></a>
 		</div>
 	</nav>
 
@@ -83,44 +74,48 @@
 	<section class="gold_section flex flex-column flex-center height-100vh padding-lg">
 		<div class="section-wrapper flex flex-column flex-center height-100 width-100 text-center gap-1">
 			<p class="text-xl">Tell Us About Your Project</p>
-			<form class="flex flex-column gap-1 width-100" name="Gold Form" netlify  netlify-honeypot="bot-field">
+			<form class="position-relative flex flex-column gap-1 width-100" name="Gold Form" netlify  netlify-honeypot="bot-field">
 				<p class="hidden">
-	    		<label>
-			      Don’t fill this out if you’re human: <input name="bot-field" />
-			    </label>
-			  </p>
-				<label for="name">
-						<span>Name</span>
-						<input type="text" name="name" placeholder="name" required>
+					<label>
+						Don’t fill this out if you’re human: <input name="bot-field" />
+					</label>
+				</p>
+				<div class="position-relative flex flex-column flex-center gap-1 width-100">
+					<div class="form-inputs position-relative flex flex-column flex-center gap-1 width-100">
+						<label for="name">
+							<span>Name</span>
+							<input type="text" name="name" placeholder="name" required>
+						</label>
+
+						<label for="email">
+							<span>Email Address</span>
+							<input type="email" name="email" placeholder="email" required>
+						</label>
+
+						<label for="location">
+							<span>Current Web Address (optional)</span>
+							<input type="text" name="website" placeholder="https://example.com">
+						</label>
+					</div>
+
+					<label for="webtype">
+						<span>Type of Website</span>
+						<select required>
+							<option>Blog/Vlog</option>
+							<option>Portfolio/Showcase</option>
+							<option>eCommerce</option>
+							<option>Landing Page</option>
+							<option>Other</option>
+						</select>
 					</label>
 
-					<label for="email">
-						<span>Email Address</span>
-						<input type="email" name="email" placeholder="email" required>
+					<label for="subject">
+						<span>Message</span>
+						<textarea name="message" id="" cols="30" rows="10" placeholder="A list of awesome things I want for my website..." class="message" required></textarea>
 					</label>
-
-				<label for="location">
-					<span>Address of current website (optional)</span>
-					<input type="text" name="website" placeholder="https://example.com">
-				</label>
-
-				<label for="webtype">
-					<span>Type of Website</span>
-					<select>
-						<option>Blog/Vlog</option>
-						<option>Portfolio/Showcase</option>
-						<option>eCommerce</option>
-						<option>Landing Page</option>
-						<option>Other</option>
-					</select>
-				</label>
-
-				<label for="subject">
-					<span>Message</span>
-					<textarea name="message" id="" cols="30" rows="10" placeholder="A list of awesome things I want for my website..." class="message" required></textarea>
-				</label>
-				<p>We'll message you back from feathermode@motualis.com</p>
-				<button class="button_main">Submit</button>
+					<p>We'll message you back from feathermode@motualis.com</p>
+					<button class="button_main">Submit</button>
+				</div>
 			</form>
 		</div>
 	</section>
