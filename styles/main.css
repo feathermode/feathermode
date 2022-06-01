@@ -236,7 +236,7 @@ form input, form textarea {
 	width: 100%;
 }
 
-.page-about {
+.page-about, .page-fly {
 	background: var(--color-main-primary);
 }
 
