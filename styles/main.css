@@ -188,16 +188,13 @@ nav {
 	padding-left: 10px;
 }
 
-.hero {
-	/*background: -webkit-linear-gradient(var(--gradient-main));
-	background: -moz-linear-gradient(var(--gradient-main));
-	background: linear-gradient(var(--gradient-main));
-	color: white;*/
+.hero-image {
+	width: 100%;
 
-	background-image: url('../assets/graphics/fm_graphic-portal_birds.svg');
+	/*background-image: url('../assets/graphics/fm_graphic-portal_birds.svg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .process_container {
