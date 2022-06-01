@@ -232,6 +232,11 @@ form input, form textarea {
 	border-radius: var(--radius-sm);
 }
 
+/*#detailsSection, #discoverSection, #designSection, #developSection, #deploySection, #dedicateSection, #reviewSection {
+	position: absolute;
+	left: -100%;
+}*/
+
 .message {
 	width: 100%;
 }

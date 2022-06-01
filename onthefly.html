@@ -26,6 +26,7 @@
 	
 	<!-- JS SCRIPTS -->
 	<script src="functions/main.js" type="module" defer></script>
+	<script src="functions/onthefly.js" type="module" defer></script>
 	
 	<!-- ANALYTICS -->
 	<!-- <script src="https://cdn.usefathom.com/script.js" site="" defer></script> -->
@@ -71,10 +72,10 @@
 	
 	<!-- START OF PAGE SPECIFIC CONTENT -->
 	<!-- PITCH -->
-	<section class="section flex flex-column flex-center height-100vh bg-primary color-light padding-lg">
-		<div class="section-wrapper-form section-wrapper flex flex-column flex-center position-relative height-100 width-100 text-start gap-1">
+	<section class="section flex flex-column items-center content-start height-100vh bg-primary color-light padding-lg">
+		<div class="section-wrapper-form section-wrapper flex flex-column items-center content-start position-relative height-100 width-100 text-start gap-1">
 			<p class="text-xl width-100">ontheFLY Web Builder</p>
-			<div class="form_display width-100 height-80 bg-light color-dark padding-lg">
+			<div class="form_display flex flex-column gap-1 width-100 height-100 bg-light color-dark padding-lg">
 				<div class="form_navigation flex content-between width-100">
 					<div><p>Details</p></div>
 					<div><p>Discover</p></div>
@@ -83,12 +84,18 @@
 					<div><p>Deploy</p></div>
 					<div><p>Dedicate</p></div>
 					<div><p>Review</p></div>
-					<div><p>Total: $400</p></div>
+					<div class="bg-success"><p>Total: $400</p></div>
 				</div>
 				
-				<form class="flex flex-center">
+				<form class="form_area position-relative overflow-hidden">
+					<!-- PRECURSOR -->
+					<div id="gettingStarted" class="flex flex-column flex-center">
+						<p>This is the ontheFLY Smart Templating System. Use this system to pick  out your site preferences and project blueprint.</p>
+
+						<button data-show="detailsSection">Next</button>
+					</div>
 					<!-- DETAILS -->
-					<div id="detailsSection" class="flex flex-column flex-center">
+					<!-- <div id="detailsSection" class="flex flex-column flex-center">
 						<label for="name">
 							Name
 							<input type="text" name="name" placeholder="Sky Captain" value="" />
@@ -99,11 +106,11 @@
 							<input type="email" name="email" placeholder="skycaptain@horizon.com" value="" />
 						</label>
 						
-						<button>Next</button>
-					</div>
+						<button data-show="discoverSection">Next</button>
+					</div> -->
 					
 					<!-- DISCOVER -->
-					<div id="discoverSection" class="none">
+					<!-- <div id="discoverSection" class="">
 						<label for="current_website">
 							Do you currently have a website?
 							<select name="current_website">
@@ -157,13 +164,13 @@
 						</label>
 						
 						<div class="form_navigation">
-							<button>Back</button>
-							<button>Next</button>
+							<button data-show="detailsSection">Back</button>
+							<button data-show="designSection">Next</button>
 						</div>
-					</div>
+					</div> -->
 					
 					<!-- DESIGN -->
-					<div id="designSection" class="none">
+					<!-- <div id="designSection" class="">
 						<p>Make Your Design Choices</p>
 						<div class="card-design">
 							<p>Color Palette</p>
@@ -190,13 +197,13 @@
 						</div>
 						
 						<div class="form_navigation">
-							<button>Back</button>
-							<button>Next</button>
+							<button data-show="discoverSection">Back</button>
+							<button data-show="developSection">Next</button>
 						</div>
-					</div>
+					</div> -->
 					
 					<!-- DEVELOP -->
-					<div id="developSection" class="none">
+					<!-- <div id="developSection" class="">
 						<p>Please Select the Types of Functionality Needed for Your Site</p>
 						<div class="card-function">
 							<p>Blogging</p>
@@ -223,13 +230,13 @@
 						</div>
 						
 						<div class="form_navigation">
-							<button>Back</button>
-							<button>Next</button>
+							<button data-show="designSection">Back</button>
+							<button data-show="deploySection">Next</button>
 						</div>
-					</div>
+					</div> -->
 					
 					<!-- DEPLOY -->
-					<div id="deploySection" class="none">
+					<!-- <div id="deploySection" class="">
 						<p>Pick a Hosting Setup for Your Website</p>
 						
 						<div class="card-deploy">
@@ -252,13 +259,13 @@
 						</div>
 						
 						<div class="form_navigation">
-							<button>Back</button>
-							<button>Next</button>
+							<button data-show="developSection">Back</button>
+							<button data-show="dedicateSection">Next</button>
 						</div>
-					</div>
+					</div> -->
 					
 					<!-- DEDICATE -->
-					<div id="dedicateSection" class="none">
+					<!-- <div id="dedicateSection" class="">
 						<p>Choose a Maintenance Package</p>
 						
 						<div class="card-dedicate">
@@ -282,23 +289,23 @@
 						</div>
 						
 						<div class="form_navigation">
-							<button>Back</button>
-							<button>Next</button>
+							<button data-show="deploySection">Back</button>
+							<button data-show="reviewSection">Next</button>
 						</div>
-					</div>
+					</div> -->
 					
 					<!-- REVIEW -->
-					<div id="reviewSection" class="none">
+					<!-- <div id="reviewSection" class="">
 						<p>Please Review Your Flight Blueprint Below:</p>
 						
 						<div class="blueprint">
 						</div>
 						
 						<div class="form_navigation">
-							<button>Back</button>
+							<button data-show="dedicateSection">Back</button>
 							<button>Submit</button>
 						</div>
-					</div>
+					</div> -->
 					
 					<!-- THANKS -->
 					<div id="thanksSection" class="none">
