@@ -136,6 +136,10 @@ ul {
 	list-style: none;
 }
 
+.icon {
+	height: 30px;
+}
+
 nav {
 	top: 0;
 	z-index: 1000;
