@@ -244,7 +244,7 @@ form input, form textarea {
 	width: 100%;
 }
 
-.page-home {
+.page-home, .page-gold {
 	background: var(--color-main-black);
 }
 
@@ -252,8 +252,17 @@ form input, form textarea {
 	background: var(--color-main-primary);
 }
 
-.page-gold {
-	background: linear-gradient(var(--gradient-yellows));
+.gold_hero {
+	background: url("/assets/gold-hero_image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.gold_hero h1 {
+	/*font-size: 72px;*/
+	background: -webkit-linear-gradient(var(--color-main-secondary), var(--color-main-tertiary));;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 
