@@ -208,6 +208,15 @@ nav {
 	width: 100%;
 }
 
+.section-wrapper {
+}
+
+.section-container {
+	border: var(--color-main-gray) solid 2px;
+	border-radius: var(--radius-md);
+	padding: 2rem;
+}
+
 .card {
 	display: flex;
 	flex-direction: column;
@@ -244,13 +253,13 @@ form input, form textarea {
 	width: 100%;
 }
 
-.page-home, .page-gold {
+.page-home, .page-gold, .page-about, .page-fly, .page-blog {
 	background: var(--color-main-black);
 }
 
-.page-about, .page-fly {
+/*.page-about, .page-fly {
 	background: var(--color-main-primary);
-}
+}*/
 
 .gold_hero {
 	background: url("/assets/gold-hero_image.jpg");
