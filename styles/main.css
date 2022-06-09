@@ -173,6 +173,7 @@ nav {
 	-webkit-transform: translateX(50%);
 	transform: translateX(50%);
 	width: 90%;
+	border: var(--color-main-gray) 2px solid;
 	z-index: 1000;
 	opacity: 0;
 	transition: 0.5s;
