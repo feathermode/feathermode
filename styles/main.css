@@ -262,7 +262,7 @@ form input, form textarea {
 }*/
 
 .gold_hero {
-	background: url("/assets/gold-hero_image.jpg");
+	background: url("../assets/gold-hero_image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
