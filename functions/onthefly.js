@@ -24,7 +24,7 @@ import * as Hydrogen from './hydrogen/hydrogen.js';
 // FORM SECTIONS
 function showDetails() {
 	return `
-	<div id="detailsSection" class="flex flex-column flex-center">
+	<div id="detailsSection" class="form-section flex flex-column flex-center">
 		<label for="name">
 			Name
 			<input type="text" name="name" placeholder="Sky Captain" value="" />
@@ -42,7 +42,7 @@ function showDetails() {
 function showDiscover() {
 	return `
 	<!-- DISCOVER -->
-	<div id="discoverSection" class="">
+	<div id="discoverSection" class="form-section">
 		<label for="current_website">
 			Do you currently have a website?
 			<select name="current_website">
@@ -105,30 +105,28 @@ function showDiscover() {
 function showDesign() {
 	return `
 	<!-- DESIGN -->
-	<div id="designSection" class="">
-		<p>Make Your Design Choices</p>
-		<div class="card-design">
-			<p>Color Palette</p>
-			<p>Choose a palette to start from and then tweak it to make it your own. These colors will be used on various elements throughout your site.</p>
-			<button>Start</button>
-		</div>
+	<div id="designSection" class="form-section form-section_design">
+		<p class="text-md">Make Your Design Choices</p>
+		<div class="form-cards flex flex-column gap-1">
+			<div class="form-card card-design">
+				<p class="font-bold">Color Palette</p>
+				<p>Choose a palette to start from and then tweak it to make it your own. These colors will be used on various elements throughout your site.</p>
+			</div>
 
-		<div class="card-design">
-			<p>Font Pairs</p>
-			<p>Choose a font pairing for your site. The primary font will be used for Headings and Large Text. The secondary font will be used for paragraphs and small text.</p>
-			<button>Start</button>
-		</div>
+			<div class="form-card card-design">
+				<p class="font-bold">Font Pairs</p>
+				<p>Choose a font pairing for your site. The primary font will be used for Headings and Large Text. The secondary font will be used for paragraphs and small text.</p>
+			</div>
 
-		<div class="card-design">
-			<p>Globabl Components</p>
-			<p>Make design choices on components that will either populate every page on your site or be used on various pages. (Components like Site Navigation, Footers, Cards)</p>
-			<button>Start</button>
-		</div>
+			<div class="form-card card-design">
+				<p class="font-bold">Globabl Components</p>
+				<p>Make design choices on components that will either populate every page on your site or be used on various pages. (Components like Site Navigation, Footers, Cards)</p>
+			</div>
 
-		<div class="card-design">
-			<p>Site Structure</p>
-			<p>Determine the type of flow and layout of your site. We'll use our design expertise to make all of your content shine within the layout type that you choose.</p>
-			<button>Start</button>
+			<div class="form-card card-design">
+				<p class="font-bold">Site Structure</p>
+				<p>Determine the type of flow and layout of your site. We'll use our design expertise to make all of your content shine within the layout type that you choose.</p>
+			</div>
 		</div>
 
 		<div class="form_navigation">
@@ -141,32 +139,33 @@ function showDesign() {
 function showDevelop() {
 	return `
 	<!-- DEVELOP -->
-	<div id="developSection" class="">
-		<p>Please Select the Types of Functionality Needed for Your Site</p>
-		<div class="card-function">
-			<p>Blogging</p>
-		</div>
+	<div id="developSection" class="form-section ">
+		<p class="text-md">Please Select the Types of Functionality Needed for Your Site</p>
+		<div class="form-cards flex flex-column gap-1">
+			<div class="form-card card-function">
+				<p class="font-bold">Blogging</p>
+			</div>
 
-		<div class="card-function">
-			<p>Advanced Animation (+$100)</p>
-		</div>
+			<div class="form-card card-function">
+				<p class="font-bold">Advanced Animation (+$100)</p>
+			</div>
 
-		<div class="card-function">
-			<p>Forms</p>
-		</div>
+			<div class="form-card card-function">
+				<p class="font-bold">Forms</p>
+			</div>
 
-		<div class="card-function">
-			<p>External Service Integration (+$50 per Integration through Zapier)</p>
-		</div>
+			<div class="form-card card-function">
+				<p class="font-bold">External Service Integration (+$50 per Integration through Zapier)</p>
+			</div>
 
-		<div class="card-function">
-			<p>eCommerce (Checkout Button +$100)</p>
-		</div>
+			<div class="form-card card-function">
+				<p class="font-bold">eCommerce (Checkout Button +$100)</p>
+			</div>
 
-		<div class="card-function">
-			<p>eCommerce (Full Cart and Payment Gateway +$400 and Respective Service Fees)</p>
+			<div class="form-card card-function">
+				<p class="font-bold">eCommerce (Full Cart and Payment Gateway +$400 and Respective Service Fees)</p>
+			</div>
 		</div>
-
 		<div class="form_navigation">
 			<button data-show="designSection">Back</button>
 			<button data-show="deploySection">Next</button>
@@ -177,26 +176,27 @@ function showDevelop() {
 function showDeploy() {
 	return `
 	<!-- DEPLOY -->
-	<div id="deploySection" class="">
-		<p>Pick a Hosting Setup for Your Website</p>
+	<div id="deploySection" class="form-section ">
+		<p class="text-md">Pick a Hosting Setup for Your Website</p>
+		<div class="form-cards flex flex-column gap-1">
+			<div class="form-card card-deploy">
+				<p class="font-bold">Bare Bones</p>
+				<p>$10 per month</p>
+				<p>Minimal Shared Server withough Edge Computing Capabilities</p>
+				<p>Note: if you added any additional functions for your site in the previous step your site will not qualify for this plan.</p>
+			</div>
 
-		<div class="card-deploy">
-			<p>Bare Bones</p>
-			<p>$10 per month</p>
-			<p>Minimal Shared Server withough Edge Computing Capabilities</p>
-			<p>Note: if you added any additional functions for your site in the previous step your site will not qualify for this plan.</p>
-		</div>
+			<div class="form-card card-deploy">
+				<p class="font-bold">Basic</p>
+				<p>$20 per month</p>
+				<p>Modern Server Functionalities with Edge Computing Capabilities</p>
+			</div>
 
-		<div class="card-deploy">
-			<p>Basic</p>
-			<p>$20 per month</p>
-			<p>Modern Server Functionalities with Edge Computing Capabilities</p>
-		</div>
-
-		<div class="card-deploy">
-			<p>Pro</p>
-			<p>$50 per month</p>
-			<p>Dedicated Servers positioned for high traffix and quick scalability</p>
+			<div class="form-card card-deploy">
+				<p class="font-bold">Pro</p>
+				<p>$50 per month</p>
+				<p>Dedicated Servers positioned for high traffix and quick scalability</p>
+			</div>
 		</div>
 
 		<div class="form_navigation">
@@ -209,27 +209,28 @@ function showDeploy() {
 function showDedicate() {
 	return `
 	<!-- DEDICATE -->
-	<div id="dedicateSection" class="">
-		<p>Choose a Maintenance Package</p>
+	<div id="dedicateSection" class="form-section ">
+		<p class="text-md">Choose a Maintenance Package</p>
+		<div class="form-cards flex flex-column gap-1">
+			<div class="form-card card-dedicate">
+				<p class="font-bold">Base</p>
+				<p class="font-em">Included</p>
+				<ul>
+					<li>Monthly Analytics</li>
+					<li>SSL Certificate</li>
+					<li>HTTPS Encryption</li>
+					<li>Newsletter Integration</li>
+				</ul>
+			</div>
 
-		<div class="card-dedicate">
-			<p>Base</p>
-			<p>Included</p>
-			<ul>
-				<li>Monthly Analytics</li>
-				<li>SSL Certificate</li>
-				<li>HTTPS Encryption</li>
-				<li>Newsletter Integration</li>
-			</ul>
-		</div>
-
-		<div class="card-dedicate">
-			<p>Advanced</p>
-			<p>$20 per month</p>
-			<ul>
-				<li>Everything in Base +</li>
-				<li>Weekly Analytics</li>
-			</ul>
+			<div class="form-card card-dedicate">
+				<p class="font-bold">Advanced</p>
+				<p class="font-em">$20 per month</p>
+				<ul>
+					<li>Everything in Base +</li>
+					<li>Weekly Analytics</li>
+				</ul>
+			</div>
 		</div>
 
 		<div class="form_navigation">

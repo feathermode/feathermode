@@ -275,6 +275,28 @@ form input, form textarea {
 	-webkit-text-fill-color: transparent;
 }
 
+.form-section > * {
+	margin-bottom: 1rem;
+}
+
+.form_navigation > * {
+	margin-right: 1rem;
+}
+
+.form-card {
+	background: var(--color-main-white);
+	color: var(--color-main-black);
+	border: var(--color-main-gray) 2px solid;
+	border-radius: var(--radius-md);
+	padding: var(--space-md);
+	transition: 0.5s;
+}
+
+.form-card:hover, .form-card:focus {
+	background: var(--color-main-gray);
+	color: var(--color-main-white);
+}
+
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
 /*Small devices (landscape phones and portrait tablets, 600px and up)*/
@@ -321,6 +343,10 @@ form input, form textarea {
 
 	.form-inputs {
 		display: flex;
+		flex-direction: row;
+	}
+
+	.form-cards {
 		flex-direction: row;
 	}
 }
