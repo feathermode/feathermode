@@ -44,7 +44,7 @@
 	--color-main-quaternary: #F5F872;
 
 	--gradient-main: to bottom right, #FFD700, #177EFE, #131316;
-	--gradient-blue: to bottom right, #177EFE, #131316;
+	--gradient-blue: to bottom right, #131316, #177EFE, #131316;
 	--gradient-yellows: to bottom right, #D5A224, #FFD700;
 	
 	/* RADIUS */
@@ -226,7 +226,7 @@ nav {
 	border-radius: var(--radius-md);
 }
 
-.flyby {
+.flyby .section-wrapper {
 	background: linear-gradient(var(--gradient-blue));
 }
 
@@ -326,7 +326,8 @@ form input, form textarea {
 	}
 
 	.section-wrapper {
-		width: 60%;
+		width: 70%;
+		max-width: 1000px;
 	}
 	
 	.section-wrapper-form {
@@ -347,6 +348,10 @@ form input, form textarea {
 	}
 
 	.form-cards {
+		flex-direction: row;
+	}
+
+	.footer {
 		flex-direction: row;
 	}
 }
