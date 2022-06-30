@@ -245,6 +245,44 @@ form input, form textarea {
 	border-radius: var(--radius-sm);
 }
 
+.form_squares {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.form_square, .form_square-select {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	gap: 1rem;
+	max-width: 300px;
+	max-height: 300px;
+	padding: var(--space-md);
+	border: 2px solid var(--color-main-gray);
+	border-radius: var(--radius-md);
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+.form_square:hover, .form_square-select:hover {
+	background: var(--color-main-gray);
+}
+
+.form_square-active, .form_square-active:hover {
+	/*background: var(--color-main-primary);*/
+	background: linear-gradient(to bottom right, #D5A224 0, #FFD700 70%, #F5F872);
+}
+
+.form_square img {
+	height: 95%;
+	width: 95%;
+	border-radius: var(--radius-md);
+}
+
 /*#detailsSection, #discoverSection, #designSection, #developSection, #deploySection, #dedicateSection, #reviewSection {
 	position: absolute;
 	left: -100%;
