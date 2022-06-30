@@ -306,9 +306,10 @@ form input, form textarea {
 	background-repeat: no-repeat;
 }
 
-.gold_hero h1 {
+.gold_hero h1, .text-gradient {
 	/*font-size: 72px;*/
-	background: -webkit-linear-gradient(var(--color-main-secondary), var(--color-main-tertiary));;
+	display: inline;
+	background: -webkit-linear-gradient(45deg, #D5A224 0, #FFD700 70%, #F5F872);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
