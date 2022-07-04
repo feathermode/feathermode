@@ -94,7 +94,7 @@
 						<div class="form_squares">
 							<div class="form_square"
 								data-selection="light-minimalist"
-								data-style=".demo-des {color: red;}">
+								data-style=".demo {--color-main-white: #e7e4e4; --color-main-black: #AAA; background: var(--color-main-black); color: var(--color-main-white)}">
 								<p class="pointer_events-none">Light Minimalist</p>
 								<div class="flex gap-1 pointer_events-none">
 									<div class="color_box flex flex-center bg-light color-dark pointer_events-none">L</div>
@@ -106,7 +106,7 @@
 							</div>
 							<div class="form_square"
 								data-selection="pastel-primer"
-								data-style=".demo-link {color: red;}">
+								data-style=".demo {--color-light: #e7e4e4; --color-dark: #dbd9d9}">
 								<p class="pointer_events-none">Pastel Primer</p>
 								<div class="flex gap-1 pointer_events-none">
 									<div class="color_box flex flex-center bg-light color-dark pointer_events-none">L</div>
@@ -118,7 +118,7 @@
 							</div>
 							<div class="form_square"
 								data-selection="touch-of-earth"
-								data-style=".demo-title {color: red;}">
+								data-style=".demo {--color-main-white: #e7e4e4; --color-main-black: #dbd9d9}">
 								<p class="pointer_events-none">Touch of Earth</p>
 								<div class="flex gap-1 pointer_events-none">
 									<div class="color_box flex flex-center bg-light color-dark pointer_events-none">L</div>
@@ -143,25 +143,37 @@
 
 						<h4>Font Pairing Options</h4>
 						<div class="form_squares">
-							<div class="form_square" data-selection="playfair-roboto">
+							<div class="form_square"
+							data-selection="playfair-roboto"
+							data-style=".demo {background: #e7e4e4;} .demo-card {border-radius: 0px; background: #e7e4e4; box-shadow:  11px 11px 13px #dbd9d9, -11px -11px 13px #f3efef; padding: 1rem; color: black;}"
+							>
 								<div class="pointer_events-none">
 									<p class="pointer_events-none">Playfair Display Bold</p>
 									<p class="pointer_events-none">Roboto Slab</p>
 								</div>
 							</div>
-							<div class="form_square" data-selection="volkhov-gelasio">
+							<div class="form_square"
+								data-selection="volkhov-gelasio"
+								data-style=".demo {background: #e7e4e4;} .demo-card {border-radius: 0px; background: #e7e4e4; box-shadow:  11px 11px 13px #dbd9d9, -11px -11px 13px #f3efef; padding: 1rem; color: black;}"
+							>
 								<div class="pointer_events-none">
 									<p class="pointer_events-none">Volkhov Bold</p>
 									<p class="pointer_events-none">Gelasio</p>
 								</div>
 							</div>
-							<div class="form_square" data-selection="dm-dm">
+							<div class="form_square"
+								data-selection="dm-dm"
+								data-style=".demo {background: #e7e4e4;} .demo-card {border-radius: 0px; background: #e7e4e4; box-shadow:  11px 11px 13px #dbd9d9, -11px -11px 13px #f3efef; padding: 1rem; color: black;}"
+							>
 								<div class="pointer_events-none">
 									<p class="pointer_events-none">DM Serif</p>
 									<p class="pointer_events-none">DM Sans</p>
 								</div>
 							</div>
-							<div class="form_square" data-selection="quattro-lora">
+							<div class="form_square"
+								data-selection="quattro-lora"
+								data-style=".demo {background: #e7e4e4;} .demo-card {border-radius: 0px; background: #e7e4e4; box-shadow:  11px 11px 13px #dbd9d9, -11px -11px 13px #f3efef; padding: 1rem; color: black;}"
+							>
 								<div class="pointer_events-none">
 									<p class="pointer_events-none">Quattrocento</p>
 									<p class="pointer_events-none">Lora</p>
@@ -183,13 +195,19 @@
 
 						<h4>Component Structure Options</h4>
 						<div class="form_squares">
-							<div class="form_square" data-selection="one">
+							<div class="form_square"
+								data-selection="one"
+								data-style=".demo-card {border: 2px solid black; padding: var(--space-md);}">
 								<p class="pointer_events-none">Option One</p>
 							</div>
-							<div class="form_square" data-selection="two">
+							<div class="form_square"
+								data-selection="two"
+								data-style=".demo-card {border: 4px solid gray; padding: var(--space-md);}">
 								<p class="pointer_events-none">Option Two</p>
 							</div>
-							<div class="form_square" data-selection="three">
+							<div class="form_square"
+								data-selection="three"
+								data-style=".demo-card {border: 2px solid white; padding: var(--space-md);}">
 								<p class="pointer_events-none">Option Three</p>
 							</div>
 							<label class="hidden">
@@ -212,7 +230,6 @@
 				<div class="demo flex flex-column width-100">
 					<div class="demo-card flex flex-column items-start content-center">
 						<div class="demo-box">
-							I
 						</div>
 						<p class="demo-title text-md font-bold">Title of Blog Article</p>
 						<p class="demo-des">This is the description of blog article. This is a good place to write content that captures the reader's <span class="demo-link">attention</span> and pushes them to read more by continuing to the full article.</p>
