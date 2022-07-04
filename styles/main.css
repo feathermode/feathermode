@@ -241,6 +241,7 @@ form label {
 
 form input, form textarea {
 	width: 100%;
+	max-width: 320px;
 	padding: 0.25rem;
 	border-radius: var(--radius-sm);
 }
@@ -281,6 +282,22 @@ form input, form textarea {
 	height: 95%;
 	width: 95%;
 	border-radius: var(--radius-md);
+}
+
+.color_box {
+	height: 30px;
+	width: 30px;
+	border-radius: var(--radius);
+}
+
+.demo-box {
+	height: 300px;
+	width: 100%;
+	background: var(--color-main-white);
+}
+
+.demo-card {
+	max-width: 300px;
 }
 
 /*#detailsSection, #discoverSection, #designSection, #developSection, #deploySection, #dedicateSection, #reviewSection {
@@ -388,6 +405,25 @@ form input, form textarea {
 
 	.form-cards {
 		flex-direction: row;
+	}
+
+	.display_area {
+		display: flex;
+		gap: 2rem;
+	}
+
+	.demo {
+		position: relative;
+		padding: var(--space-md);
+		background: var(--color-main-gray);
+		border-radius: var(--radius);
+	}
+
+	.demo-card {
+		position: sticky;
+		top: 20px;
+		left: 0;
+		max-width: 300px;
 	}
 
 	.footer {
