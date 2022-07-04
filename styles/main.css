@@ -303,6 +303,11 @@ form input, form textarea {
 
 .demo-card {
 	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+	border: 2px solid transparent;
+	margin: 0.5rem;
 }
 
 /*#detailsSection, #discoverSection, #designSection, #developSection, #deploySection, #dedicateSection, #reviewSection {
@@ -387,7 +392,7 @@ form input, form textarea {
 	}
 
 	.section-wrapper {
-		width: 70%;
+		width: 90%;
 		max-width: 1000px;
 	}
 	

@@ -106,7 +106,7 @@
 							</div>
 							<div class="form_square"
 								data-selection="pastel-primer"
-								data-style=".demo {--color-light: #e7e4e4; --color-dark: #dbd9d9}">
+								data-style=".demo {--color-main-white: white; --color-main-black: black; background: var(--color-main-black); color: var(--color-main-white)}">
 								<p class="pointer_events-none">Pastel Primer</p>
 								<div class="flex gap-1 pointer_events-none">
 									<div class="color_box flex flex-center bg-light color-dark pointer_events-none">L</div>
@@ -118,7 +118,7 @@
 							</div>
 							<div class="form_square"
 								data-selection="touch-of-earth"
-								data-style=".demo {--color-main-white: #e7e4e4; --color-main-black: #dbd9d9}">
+								data-style=".demo {--color-main-white: #fff; --color-main-black: #1e184e; background: var(--color-main-black); color: var(--color-main-white)}">
 								<p class="pointer_events-none">Touch of Earth</p>
 								<div class="flex gap-1 pointer_events-none">
 									<div class="color_box flex flex-center bg-light color-dark pointer_events-none">L</div>
@@ -137,7 +137,7 @@
 							</label>
 						</div>
 						<h5>Palette Notes</h5>
-						<input type="text" name="palette-notes" placeholder="Other thoughts and ideas I may have...">
+						<input type="text" name="palette-notes" placeholder="i.e. Can we lighten up the dark color...">
 						<br>
 						<br>
 
@@ -189,7 +189,7 @@
 							</label>
 						</div>
 						<h5>Font Notes</h5>
-						<input type="text" name="font-notes" placeholder="Other thoughts and ideas I may have...">
+						<input type="text" name="font-notes" placeholder="i.e. Add more intensity to primary font...">
 						<br>
 						<br>
 
@@ -197,17 +197,17 @@
 						<div class="form_squares">
 							<div class="form_square"
 								data-selection="one"
-								data-style=".demo-card {border: 2px solid black; padding: var(--space-md);}">
+								data-style=".demo-card {border: 2px solid var(--color-main-black);}">
 								<p class="pointer_events-none">Option One</p>
 							</div>
 							<div class="form_square"
 								data-selection="two"
-								data-style=".demo-card {border: 4px solid gray; padding: var(--space-md);}">
+								data-style=".demo-card {border: 2px solid red;}">
 								<p class="pointer_events-none">Option Two</p>
 							</div>
 							<div class="form_square"
 								data-selection="three"
-								data-style=".demo-card {border: 2px solid white; padding: var(--space-md);}">
+								data-style=".demo-card {border: 2px solid var(--color-main-white);}">
 								<p class="pointer_events-none">Option Three</p>
 							</div>
 							<label class="hidden">
@@ -219,7 +219,7 @@
 							</label>
 						</div>
 						<h5>Structure Notes</h5>
-						<input type="text" name="structure-notes" placeholder="Other thoughts and ideas I may have...">
+						<input type="text" name="structure-notes" placeholder="i.e. Let's thicken the border and...">
 						<br>
 						<br>
 					</div>
@@ -228,7 +228,7 @@
 				</form>
 
 				<div class="demo flex flex-column width-100">
-					<div class="demo-card flex flex-column items-start content-center">
+					<div class="demo-card flex flex-column items-start content-center padding-md">
 						<div class="demo-box">
 						</div>
 						<p class="demo-title text-md font-bold">Title of Blog Article</p>
