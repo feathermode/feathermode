@@ -1,12 +1,9 @@
-import * as Hydrogen from './hydrogen/hydrogen.js';
-
 const squareGroups = document.querySelectorAll(".form_squares");
 let totalStyle = [];
 
 squareGroups.forEach(group => {
 	const squares = group.querySelectorAll(".form_square");
 	const selects = group.querySelectorAll(".form_square-select");
-
 
 	squares.forEach(square => {
 		square.addEventListener('click', function(e) {

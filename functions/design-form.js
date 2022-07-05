@@ -1,5 +1,3 @@
-import * as Hydrogen from './hydrogen/hydrogen.js';
-
 const squareGroups = document.querySelectorAll(".form_squares");
 
 squareGroups.forEach(group => {
