@@ -83,7 +83,7 @@
 			<h1 class="text-xl font-bold text-gradient">Artist Retreats</h1>
 			<h2 class="text-lg">Design System Base</h2>
 			<div class="display_area">
-				<form class="flex flex-column gap-1 items-start" name="Design Form: Artist Retreats" netlify  netlify-honeypot="bot-field">
+				<form class="flex flex-column gap-1 items-start" name="DS Form: Artist Retreats" netlify  netlify-honeypot="bot-field">
 					<p class="hidden">
 			    		<label>
 					      Don’t fill this out if you’re human: <input name="bot-field" />
@@ -100,7 +100,7 @@
 
 						<div class="flex flex-column gap-1">
 							<h4>Color Palette Options</h4>
-							<p>These palettes represent different ways we can use colors for your brand identity and visual representation. I f you like one aspect of a color palette with another let me know in the notes.</p>
+							<p>These palettes represent different ways we can use colors for your brand identity and visual representation. If you like one aspect of a color palette with another let me know in the notes.</p>
 							<div class="form_squares">
 								<div class="form_square"
 									data-selection="elegant-contemporary"
@@ -139,9 +139,9 @@
 									</div>
 								</div>
 								<div class="form_square"
-									data-selection="touch-of-earth"
-									data-style=".demo {--color-black: #8e8d8a; --color-white: #eae7dc; --color-p: #E85a4f; --color-s: #e98074; --color-t: #d8c3a5; --color-shade: #e8dbd1; --color-high: #fffffb; background: var(--color-white); color: var(--color-black);}">
-									<p class="pointer_events-none">Minimal Splash</p>
+									data-selection="splash-or-color"
+									data-style=".demo {--color-black: #2b2d42; --color-white: #eae7dc; --color-p: #E85a4f; --color-s: #e98074; --color-t: #d8c3a5; --color-shade: #d5d2c8; --color-high: #fffcf0; background: var(--color-white); color: var(--color-black);}">
+									<p class="pointer_events-none">Splash of Color</p>
 									<div class="third-palette flex gap-1 pointer_events-none">
 										<div class="color_box flex flex-center bg-light color-dark pointer_events-none"></div>
 										<div class="color_box flex flex-center bg-primary color-light pointer_events-none"></div>
@@ -194,20 +194,20 @@
 									</div>
 								</div>
 								<div class="form_square"
-									data-selection="quattro-lora"
-									data-style=".demo-title, .demo-button {font-family: 'Quattrocento', serif;} .demo-des, .demo-pill {font-family: 'Lora', serif;}"
+									data-selection="lora-quattro"
+									data-style=".demo-title, .demo-button {font-family: 'Lora', serif;} .demo-des, .demo-pill {font-family: 'Quattrocento', serif;}"
 								>
 									<div class="pointer_events-none">
-										<p class="pointer_events-none fam-quattro">Quattrocento</p>
 										<p class="pointer_events-none fam-lora">Lora</p>
+										<p class="pointer_events-none fam-quattro">Quattrocento</p>
 									</div>
 								</div>
 								<label class="hidden">
 									<select name="Font Choice">
-										<option value="playfair-roboto">Playfair and Roboto</option>
 										<option value="volkhov-gelasio">Volkhov and Gelasio</option>
+										<option value="playfair-roboto">Playfair and Roboto</option>
 										<option value="dm-dm">DM Serif and DM Sans</option>
-										<option value="quattro-lora">Quattrocento and Lora</option>
+										<option value="lora-quattro">Lora and Quattrocento</option>
 									</select>
 								</label>
 							</div>
@@ -220,43 +220,40 @@
 							<p>These are some different ways of thinking about the structure of components on your page. Your selection will be used as a base for further detailing later in the process. Don't worry if neither selection quite fits the bill.</p>
 							<div class="form_squares">
 								<div class="form_square"
-									data-selection="one"
+									data-selection="transitional"
 									data-style=".demo {background: var(--color-white);} .demo-card {box-shadow: 7px 7px 8px var(--color-shade), -7px -7px 8px var(--color-high); border-radius: 5px; border: none; background: var(--color-white); color: var(--color-black)} .demo-image {border-radius: 5px;} .demo-button {border-radius: 5px; background: var(--color-black); color: var(--color-white);} .demo-pill{border-radius: 5px;}">
 									<p class="pointer_events-none">Transitional Neumorphism</p>
 									<ul class="pointer_events-none">
 										<li class="pointer_events-none">Shades and Highlights</li>
-										<li class="pointer_events-none">Slightly Rounded Borders</li>
-										<li class="pointer_events-none">No Border Outline</li>
+										<li class="pointer_events-none">Minimally Round Border Edges</li>
 										<li class="pointer_events-none">Blends with Page Background</li>
 									</ul>
 								</div>
 								<div class="form_square"
-									data-selection="two"
+									data-selection="minimal"
 									data-style=".demo {background: var(--color-white);} .demo-card {box-shadow: none; border-radius: 0; border: 2px solid var(--color-black); background: var(--color-white); color: var(--color-black)} .demo-image {border-radius: 0;} .demo-button {border-radius: 0; background: var(--color-black); color: var(--color-white);} .demo-pill{border-radius: 0;}">
-									<p class="pointer_events-none">Minimal Light</p>
+									<p class="pointer_events-none">Minimal</p>
 									<ul class="pointer_events-none">
-										<li class="pointer_events-none">Borders for Separation</li>
-										<li class="pointer_events-none">Simple</li>
-										<li class="pointer_events-none">Less Color Focus</li>
+										<li class="pointer_events-none">Border for Separation</li>
+										<li class="pointer_events-none">Sharp Border Edges</li>
 										<li class="pointer_events-none">Stands out from Background</li>
 									</ul>
 								</div>
 								<div class="form_square"
-									data-selection="three"
+									data-selection="borderless"
 									data-style=".demo {background: var(--color-s);} .demo-card {box-shadow: none; border-radius: 0; border: none; background: var(--color-white); color: var(--color-black);} .demo-image {border-radius: 0;} .demo-button {border-radius: 0; background: var(--color-black); color: var(--color-white);} .demo-pill{border-radius: 0;}">
 									<p class="pointer_events-none">Borderless</p>
 									<ul class="pointer_events-none">
 										<li class="pointer_events-none">No Borders</li>
-										<li class="pointer_events-none">Simple</li>
-										<li class="pointer_events-none">Used w/ Colored Background</li>
+										<li class="pointer_events-none">Sharp Border Edges</li>
 										<li class="pointer_events-none">Stands Out/Complements Background</li>
 									</ul>
 								</div>
 								<label class="hidden">
 									<select name="Structure Choice">
-										<option value="one">Option One</option>
-										<option value="two">Option Two</option>
-										<option value="three">Option Three</option>
+										<option value="transitional">Transitional Neumorphism</option>
+										<option value="minimal">Minimal</option>
+										<option value="borderless">Borderless</option>
 									</select>
 								</label>
 							</div>
