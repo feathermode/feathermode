@@ -285,20 +285,54 @@ form input, form textarea {
 }
 
 .color_box {
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 	border-radius: var(--radius);
 }
 
 .demo {
 	margin-top: 2rem;
 	padding: 2rem;
+	padding: var(--space-md);
+	/*background: var(--color-main-gray);*/
+	border-radius: var(--radius);
 }
 
-.demo-box {
-	height: 300px;
+.demo-card {
+	/*background: var(--color-white);
+	color: var(--color-black);*/
+}
+
+.demo-pill {
+	background: var(--color-s);
+	color: var(--color-black);
+	padding: 0.25rem 0.5rem;
+	border: 1px solid var(--color-black);
+	transition: 0.5s;
+}
+
+.demo-pill:hover {
+	background: var(--color-t);
+	color: var(--color-black);
+	border: 1px solid var(--color-black);
+}
+
+.demo-pill_des {
+	pointer-events: none;
+}
+
+.demo-button {
+	background: var(--color-black);
+	color: var(--color-white);
+}
+
+.demo-button:hover {
+	background: var(--color-p);
+}
+
+.demo-image {
+	height: 200px;
 	width: 100%;
-	background: var(--color-main-white);
 }
 
 .demo-card {
@@ -310,11 +344,6 @@ form input, form textarea {
 	margin: 0.5rem;
 }
 
-/*#detailsSection, #discoverSection, #designSection, #developSection, #deploySection, #dedicateSection, #reviewSection {
-	position: absolute;
-	left: -100%;
-}*/
-
 .message {
 	width: 100%;
 }
@@ -322,10 +351,6 @@ form input, form textarea {
 .page-home, .page-gold, .page-about, .page-fly, .page-blog {
 	background: var(--color-main-black);
 }
-
-/*.page-about, .page-fly {
-	background: var(--color-main-primary);
-}*/
 
 .gold_hero {
 	background: url("../assets/gold-hero_image.jpg");
@@ -395,6 +420,68 @@ form input, form textarea {
 	font-family: 'Volkhov', serif;
 }
 
+.first-palette div:nth-child(1) {
+	background: #FAF5F0;
+}
+
+.first-palette div:nth-child(2) {
+	background: #2F232F;
+}
+
+.first-palette div:nth-child(3) {
+	background: #D5BDAF;
+}
+
+.first-palette div:nth-child(4) {
+	background: #EDEDE9;
+}
+
+.first-palette div:nth-child(5) {
+	background: #D6CCC2;
+}
+
+/*SECOND*/
+.second-palette div:nth-child(1) {
+	background: #F8EDEB;
+}
+
+.second-palette div:nth-child(2) {
+	background: #21242C;
+}
+
+.second-palette div:nth-child(3) {
+	background: #FFD7BA;
+}
+
+.second-palette div:nth-child(4) {
+	background: #D8E2DC;
+}
+
+.second-palette div:nth-child(5) {
+	background: #FAE1DD;
+}
+
+/*THIRD*/
+.third-palette div:nth-child(1) {
+	background: #FFF1E6;
+}
+
+.third-palette div:nth-child(2) {
+	background: #231C17;
+}
+
+.third-palette div:nth-child(3) {
+	background: #DDBEA9;
+}
+
+.third-palette div:nth-child(4) {
+	background: #B7B7A4;
+}
+
+.third-palette div:nth-child(5) {
+	background: #EDDCD2;
+}
+
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
 /*Small devices (landscape phones and portrait tablets, 600px and up)*/
@@ -456,9 +543,6 @@ form input, form textarea {
 
 	.demo {
 		position: relative;
-		padding: var(--space-md);
-		background: var(--color-main-gray);
-		border-radius: var(--radius);
 	}
 
 	.demo-card {
