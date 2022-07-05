@@ -331,7 +331,7 @@ form input, form textarea {
 }
 
 .demo-image {
-	height: 200px;
+	height: 100%;
 	width: 100%;
 }
 
@@ -482,6 +482,48 @@ form input, form textarea {
 	background: #EDDCD2;
 }
 
+/*FOURTH*/
+.fourth-palette div:nth-child(1) {
+	background: #eae7dc;
+}
+
+.fourth-palette div:nth-child(2) {
+	background: #2b2d42;
+}
+
+.fourth-palette div:nth-child(3) {
+	background: #E85a4f;
+}
+
+.fourth-palette div:nth-child(4) {
+	background: #1B9AAA;
+}
+
+.fourth-palette div:nth-child(5) {
+	background: #d8c3a5;
+}
+
+
+/*FIFTH*/
+.fifth-palette div:nth-child(1) {
+	background: #FEEAFA;
+}
+
+.fifth-palette div:nth-child(2) {
+	background: #16141E;
+}
+
+.fifth-palette div:nth-child(3) {
+	background: #8E9AAF;
+}
+
+.fifth-palette div:nth-child(4) {
+	background: #D5D1E9;
+}
+
+.fifth-palette div:nth-child(5) {
+	background: #DEE2FF;
+}
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
 /*Small devices (landscape phones and portrait tablets, 600px and up)*/
