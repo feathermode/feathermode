@@ -363,6 +363,38 @@ form input, form textarea {
 	color: var(--color-main-white);
 }
 
+.fam-dm_sans {
+	font-family: 'DM Sans', sans-serif;
+}
+
+.fam-dm_serif {
+	font-family: 'DM Serif Display', serif;
+}
+
+.fam-gelasio {
+	font-family: 'Gelasio', serif;
+}
+
+.fam-lora {
+	font-family: 'Lora', serif;
+}
+
+.fam-playfair {
+	font-family: 'Playfair Display', serif;
+}
+
+.fam-quattro {
+	font-family: 'Quattrocento', serif;
+}
+
+.fam-roboto_slab {
+	font-family: 'Roboto Slab', serif;
+}
+
+.fam-volkhov {
+	font-family: 'Volkhov', serif;
+}
+
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
 /*Small devices (landscape phones and portrait tablets, 600px and up)*/
