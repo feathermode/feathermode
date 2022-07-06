@@ -420,12 +420,13 @@ form input, form textarea {
 	font-family: 'Volkhov', serif;
 }
 
+/*FIRST*/
 .first-palette div:nth-child(1) {
-	background: #FAF5F0;
+	background: #FFFCFA;
 }
 
 .first-palette div:nth-child(2) {
-	background: #2F232F;
+	background: #260D26;
 }
 
 .first-palette div:nth-child(3) {
@@ -433,16 +434,16 @@ form input, form textarea {
 }
 
 .first-palette div:nth-child(4) {
-	background: #EDEDE9;
+	background: #D6CCC2;
 }
 
 .first-palette div:nth-child(5) {
-	background: #D6CCC2;
+	background: #EDEDE9;
 }
 
 /*SECOND*/
 .second-palette div:nth-child(1) {
-	background: #F8EDEB;
+	background: #FCF9F8;
 }
 
 .second-palette div:nth-child(2) {
@@ -450,32 +451,32 @@ form input, form textarea {
 }
 
 .second-palette div:nth-child(3) {
-	background: #FFD7BA;
+	background: #817E9F;
 }
 
 .second-palette div:nth-child(4) {
-	background: #D8E2DC;
+	background: #FAE1DD;
 }
 
 .second-palette div:nth-child(5) {
-	background: #FAE1DD;
+	background: #FFF3EB;
 }
 
 /*THIRD*/
 .third-palette div:nth-child(1) {
-	background: #FFF1E6;
+	background: #FFFCFA;
 }
 
 .third-palette div:nth-child(2) {
-	background: #231C17;
+	background: #191410;
 }
 
 .third-palette div:nth-child(3) {
-	background: #DDBEA9;
+	background: #B7B7A4;
 }
 
 .third-palette div:nth-child(4) {
-	background: #B7B7A4;
+	background: #EAC3A9;
 }
 
 .third-palette div:nth-child(5) {
@@ -484,29 +485,29 @@ form input, form textarea {
 
 /*FOURTH*/
 .fourth-palette div:nth-child(1) {
-	background: #eae7dc;
+	background: #F8F8F7;
 }
 
 .fourth-palette div:nth-child(2) {
-	background: #2b2d42;
+	background: #2B2D42;
 }
 
 .fourth-palette div:nth-child(3) {
-	background: #E85a4f;
+	background: #E63946;
 }
 
 .fourth-palette div:nth-child(4) {
-	background: #1B9AAA;
+	background: #5588B4;
 }
 
 .fourth-palette div:nth-child(5) {
-	background: #d8c3a5;
+	background: #7796CB;
 }
 
 
 /*FIFTH*/
 .fifth-palette div:nth-child(1) {
-	background: #FEEAFA;
+	background: #F8F7F8;
 }
 
 .fifth-palette div:nth-child(2) {
@@ -523,6 +524,27 @@ form input, form textarea {
 
 .fifth-palette div:nth-child(5) {
 	background: #DEE2FF;
+}
+
+/*SIXTH*/
+.sixth-palette div:nth-child(1) {
+	background: #F4F7FB;
+}
+
+.sixth-palette div:nth-child(2) {
+	background: #212831;
+}
+
+.sixth-palette div:nth-child(3) {
+	background: #576CA8;
+}
+
+.sixth-palette div:nth-child(4) {
+	background: #8298D4;
+}
+
+.sixth-palette div:nth-child(5) {
+	background: #9EB4F0;
 }
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
