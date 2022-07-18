@@ -21,6 +21,10 @@ Steps
 
 import * as Hydrogen from './hydrogen/hydrogen.js';
 
+// FORM WINDOW
+function genFormWindow() {
+}
+
 // FORM SECTIONS
 function showDetails() {
 	return `
@@ -42,7 +46,7 @@ function showDetails() {
 function showDiscover() {
 	return `
 	<!-- DISCOVER -->
-	<div id="discoverSection" class="form-section">
+	<div id="discoverSection" class="form-section flex flex-column">
 		<label for="current_website">
 			Do you currently have a website?
 			<select name="current_website">
@@ -264,6 +268,10 @@ function showFormSection() {
 
 // EVENT LISTENERS
 document.addEventListener("click", function(e) {
+	if (e.target.id === "start-onthefly") {
+		e.preventDefault();
+		genFormWindow();
+	}
 	if (e.target.dataset.show) {
 		e.preventDefault();
 		const value = e.target.dataset.show;
@@ -289,6 +297,6 @@ document.addEventListener("click", function(e) {
 		if (value === 'reviewSection') {
 			template = showReview();
 		}
-		Hydrogen.render(template, '.form_area', 'clean');
+		Hydrogen.render(template, '.oft_form-area', 'clean');
 	}
 })

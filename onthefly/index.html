@@ -33,7 +33,7 @@
 </head>
 <body class="page-fly">
 	<!-- NAVIGATION -->
-	<nav class="nav position-sticky flex content-between width-100 padding-md">
+	<!-- <nav class="nav position-sticky flex content-between width-100 padding-md">
 		<div class="nav-logo_plate bg-dark radius-md padding-sm">
 			<a href="/"><img src="/assets/fm_logo-white.svg" alt="feathermode" class="nav-logo"/></a>
 		</div>
@@ -48,7 +48,7 @@
 			<div class="flex flex-column gap-1">
 				<p class="text-xl">Sites</p>
 				<div class="">
-					<a href="" class="text-lg">ontheFLY <!-- <span class="nav-menu_list-arrow">></span> --></a>
+					<a href="" class="text-lg">ontheFLY</a>
 					<ul>
 						<li>COMING SOON</li>
 						<li>3 - 5 Days</li>
@@ -69,41 +69,52 @@
 			<a href="/about" class="text-xl">About <span class="nav-menu_list-arrow">></span></a>
 			<a href="/blog" class="text-xl">Blog <span class="nav-menu_list-arrow">></span></a>
 		</div>
+	</nav> -->
+	<nav class="otf_form-nav position-sticky flex content-between items-center bg-dark color-light margin-md padding-sm border-md border-solid border-primary radius-md">
+		<img src="" alt="ontheFLY" />
+		<div>
+			<ul class="flex list-styles-none">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+		</div>
+		<div class="flex">
+			<p>$99</p>
+			<button>X</button>
+		</div>
 	</nav>
 	
 	<!-- START OF PAGE SPECIFIC CONTENT -->
 	<!-- PITCH -->
-	<section class="section position-relative flex flex-column items-center content-start height-100vh bg-dark color-light padding-lg">
-		<div class="section-wrapper-form section-wrapper position-absolute flex flex-column flex-center position-relative height-100 width-100 text-start gap-1">
-			<p class="text-xl">Flight Plan</p>
-			<div class="form_display section-container flex flex-column gap-1 width-100 height-100 bg-dark color-light padding-lg">
-				<div class="form_navigation flex flex-wrap content-around gap-1">
-					<div class="text-xs radius-md padding-sm"><p>Details</p></div>
-					<div class="text-xs radius-md padding-sm"><p>Discover</p></div>
-					<div class="text-xs radius-md padding-sm"><p>Design</p></div>
-					<div class="text-xs radius-md padding-sm"><p>Develop</p></div>
-					<div class="text-xs radius-md padding-sm"><p>Deploy</p></div>
-					<div class="text-xs radius-md padding-sm"><p>Dedicate</p></div>
-					<div class="text-xs radius-md padding-sm"><p>Review</p></div>
-					<div class="text-xs bg-success radius-md padding-sm color-dark"><p>Total: $400</p></div>
+
+	<section class="otf_form flex height-100vh width-100">
+		<div class="height-100 width-100 position-relative flex flex-column items-start bg-dark color-light">
+			<div class="otf_form-body position-relative flex width-100 height-100 margin-md padding-sm">
+				<div class="otf_form-sidebar width-20">
+					<p>1 | General</p>
+					<ul>
+						<li>Name</li>
+						<li>Site Name</li>
+					</ul>
 				</div>
-				
-				<form class="form_area position-relative overflow-hidden flex flex-column flex-center height-100">
-					<!-- PRECURSOR -->
-					<div id="gettingStarted" class="flex flex-column flex-center gap-1 width-50">
-						<p>This is the ontheFLY Smart Templating System. Use this system to pick  out your site preferences and project blueprint.</p>
+				<div class="oft_form-area flex flex-column width-80">
+					<!-- DETAILS -->
+					<div class="section-wrapper position-absolute flex flex-column gap-1">
+						<h1>ontheFLY</h1>
+						<h2>Your Web Preferences, Our Craftsmanship</h2>
+						<p>ontheFLY is feathermode's smart templating and semi-custom web creation process. ontheFLY is best used for small to medium sites and is geared towards content creators and small businesses. If you need to quickly create a website with a small selection of needs, but don't want to spend the time it takes to reformat and tinker with templates from web builders, ontheFLY is the right service for you.</p>
 
-						<button data-show="detailsSection">Next</button>
-					</div>
+						<p>If you'd like a more custom website with greater functionality and scalability consider using feathermode's Gold service which involves bespoke and truly custom experience through every step of the process and a 1-1 partnership between you and a web architect.</p>
 
-					<!-- THANKS -->
-					<div id="thanksSection" class="none">
-						<p>Thank you for choosing feathermode as your guide to flying online! <br /> You'll receive an email shortly with a receipt and next steps. We'll have your website ready for you in 3-5 days!</p>
+						<button data-show="detailsSection">Get Started</button>
 					</div>
-	
-				</form>
+				</div>
 			</div>
 		</div>
+
 	</section>
 	
 	<!-- FOOTER -->
