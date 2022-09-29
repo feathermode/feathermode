@@ -45,7 +45,9 @@
 
 	--gradient-main: to bottom right, #FFD700, #177EFE, #131316;
 	--gradient-blue: to bottom right, #131316, #177EFE, #131316;
-	--gradient-yellows: to bottom right, #D5A224, #FFD700;
+	--gradient-blues: to bottom right, #177EFE, #70E5FF 95%;
+	--gradient-yellows: to bottom right, #D5A224, #FFD700 95%;
+	--gradient-prism:  to bottom right, #AA9DFF, #85AFFF, #70E5FF, #B5F7AF, #F4F6AB, #F4C59A, #F598A2, #131316 20%;
 	
 	/* RADIUS */
 	--radius: 0.25em;
@@ -144,6 +146,7 @@ ul {
 	height: 20px;
 }
 
+
 nav {
 	top: 0;
 	z-index: 1000;
@@ -226,6 +229,18 @@ nav {
 	border-radius: var(--radius-md);
 }
 
+.card-blue {
+	background: linear-gradient(var(--gradient-blues));
+}
+
+.card-gold {
+	background: linear-gradient(var(--gradient-yellows));
+}
+
+.card-prism {
+	background: linear-gradient(var(--gradient-prism));
+}
+
 .flyby .section-wrapper {
 	background: linear-gradient(var(--gradient-blue));
 }
@@ -239,9 +254,15 @@ form label {
 	margin-bottom: 1rem;
 }
 
-form input, form textarea {
+form input, form select {
 	width: 100%;
 	max-width: 320px;
+	padding: 0.25rem;
+	border-radius: var(--radius-sm);
+}
+
+form textarea {
+	width: 100%;
 	padding: 0.25rem;
 	border-radius: var(--radius-sm);
 }
