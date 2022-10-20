@@ -409,6 +409,8 @@ form textarea {
 	color: var(--color-main-white);
 }
 
+/* ARTIST RETREATS */
+
 .fam-dm_sans {
 	font-family: 'DM Sans', sans-serif;
 }
@@ -514,7 +516,7 @@ form textarea {
 }
 
 .fourth-palette div:nth-child(3) {
-	background: #E63946;
+	background: #E63946; #0A8754
 }
 
 .fourth-palette div:nth-child(4) {
@@ -566,6 +568,48 @@ form textarea {
 
 .sixth-palette div:nth-child(5) {
 	background: #9EB4F0;
+}
+
+/* 3 PEAK */
+
+/*FOURTH*/
+.three-peak-palette-2 div:nth-child(1) {
+	background: #F8F8F7;
+}
+
+.three-peak-palette-2 div:nth-child(2) {
+	background: #2B2D42;
+}
+
+.three-peak-palette-2 div:nth-child(3) {
+	background: #0A8754;
+}
+
+.three-peak-palette-2 div:nth-child(4) {
+	background: #5588B4;
+}
+
+.three-peak-palette-2 div:nth-child(5) {
+	background: #7796CB;
+}
+
+.fam-josefin {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.fam-montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+.fam-open {
+	font-family: 'Open Sans', sans-serif;
+}
+.fam-questrial {
+	font-family: 'Questrial', sans-serif;
+}
+.fam-quicksand {
+	font-family: 'Quicksand', sans-serif;
+}
+.fam-rubik {
+	font-family: 'Rubik', sans-serif;
 }
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
