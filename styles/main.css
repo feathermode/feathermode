@@ -593,24 +593,29 @@ form textarea {
 	background: #7796CB;
 }
 
-.fam-josefin {
-	font-family: 'Josefin Sans', sans-serif;
-}
+
 .fam-montserrat {
 	font-family: 'Montserrat', sans-serif;
 }
 .fam-open {
 	font-family: 'Open Sans', sans-serif;
 }
-.fam-questrial {
-	font-family: 'Questrial', sans-serif;
-}
-.fam-quicksand {
-	font-family: 'Quicksand', sans-serif;
-}
 .fam-rubik {
 	font-family: 'Rubik', sans-serif;
 }
+.fam-barlow {
+	font-family: 'Barlow', sans-serif;
+}
+.fam-manrope {
+	font-family: 'Manrope', sans-serif;
+}
+.fam-poppins {
+	font-family: 'Poppins', sans-serif;
+}
+.fam-roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
 
 /* MEDIA QUERIES FOR LARGER SCREENS */
 /*Small devices (landscape phones and portrait tablets, 600px and up)*/
