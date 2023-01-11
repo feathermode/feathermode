@@ -1,0 +1,5 @@
+http://feathermode.app/* https://feathermode.com/:splat 301!
+https://feathermode.app/* https://feathermode.com/:splat 301!
+feathermode.app feathermode.com
+http://feathermode.app http://feathermode.com
+https://feathermode.app https://feathermode.com
