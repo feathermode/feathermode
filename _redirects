@@ -1,3 +1,7 @@
 https://feathermode.app https://feathermode.com
 
-https://feathermode.app/* https://feathermode.com/*
+https://feathermode.app/* https://feathermode.com/:splat
+
+feathermode.app feathermode.com
+
+feathermode.app/ feathermode.com/
