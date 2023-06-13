@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carousel</title>
+</head>
+<body>
+	<div class="carousel">
+		<button class="carousel_button carousel_button-left">
+			<img src="assets/left.svg" alt="Left">
+		</button>
+
+		<div class="carousel_track-container">
+			<ul class="carousel_track">
+				<li class="carousel_slide">
+					<img src="assets/image_1.jpg" alt="hotel image">
+				</li>
+				<li class="carousel_slide">
+					<img src="assets/image_1.jpg" alt="hotel image">
+				</li>
+				<li class="carousel_slide">
+					<img src="assets/image_1.jpg" alt="hotel image">
+				</li>
+				<li class="carousel_slide">
+					<img src="assets/image_1.jpg" alt="hotel image">
+				</li>
+			</ul>
+		</div>
+		<button class="carousel_button carousel_button-right">
+			<img src="assets/right.svg" alt="Left">
+		</button>
+
+		<div class="carousel_nav">
+			<button class="carousel_indicator current-slide"></button>
+			<button class="carousel_indicator"></button>
+			<button class="carousel_indicator"></button>
+		</div>
+	</div>
+
+	<!-- STYLES -->
+	<style type="text/css">
+
+		body {
+			height: 100vh;
+			background: ;
+		}
+
+		.carousel {
+			position: relative;
+			height: 100%;
+			width: 100%;
+
+		}
+
+		.carousel img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.carousel_track-container {
+			position: relative;
+			height: 100%;
+		}
+
+		.carousel_track {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+
+		.carousel_slide {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+		}
+
+		.carousel_button {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			background: transparent;
+			border: 0;
+			cursor: pointer;
+		}
+
+		.carousel_button-left {
+			left: -30px;
+		}
+
+		.carousel_button-right {
+			right: -30px;
+		}
+
+		.carousel_button img {
+			width: 12px;
+		}
+
+		.carousel_nav {
+			display: flex;
+			justify-content: center;
+		}
+
+		.carousel_indicator {
+			border: 0;
+			border-radius: 50%;
+			width: 15px;
+			height: 15px;
+			background: rgba(0, 0, 0, 0.3);
+			margin: 0 12px;
+		}
+
+		.carousel_indicator.current-slide {
+			background: rgba(0, 0, 0, 0.75);
+		}
+	</style>
+
+	<!-- FUNCTIONS -->
+	<script type="text/javascript">
+
+		const track = document.querySelector('.carousel_track');
+		const slides = Array.from(track.children);
+		const nextButton = document.querySelector('.carousel_button-right');
+		const prevButton = document.querySelector('.carousel_button-left');
+		// const dotsNav;
+		// const dots; //Array.from(dotsNav.children)
+		//
+
+
+
+		const slideWidth = slides[0].getBoundingClientRect().width;
+
+		console.log(slideWidth)
+
+		//arrange the slides next to one another
+		const setSlidePosition = (slide, index) => {
+			slide.style.left = slideWidth * index + 'px';
+		}
+		slides.forEach(setSlidePosition);
+
+
+		const moveToSlide = (track, currentSlide, targetSlide) => {
+			track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+			currentSlide.classList.remove('current-slide');
+			targetSlide.classList.add('current-slide');
+		}
+
+
+		// click left
+		prevButton.addEventListener('click', e => {
+			const currentSlide = track.querySelector('.current-slide');
+			const prevSlide = currentSlide.previousElementSibling;
+
+			moveToSlide(track, currentSlide, prevSlide);
+
+			slides.forEach(slide => {
+				if (slide.classList.contains('current-slide')) {
+					if (slides.indexOf(slide) === 0) {
+						prevButton.classList.add('hidden');
+						nextButton.classList.remove('hidden');
+					} else if (slides.indexOf(slide) === slides.length - 1) {
+						nextButton.classList.add('hidden');
+						prevButton.classList.remove('hidden');
+					} else {
+						prevButton.classList.remove('hidden');
+						nextButton.classList.remove('hidden');
+					}
+				}
+			});
+		});
+
+
+		// click right
+		nextButton.addEventListener('click', e => {
+			const currentSlide = track.querySelector('.current-slide');
+			const nextSlide = currentSlide.nextElementSibling;
+
+			moveToSlide(track, currentSlide, nextSlide);
+
+			slides.forEach(slide => {
+				if (slide.classList.contains('current-slide')) {
+					if (slides.indexOf(slide) === 0) {
+						prevButton.classList.add('hidden');
+						nextButton.classList.remove('hidden');
+					} else if (slides.indexOf(slide) === slides.length - 1) {
+						nextButton.classList.add('hidden');
+						prevButton.classList.remove('hidden');
+					} else {
+						prevButton.classList.remove('hidden');
+						nextButton.classList.remove('hidden');
+					}
+				}
+			});
+		});
+	</script>
+</body>
+</html>

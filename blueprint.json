@@ -1,0 +1,16 @@
+[
+	{
+		"type": "page",
+		"name": "home",
+		"path": "/",
+		"layout": "_partials/layout.js",
+		"inputs": "home.js",
+		"data": {
+			"meta": {
+				"title" : "Home | Site Name",
+				"description" : "Description...",
+				"scripts": []
+			}
+		}
+	}
+]

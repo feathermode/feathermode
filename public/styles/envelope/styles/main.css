@@ -1,0 +1,140 @@
+/* Final CSS Page */
+@import url("purity.css"); /* RESET for uniformity */
+@import url("structures.css"); /* STRUCTURES */
+@import url("utilities/utilities.css"); /* ATOMIC Styles */
+@import url("blocks.css"); /* UNIQUE components */
+@import url("modifications.css"); /* DATA driven classes */
+
+
+/* --- START OF UNIQUE STYLING FOR PROJECT (RESPONSIVE FIRST) --- */
+/* --- FONT IMPORTS --- */
+
+/* @font-face {
+	src: url(fonts/Font-Bold.otf);
+	font-family: Font-Type;
+} */
+
+
+/* CONTROL CENTER */
+:root {
+	/* BREAKPOINTS */
+	--breakpoint-sm: 599px;
+	--breakpoint-md: 899px;
+	--breakpoint-lg: 1199px;
+	--breakpoint-xl: 1799px;
+
+	/* COLORS */
+	--color-success: green;
+	--color-warning: yellow;
+	--color-urgent: red;
+	--color-attention: orange;
+	--color-notification: blue;
+
+	--color-dark: #131316;
+	--color-light: #FFFFFF;
+	--color-gray: #434347;
+	--color-primary: #177EFE;
+	--color-secondary: #FFD700;
+	--color-tertiary: #D5A224;
+	--color-quaternary: #F5F872;
+
+	/* BORDERS */
+	--border-width: 2px;
+	--border-style: solid;
+	--border-color: var(--color-dark);
+	--border: var(--border-width) var(--border-style) var(--border-color);
+
+	/* RADIUS */
+	--radius: 0.25em;
+	--radius-sm: calc(var(--radius)/2);
+	--radius-md: var(--radius);
+	--radius-lg: calc(var(--radius)*2);
+
+	/* SHADOWS */
+	--shadow-xs: 0 0.1px 0.3px rgba(0, 0, 0, 0.06),
+				0 1px 2px rgba(0, 0, 0, 0.12);
+	--shadow-sm: 0 0.3px 0.4px rgba(0, 0, 0, 0.025),
+				0 0.9px 1.5px rgba(0, 0, 0, 0.05),
+				0 3.5px 6px rgba(0, 0, 0, 0.1);
+	--shadow-md: 0 0.9px 1.5px rgba(0, 0, 0, 0.03),
+				0 3.1px 5.5px rgba(0, 0, 0, 0.08),
+				0 14px 25px rgba(0, 0, 0, 0.12);
+	--shadow-lg: 0 1.2px 1.9px -1px rgba(0, 0, 0, 0.014),
+				0 3.3px 5.3px -1px rgba(0, 0, 0, 0.038),
+				0 8.5px 12.7px -1px rgba(0, 0, 0, 0.085),
+				0 30px 42px -1px rgba(0, 0, 0, 0.15);
+	--shadow-xl: 0 1.5px 2.1px -6px rgba(0, 0, 0, 0.012),
+				0 3.6px 5.2px -6px rgba(0, 0, 0, 0.035),
+				0 7.3px 10.6px -6px rgba(0, 0, 0, 0.07),
+				0 16.2px 21.9px -6px rgba(0, 0, 0, 0.117),
+				0 46px 60px -6px rgba(0, 0, 0, 0.2);
+
+	/* FONTS */
+	--font-primary: "", sans-serif;
+	--font-secondary: "", sans-serif;
+	--text-base-size: 1rem;
+	--text-scale: 1.2;
+	--text-xs: calc((var(--text-base-size) / var(--text-scale)) / var(--text-scale));
+	--text-sm: calc(var(--text-xs) * var(--text-scale));
+	--text-md: calc(var(--text-sm) * var(--text-scale) * var(--text-scale));
+	--text-lg: calc(var(--text-md) * var(--text-scale));
+	--text-xl: calc(var(--text-lg) * var(--text-scale));
+	--text-2xl: calc(var(--text-xl) * var(--text-scale));
+	--text-3xl: calc(var(--text-xxl) * var(--text-scale));
+
+	/* SPACING */
+	--spacing: 1em;
+	--space-xxxxs: calc(0.125 * var(--spacing));
+	--space-xxxs:  calc(0.25 * var(--spacing));
+	--space-xxs:   calc(0.375 * var(--spacing));
+	--space-xs:    calc(0.5 * var(--spacing));
+	--space-sm:    calc(0.75 * var(--spacing));
+	--space-md:    calc(1.25 * var(--spacing));
+	--space-lg:    calc(2 * var(--spacing));
+	--space-xl:    calc(3.25 * var(--spacing));
+	--space-xxl:   calc(5.25 * var(--spacing));
+	--space-xxxl:  calc(8.5 * var(--spacing));
+	--space-xxxxl: calc(13.75 * var(--spacing));
+
+	/* TRANSITIONS */
+	--trans-scale: 500ms;
+	--trans-brief: calc(1 * var(--trans-scale));
+	--trans-short: calc(2 * var(--trans-scale));
+	--trans-medium: calc(6 * var(--trans-scale));
+	--trans-long: calc(10 * var(--trans-scale));
+
+	/* ANIMATIONS */
+	--anim-duration: 500ms;
+	--anim-timing: ease-in-out;
+	--anim-delay: 0s;
+	--anim-iteration: 1;
+	--anim-direction: normal;
+	--anim-fill: forwards;
+	--anim-play-state: paused;
+}
+
+
+/* CUSTOM STYLES */
+/* General */
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-primary);
+}
+
+body {
+	font-family: var(--font-secondary);
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: var(--breakpoint-sm)) {
+	:root {
+		--text-base-size: 1.125rem; /* 18px */
+		--text-scale: 1.25;
+	}
+}
+
+@media (min-width: var(--breakpoint-md)) { ... }
+
+@media (min-width: var(--breakpoint-lg)) { ... }
+
+@media (min-width: var(--breakpoint-xl)) { ... }

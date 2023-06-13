@@ -1,0 +1,26 @@
+/*
+Section: Auto Flex
+- Components must have height and width
+*/
+
+import * as Hydro from "../hydrogen/hydrogen.js";
+
+const template = Hydro.html`
+	<!-- START OF PAGE SPECIFIC CONTENT -->
+	<section class="section-main position-relative | height-70vh bg-dark">
+		<div class="section-wrapper position-absolute | flex flex-wrap content-center items-center gap-1 height-100 width-100">
+			<!-- EXAMPLE CARD w/ a height -->
+			<div class="card-main | flex-grow_1 height-40vh width-30vw bg-light">
+				<p>Content</p>
+			</div>
+			<div class="card-main | flex-grow_1 height-40vh width-30vw bg-light">
+				<p>Content</p>
+			</div>
+			<div class="card-main | flex-grow_1 height-40vh width-30vw bg-light">
+				<p>Content</p>
+			</div>
+		</div>
+	</section>
+`;
+
+Hydro.render(template, 'body', 'clean');
