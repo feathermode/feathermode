@@ -1,0 +1,118 @@
+/* Pointer Events */
+.pointer_events-none {
+	pointer-events: none;
+}
+
+.pointer_events-auto {
+	pointer-events: auto;
+}
+
+
+/* Cursor */
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.cursor-default {
+	cursor: default;
+}
+
+/* Resize */
+.resize {
+	resize: both;
+}
+
+.resize-y {
+	resize: vertical;
+}
+
+.resize-x {
+	resize: horizontal;
+}
+
+.resize-none {
+	resize: none;
+}
+
+/* Scrolling */
+.snap-x {
+	scroll-snap-type: x var(--scroll-strictness);
+}
+
+.snap-y {
+	scroll-snap-type: y var(--scroll-strictness);
+}
+
+.snap-both {
+	scroll-snap-type: both var(--scroll-strictness);
+}
+
+.snap-mandatory {
+	--scroll-strictness: mandatory;
+}
+
+.snap-proximity {
+	--scroll-strictness: proximity;
+}
+
+.snap-none {
+	scroll-snap-align: none;
+}
+
+.snap-start {
+	scroll-snap-align: start;
+}
+
+.snap-center {
+	scroll-snap-align: center;
+}
+
+.snap-end {
+	scroll-snap-align: end;
+}
+
+.snap-always {
+	scroll-snap-stop: always;
+}
+
+.snap-normal {
+	scroll-snap-stop: normal;
+}
+
+.scroll-padding-none {
+	scroll-padding: none;
+}
+
+.scroll-padding-1 {
+	scroll-padding: 1rem;
+}
+
+.scroll-padding-2 {
+	scroll-padding: 2rem;
+}
+
+/* Touch Actions */
+.touch-auto {
+	touch-action: auto;
+}
+
+.touch-x {
+	touch-action: pan-x;
+}
+
+.touch-y {
+	touch-action: pan-y;
+}
+
+.touch-zoom {
+	touch-action: pinch-zoom;
+}
+
+/* Select */
+.select-none {
+	user-select: none;
+}
+
+.select-text {
+	user-select: text;
+}

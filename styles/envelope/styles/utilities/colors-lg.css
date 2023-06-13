@@ -1,0 +1,139 @@
+@media (min-width: 1200px) {
+	/* Backgrounds */
+	.lg-bg-dark {
+		background-color: var(--color-dark);
+	}
+	
+	.lg-bg-light {
+		background-color: var(--color-light);
+	}
+	
+	.lg-bg-gray {
+		background-color: var(--color-gray);
+	}
+	
+	.lg-bg-primary {
+		background-color: var(--color-primary);
+	}
+	
+	.lg-bg-secondary {
+		background-color: var(--color-secondary);
+	}
+	
+	.lg-bg-tertiary {
+		background-color: var(--color-tertiary);
+	}
+	
+	.lg-bg-quaternary {
+		background-color: var(--color-quaternary);
+	}
+	
+	.lg-bg-transparent {
+		background-color: transparent;
+	}
+	
+	.lg-bg-0 {
+		opacity: 0;
+	}
+	
+	.lg-bg-success {
+		background-color: var(--color-success);
+	}
+	
+	.lg-bg-warning {
+		background-color: var(--color-warning);
+	}
+	
+	.lg-bg-error {
+		background-color: var(--color-error);
+	}
+	
+	.lg-bg-accent {
+		background-color: var(--color-accent);
+	}
+	
+	.lg-bg-notify {
+		background-color: var(--color-notification);
+	}
+	
+	
+	/* Colors */
+	.lg-color-dark {
+		color: var(--color-dark);
+	}
+	
+	.lg-color-light {
+		color: var(--color-light);
+	}
+	
+	.lg-color-primary {
+		color: var(--color-primary);
+	}
+	
+	.lg-color-secondary {
+		color: var(--color-secondary);
+	}
+	
+	.lg-color-tertiary {
+		color: var(--color-tertiary);
+	}
+	
+	.lg-color-transparent {
+		color: transparent;
+	}
+	
+	.lg-color-success {
+		color: var(--color-success);
+	}
+	
+	.lg-color-warning {
+		color: var(--color-warning);
+	}
+	
+	.lg-color-error {
+		color: var(--color-error);
+	}
+	
+	.lg-color-accent {
+		color: var(--color-accent);
+	}
+	
+	.lg-color-notify {
+		color: var(--color-notification);
+	}
+	
+	
+	/* Fills (for svgs) */
+	.lg-fill-dark {
+		fill: var(--color-dark);
+	}
+	
+	.lg-fill-light {
+		fill: var(--color-light);
+	}
+	
+	.lg-fill-primary {
+		fill: var(--color-primary);
+	}
+
+	/* Accents */
+	.lg-accent-dark {
+		accent-color: var(--color-dark);
+	}
+
+	.lg-accent-light {
+		accent-color: var(--color-light);
+	}
+
+	.lg-accent-primary {
+		accent-color: var(--color-primary);
+	}
+
+	.lg-accent-secondary {
+		accent-color: var(--color-secondary);
+	}
+
+	.lg-accent-tertiary {
+		accent-color: var(--color-tertiary);
+	}
+}

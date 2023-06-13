@@ -1,0 +1,182 @@
+.transition {
+	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+	transition-timing-function: ease-in-out;
+	transition-duration: var(--trans-brief);
+}
+
+.transition-all {
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: var(--trans-brief);
+}
+
+/* Properties */
+.transition-colors {
+	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+}
+
+.transition-opacity {
+	transition-property: opacity;
+}
+
+.transition-shadow {
+	transition-property: box-shadow;
+}
+
+/* Duration */
+.duration-brief {
+	transition-duration: var(--trans-brief);
+}
+
+.duration-short {
+	transition-duration: var(--trans-short);
+}
+
+.duration-medium {
+	transition-duration: var(--trans-medium);
+}
+
+.duration-long {
+	transition-duration: var(--trans-long);
+}
+
+/* Timing */
+.timing-ease {
+	transition-timing-function: ease;
+}
+
+.timing-in {
+	transition-timing-function: ease-in;
+}
+
+.timing-out {
+	transition-timing-function: ease-out;
+}
+
+.timing-in-out {
+	transition-timing-function: ease-in-out;
+}
+
+.timing-linear {
+	transition-timing-function: linear;
+}
+
+.timing-step-start {
+	transition-timing-function: step-start;
+}
+
+.timing-step-end {
+	transition-timing-function: step-end;
+}
+
+/* Delay */
+.delay-brief {
+	transition-delay: var(--trans-brief);
+}
+
+.delay-short {
+	transition-delay: var(--trans-short);
+}
+
+.delay-medium {
+	transition-delay: var(--trans-medium);
+}
+
+.delay-long {
+	transition-delay: var(--trans-long);
+}
+
+/* Scale */
+.scale-down {
+	transform: scale(0.5);
+}
+
+.scale-none {
+	transform: scale(0);
+}
+
+.scale-up {
+	transform: scale(1.5);
+}
+
+.scale-double {
+	transform: scale(2);
+}
+
+/* Rotate */
+.rotate-15 {
+	transform: rotate(15deg);
+}
+
+.rotate-45 {
+	transform: rotate(45deg);
+}
+
+.rotate-90 {
+	transform: rotate(90deg);
+}
+
+.rotate-180 {
+	transform: rotate(180deg);
+}
+
+.rotate-270 {
+	transform: rotate(270deg);
+}
+
+.rotate-360 {
+	transform: rotate(360deg);
+}
+
+/* Translate */
+.translate-x-0 {
+	transform: translateX(0);
+}
+
+.translate-x-10 {
+	transform: translateX(10px);
+}
+
+.translate-x-30 {
+	transform: translateX(30px);
+}
+
+.translate-x-50 {
+	transform: translateX(50px);
+}
+
+.translate-x-quarter {
+	transform: translateX(25%);
+}
+
+.translate-x-half {
+	transform: translateX(50%);
+}
+
+.translate-x-full {
+	transform: translateX(100%);
+}
+
+.translate-y-10 {
+	transform: translateY(10px);
+}
+
+.translate-y-30 {
+	transform: translateY(30px);
+}
+
+.translate-y-50 {
+	transform: translateY(50px);
+}
+
+.translate-y-quarter {
+	transform: translateY(25%);
+}
+
+.translate-y-half {
+	transform: translateY(50%);
+}
+
+.translate-y-full {
+	transform: translateY(100%);
+}

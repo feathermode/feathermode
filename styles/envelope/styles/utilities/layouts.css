@@ -1,0 +1,57 @@
+.flow-top > * + * {
+	margin-bottom: var(--flow-space), 1rem;
+}
+
+.flow-bottom > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+/* Overflows */
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-x-hidden {
+	overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+	overflow-y: hidden;
+}
+
+.overflow-scroll {
+	overflow: scroll;
+}
+
+.overflow-x-scroll {
+	overflow-x: scroll;
+}
+
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
+
+.overflow-auto {
+	overflow: auto;
+}
+
+.momentum-scrolling {
+	-webkit-overflow-scrolling: touch;
+}
+
+.overscroll-contain {
+	overscroll-behavior: contain;
+}
+
+/* Aspect Ratios */
+.aspect-auto {
+	aspect-ratio: auto;
+}
+
+.aspect-square {
+	aspect-ratio: 1 / 1;
+}
+
+.aspect-video {
+	aspect-ratio: 16 / 9;
+}

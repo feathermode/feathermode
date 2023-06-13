@@ -1,0 +1,207 @@
+/* Box Shadows */
+.shadow-xs {
+	box-shadow: var(--shadow-xs);
+}
+
+.shadow-sm {
+	box-shadow: var(--shadow-sm);
+}
+
+.shadow-md {
+	box-shadow: var(--shadow-md);
+}
+
+.shadow-lg {
+	box-shadow: var(--shadow-lg);
+}
+
+.shadow-xl {
+	box-shadow: var(--shadow-xl);
+}
+
+.shadow-inner {
+	box-shadow: inset 0 3.5px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-none {
+	box-shadow: none;
+}
+
+/* Opacity */
+.opacity-none {
+	opacity: 0;
+}
+
+.opacity-5 {
+	opacity: 0.05;
+}
+
+.opacity-10 {
+	opacity: 0.1;
+}
+
+.opacity-20 {
+	opacity: 0.2;
+}
+
+.opacity-30 {
+	opacity: 0.3;
+}
+
+.opacity-40 {
+	opacity: 0.4;
+}
+
+.opacity-50 {
+	opacity: 0.5;
+}
+
+.opacity-60 {
+	opacity: 0.6;
+}
+
+.opacity-70 {
+	opacity: 0.7;
+}
+
+.opacity-80 {
+	opacity: 0.8;
+}
+
+.opacity-90 {
+	opacity: 0.9;
+}
+
+.opacity-full {
+	opacity: 1;
+}
+
+/* Blend Modes */
+.blend-normal {
+	mix-blend-mode: normal;
+}
+
+.blend-multiply {
+	mix-blend-mode: multiply;
+}
+
+.blend-screen {
+	mix-blend-mode: screen;
+}
+
+.blend-overlay {
+	mix-blend-mode: overlay;
+}
+
+.blend-darken {
+	mix-blend-mode: darken;
+}
+
+.blend-lighten {
+	mix-blend-mode: lighten;
+}
+
+.blend-dodge {
+	mix-blend-mode: color-dodge;
+}
+
+.blend-burn {
+	mix-blend-mode: color-burn;
+}
+
+.blend-hard {
+	mix-blend-mode: hard-light;
+}
+
+.blend-soft {
+	mix-blend-mode: soft-light;
+}
+
+.blend-difference {
+	mix-blend-mode: difference;
+}
+
+.blend-exclusion {
+	mix-blend-mode: exclusion;
+}
+
+.blend-hue {
+	mix-blend-mode: hue;
+}
+
+.blend-saturation {
+	mix-blend-mode: saturation;
+}
+
+.blend-color {
+	mix-blend-mode: color;
+}
+
+.blend-luminosity {
+	mix-blend-mode: luminosity;
+}
+
+.bg-blend-normal {
+	background-blend-mode: normal;
+}
+
+.bg-blend-multiply {
+	background-blend-mode: multiply;
+}
+
+.bg-blend-screen {
+	background-blend-mode: screen;
+}
+
+.bg-blend-overlay {
+	background-blend-mode: overlay;
+}
+
+.bg-blend-darken {
+	background-blend-mode: darken;
+}
+
+.bg-blend-lighten {
+	background-blend-mode: lighten;
+}
+
+.bg-blend-dodge {
+	background-blend-mode: color-dodge;
+}
+
+.bg-blend-burn {
+	background-blend-mode: color-burn;
+}
+
+.bg-blend-hard {
+	background-blend-mode: hard-light;
+}
+
+.bg-blend-soft {
+	background-blend-mode: soft-light;
+}
+
+.bg-blend-difference {
+	background-blend-mode: difference;
+}
+
+.bg-blend-exclusion {
+	background-blend-mode: exclusion;
+}
+
+.bg-blend-hue {
+	background-blend-mode: hue;
+}
+
+.bg-blend-saturation {
+	background-blend-mode: saturation;
+}
+
+.bg-blend-color {
+	background-blend-mode: color;
+}
+
+.bg-blend-luminosity {
+	background-blend-mode: luminosity;
+}
+
