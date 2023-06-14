@@ -3,7 +3,8 @@ import {Gondola} from "./gondola/mod.js";
 Gondola({
 	userSettings: {
 		"pass": [
-			"styles"
+			"styles",
+			"assets"
 		]
 	}
 }).build();

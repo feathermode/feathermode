@@ -22,7 +22,7 @@ export default function head() {
 			<link rel="icon" href="/assets/fm_icon-bird.svg" />
 			
 			<!-- CSS STYLESHEETS -->
-			<link rel="stylesheet" href="/main.css"/>
+			<link rel="stylesheet" href="styles/envelope/styles/main.css"/>
 			
 			<!-- ANALYTICS -->
 			<script src="https://cdn.usefathom.com/script.js" data-site="MJCILIZC" defer></script>
