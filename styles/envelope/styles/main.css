@@ -2,7 +2,6 @@
 @import url("purity.css"); /* RESET for uniformity */
 @import url("structures.css"); /* STRUCTURES */
 @import url("utilities/utilities.css"); /* ATOMIC Styles */
-@import url("blocks.css"); /* UNIQUE components */
 @import url("modifications.css"); /* DATA driven classes */
 
 
