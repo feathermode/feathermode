@@ -4,7 +4,8 @@ Gondola({
 	userSettings: {
 		"pass": [
 			"styles",
-			"assets"
+			"assets",
+			"fonts"
 		]
 	}
 }).build();

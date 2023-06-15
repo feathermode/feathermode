@@ -7,8 +7,10 @@ export function Gondola({userData, userSettings} = {}) {
 	function _getSettings() {
 		const defaultSettings = {
 			starter: "blueprint.json",
-			output: "public"
+			output: "_site"
 		};
+
+		userSettings.mode === "app" ? userSettings.output = "_app" : userSettings.mode = "default";
 
 		return { ...defaultSettings, ...userSettings}
 	}
