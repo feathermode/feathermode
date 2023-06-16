@@ -1,5 +1,6 @@
 export default function home(obj) {
 	return `
+		<!--
 		<section class="banner">
 			<img class="nav-logo" src="assets/fm_logo-white.svg" alt="feathermode"/>
 			<div class="card">
@@ -11,6 +12,23 @@ export default function home(obj) {
 				<p>Copyright 2023 | motuALIS, LLC | All Rights Reserved</p>
 			</footer>
 		</section>
+		-->
+
+		<!-- HERO -->
+
+		<!-- SERVICES -3  -->
+
+		<!-- RECENT WORKS -->
+
+		<!-- PROCESS -->
+
+		<!-- FORM LINK SECTION -->
+
+		<!-- FROM WWWINGED -->
+
+		<!-- FAQ -->
+
+		<!-- FORM -->
 
 	`;
 }
