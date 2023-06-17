@@ -5,14 +5,6 @@
 @import url("modifications.css"); /* DATA driven classes */
 
 
-/* --- FONT IMPORTS --- */
-
-/* @font-face {
-	src: url(fonts/Font-Bold.otf);
-	font-family: Font-Type;
-} */
-
-
 /* CONTROL CENTER */
 :root {
 	/* BREAKPOINTS */
@@ -68,8 +60,8 @@
 				0 46px 60px -6px rgba(0, 0, 0, 0.2);
 
 	/* FONTS */
-	--font-primary: "", sans-serif;
-	--font-secondary: "", sans-serif;
+	--font-primary: sans-serif;
+	--font-secondary: sans-serif;
 	--text-base-size: 1rem;
 	--text-scale: 1.2;
 	--text-xs: calc((var(--text-base-size) / var(--text-scale)) / var(--text-scale));
@@ -113,15 +105,6 @@
 
 
 /* CUSTOM STYLES */
-/* General */
-h1, h2, h3, h4, h5, h6 {
-	font-family: var(--font-primary);
-}
-
-body {
-	font-family: var(--font-secondary);
-}
-
 @font-face {
 	src: url("../fonts/Lato-Regular.ttf");
 	font-family: Lato-Regular;
@@ -138,11 +121,18 @@ body {
 	--font-secondary: "Lato-Bold", sans-serif;
 }
 
+/* General */
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-primary);
+}
+
+body {
+	font-family: var(--font-secondary);
+}
+
 html, body {
-	background: #131316;
-	color: #fff;
-	height: 100%;
-	margin: 0;
+	background: var(--color-dark);
+	color: var(--color-light);
 }
 
 .icon {
@@ -151,56 +141,13 @@ html, body {
 
 .nav-logo {
 	height: 24px;
-	margin-top: 2rem;
-}
-
-.banner {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 2rem;
 }
 
 .card {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	border: 4px #131316 solid;
-	padding: 2rem;
-	border-radius: 8px;
-	box-shadow: -5px -5px 22px #177EFE, 5px 5px 22px #70E5FF;
-	text-align: center;
-}
-
-/*.card p {
-	background: -webkit-linear-gradient(315deg, #177EFE, #70E5FF);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}*/
-
-.card-header {
-	font-family: var(--font-primary);
-	font-size: 42px;
-	font-weight: bold;
-	background: -webkit-linear-gradient(315deg, #177EFE, #70E5FF), linear-gradient(315deg, #177EFE, #70E5FF), #177EFE;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.gold-word {
-	text-shadow: 0px 0px 0px #FFD700;
-}
-
-.card-des {
-	font-family: var(--font-secondary);
-	font-size: 16px;
-	color: #242429;
-	/*background: -webkit-linear-gradient(315deg, #D5A224, #FFD700 95%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;*/
+	background: var(--color-light);
+	color: var(--color-dark);
+	padding: var(--space-md);
+	border-radius: var(--radius-md);
 }
 
 footer {
@@ -216,22 +163,6 @@ footer {
 	height: 14px;
 }
 
-@media (min-width: 900px) {
-	.nav-logo {
-		height: 28px;
-	}
-
-	.card-header {
-		font-size: 50px;
-	}
-
-	footer {
-		flex-direction: row;
-		gap: 1rem;
-		font-size: 12px;
-	}
-}
-
 
 /* MEDIA QUERIES */
 @media (min-width: var(--breakpoint-sm)) {
@@ -241,7 +172,17 @@ footer {
 	}
 }
 
-@media (min-width: var(--breakpoint-md)) { ... }
+@media (min-width: var(--breakpoint-md)) {
+	.nav-logo {
+		height: 28px;
+	}
+
+	footer {
+		flex-direction: row;
+		gap: 1rem;
+		font-size: 12px;
+	}
+}
 
 @media (min-width: var(--breakpoint-lg)) { ... }
 

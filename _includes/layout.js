@@ -1,4 +1,5 @@
 import head from './head.js';
+import navigation from './navigation.js';
 
 export default function layout(obj, global_data) {
 	return `
@@ -6,6 +7,7 @@ export default function layout(obj, global_data) {
 		<html lang="en">
 		${head()}
 		<body>
+			${navigation()}
 			${obj.inputs}
 		</body>
 		</html>
