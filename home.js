@@ -15,6 +15,9 @@ export default function home(obj) {
 		-->
 
 		<!-- HERO -->
+		<section>
+			<!-- <iframe src="https://app.vectary.com/p/7NxUVmbcUImjLSapgk009v" frameborder="0" width="100%" height="480"></iframe> -->
+		</section>
 
 		<!-- SERVICES -3  -->
 
