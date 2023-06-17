@@ -135,6 +135,16 @@ html, body {
 	color: var(--color-light);
 }
 
+label {
+	display: flex;
+	flex-direction: column;
+}
+
+textarea {
+	width: 100%;
+	resize: vertical;
+}
+
 .icon {
 	height: 30px;
 }
