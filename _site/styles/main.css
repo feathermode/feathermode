@@ -153,6 +153,10 @@ textarea {
 	height: 24px;
 }
 
+.card-icon {
+	height: 40px;
+}
+
 .card {
 	background: var(--color-light);
 	color: var(--color-dark);

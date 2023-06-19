@@ -10,7 +10,8 @@
 				"title" : "Home | Site Name",
 				"description" : "Description...",
 				"scripts": []
-			}
+			},
+			"home": "_data/home.json"
 		}
 	}
 ]
