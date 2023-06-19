@@ -19,13 +19,13 @@ export default function home(obj) {
 			<div class="wrapper">
 				<div class="card | flex flex-column width-100">
 					<h2>Our Services</h2>
-					<div class="flex gap-1 width-100">
-						<div class="grow-1">
+					<div class="services | flex gap-1 width-100">
+						<div class="stack gap-1">
 							<div class="flex gap-1">
 								<h3>Websites</h3>
 								<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
 							</div>
-							<div class="flex flex-column gap-1">
+							<div class="stack gap-1">
 								<p>We handle every aspect of the web creation process and fit into your environment, whether that be a team environment, a solo creator environment or a dynamic duo of savy go-getters.</p>
 								<ul class="list-inside">
 									<li>branding</li>
@@ -39,17 +39,17 @@ export default function home(obj) {
 							</div>
 								
 						</div>
-						<div class="grow-1">
+						<div class="stack gap-1">
 							<div class="flex gap-1">
 								<h3>Web Apps</h3>
-								<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
+								<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
 							</div>
 							<p>Web Apps are used predominantly by businesses who offer software as a service or who have a need to provide dynamic functionality that goes beyond your regular contact form. However, we’re pushing every web creator to start converting their websites into Installable Web Apps. These apps operate and function just like native apps that you’d download from the App Store or Play Store, however they can be downloaded right from your website and saved on the users device. Learn more about Installable Web Apps here.</p>
 						</div>
-						<div class="grow-1">
+						<div class="stack gap-1">
 							<div class="flex gap-1">
 								<h3>Content Marketing</h3>
-								<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
+								<img class="card-icon" src="/assets/fm_icon-content.svg" alt="website icon">
 							</div>
 							<p>Content is King. The content you provide your users is what they will use to determine the validity and trustworthiness of your platform. We can help you find your voice, provide content that for the launch of your new site that you can expand upon and enhance as you grow and help you establish a content marketing process along with the tools you'll need to communicate with your audience.</p>
 						</div>

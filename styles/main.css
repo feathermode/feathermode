@@ -154,7 +154,7 @@ textarea {
 }
 
 .card-icon {
-	height: 40px;
+	height: 60px;
 }
 
 .card {
@@ -162,6 +162,10 @@ textarea {
 	color: var(--color-dark);
 	padding: var(--space-md);
 	border-radius: var(--radius-md);
+}
+
+.services {
+	flex-basis: 0;
 }
 
 footer {
