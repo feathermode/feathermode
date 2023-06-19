@@ -4,7 +4,7 @@ export default function home(obj) {
 		<section>
 			<div class="wrapper">
 				<div class="flex">
-					<div class="card | flex flex-column gap-1">
+					<div class="card | flex flex-column gap-1 height-fit-content">
 						<h1>${obj.data.home.hero_heading}</h1>
 						<p>${obj.data.home.hero_des}</p>
 						<a href="#services">${obj.data.home.hero_cta}</a>
@@ -14,14 +14,14 @@ export default function home(obj) {
 			</div>
 		</section>
 
-		<!-- SERVICES -3  -->
+		<!-- SERVICES -->
 		<section id="services">
 			<div class="wrapper">
-				<div class="card | flex flex-column width-100">
+				<div class="card | flex flex-column gap-1 width-100">
 					<h2>Our Services</h2>
 					<div class="services | flex gap-1 width-100">
 						<div class="stack gap-1">
-							<div class="flex gap-1">
+							<div class="flex items-center gap-1">
 								<h3>Websites</h3>
 								<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
 							</div>
@@ -40,14 +40,14 @@ export default function home(obj) {
 								
 						</div>
 						<div class="stack gap-1">
-							<div class="flex gap-1">
+							<div class="flex items-center gap-1">
 								<h3>Web Apps</h3>
 								<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
 							</div>
 							<p>Web Apps are used predominantly by businesses who offer software as a service or who have a need to provide dynamic functionality that goes beyond your regular contact form. However, we’re pushing every web creator to start converting their websites into Installable Web Apps. These apps operate and function just like native apps that you’d download from the App Store or Play Store, however they can be downloaded right from your website and saved on the users device. Learn more about Installable Web Apps here.</p>
 						</div>
 						<div class="stack gap-1">
-							<div class="flex gap-1">
+							<div class="flex items-center gap-1">
 								<h3>Content Marketing</h3>
 								<img class="card-icon" src="/assets/fm_icon-content.svg" alt="website icon">
 							</div>
