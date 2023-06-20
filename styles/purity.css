@@ -65,7 +65,6 @@ ol, li, dl, dt, dd, form, a, fieldset, input, th, td {
 }
 
 a, li a, p a {
-	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
 }

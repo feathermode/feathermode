@@ -1,20 +1,23 @@
-export default function home(obj) {
+	export default function home(obj) {
 	return `
 		<!-- HERO -->
-		<section class="overflow-hidden" style="padding: 2rem 0 4rem 0;">
+		<section class="position-relative overflow-hidden">
 			<div class="wrapper flex content-center">
-				<div class="card | flex flex-column items-center gap-1 height-fit-content width-fit-content text-center">
+				<!-- <div class="card | flex flex-column items-center gap-1 height-fit-content width-fit-content text-center">
 					<h1>${obj.data.home.hero_heading}</h1>
 					<p>${obj.data.home.hero_des}</p>
 					<a class="button-alt" href="#services">${obj.data.home.hero_cta}</a>
-				</div>
+				</div> -->
+				<h1>${obj.data.home.hero_heading}</h1>
 			</div>
+			<img class="star" src="/assets/shooting_star.svg">
 			<img class="hero_clouds" src="/assets/clouds.svg" alt="">
 		</section>
 
 		<!-- SERVICES -->
 		<section id="services">
 			<div class="wrapper">
+				<p class="hook">${obj.data.home.hero_des}</p>
 				<div class="card | flex flex-column gap-1 width-100">
 					<h2>Our Services</h2>
 					<div class="services | flex gap-1 width-100">
@@ -57,7 +60,7 @@ export default function home(obj) {
 		</section>
 
 		<!-- RECENT WORKS -->
-		<section id="">
+		<section id="works">
 			<div class="wrapper">
 				<div class="card | flex flex-column | lg-flex-row gap-1">
 					<div class="stack gap-1">
@@ -110,14 +113,14 @@ export default function home(obj) {
 					</div>
 					<div class="card">
 						<h3>Deploy</h3>
-						<p>In the Deploy Phase, we'll </p>
+						<p>In the Deploy Phase, we'll hook your website or web app files up to our hosting platform and connect your domain name as well as any other external integrations your platform may need. Once everything is ready to fly, we'll make it live for the world to see.</p>
 					</div>
 					<div class="card">
 						<h3>Dedicate</h3>
-						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
+						<p>By hosting with us, you'll be provided with year-round site maintenance and security as well as privacy-friendly analytics. We only host and dedicate our services to websites and web apps that preserve user privacy and security. Your site is hosted on a platform with a global reach so you can communicate with your audience no matter where they live in the world.</p>
 					</div>
 				</div>
-				<p>Learn more about our 5D Web Creation Process <a href="">here.</a></p>
+				<!-- <p>Learn more about our 5D Web Creation Process <a href="">here.</a></p> -->
 			</div>
 		</section>
 
@@ -163,19 +166,22 @@ export default function home(obj) {
 			<div class="wrapper">
 				<div class="card width-100">
 					<h2> Start Your Next Digital Story with a Free Web Consultation</h2>
-					<form class="flex flex-column gap-1" action="">
-						<label for="name">
-							Name	
-							<input id="name" name="name" type="text" required>
-						</label>
-						<label for="name">
-							Company (optional)
-							<input id="company" name="company" type="text">
-						</label>
-						<label for="email">
-							Email	
-							<input id="email" name="email" type="email" required>
-						</label>
+					<form class="flex flex-column gap-1" action="">\
+						<div class="auto-grid">
+							<label for="name">
+								Name
+								<input id="name" name="name" type="text" required>
+							</label>
+							<label for="name">
+								Company (optional)
+								<input id="company" name="company" type="text">
+							</label>
+							<label for="email">
+								Email
+								<input id="email" name="email" type="email" required>
+							</label>
+						</div>
+
 						<label for="name">
 							What type of Platform or Service are you interested in?	
 							<select class="width-fit-content" name="service" id="service" required>
@@ -189,7 +195,7 @@ export default function home(obj) {
 							<input name="on-the-web" type="text" required>
 						</label>
 						<label for="project-details">
-							Tell us more about your future Web Platform
+							Tell us more about your future Web Platform.
 							<textarea name="project-details" id="project-details" cols="30" rows="10"></textarea required>
 						</label>
 						<button class="button-primary">Let it Fly!</button>
