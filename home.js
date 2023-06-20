@@ -1,13 +1,13 @@
 export default function home(obj) {
 	return `
 		<!-- HERO -->
-		<section>
+		<section style="padding-top: 2rem;">
 			<div class="wrapper">
 				<div class="flex">
 					<div class="card | flex flex-column gap-1 height-fit-content">
 						<h1>${obj.data.home.hero_heading}</h1>
 						<p>${obj.data.home.hero_des}</p>
-						<a href="#services">${obj.data.home.hero_cta}</a>
+						<a class="button-alt" href="#services">${obj.data.home.hero_cta}</a>
 					</div>
 					<iframe src="https://app.vectary.com/p/7NxUVmbcUImjLSapgk009v" frameborder="0" width="100%" height="480"></iframe>
 				</div>
@@ -61,16 +61,29 @@ export default function home(obj) {
 		<!-- RECENT WORKS -->
 		<section id="">
 			<div class="wrapper">
-				<div class="card | flex flex-column">
-					<h2>Case Study</h2>
-					<h3>Artist Retreats</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Eum, sunt.</p>
+				<div class="card | flex flex-column | lg-flex-row gap-1">
+					<div class="stack gap-1">
+						<h2>Case Study</h2>
+						<div>
+							<h3>Artist Retreats</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Eum, sunt.</p>
+						</div>
+					</div>
+				
+					<div class="test-image"></div>
 				</div>
 
-				<div class="card | flex flex-column">
-					<h2>Case Study</h2>
-					<h3>Artist Retreats</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Eum, sunt.</p>
+				<br/>
+				<div class="flex flex-column">
+					<h2>Recent Projects</h2>
+					<div class="auto-grid">
+						<div class="test-image"></div>
+						<div class="test-image"></div>
+						<div class="test-image"></div>
+						<div class="test-image"></div>
+						<div class="test-image"></div>
+						<div class="test-image"></div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -115,9 +128,9 @@ export default function home(obj) {
 		<!-- FORM LINK SECTION -->
 		<section>
 			<div class="wrapper">
-				<div class="card | flex items-center content-between width-100">
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eaque?</p>
-					<button>Sign Up For a Web Consultation</button>
+				<div class="form_cta | card | flex items-center content-between width-100">
+					<p>${obj.data.home.form_cta}</p>
+					<button class="button-primary">Sign Up For a Web Consultation</button>
 				</div>
 			</div>
 		</section>
@@ -167,7 +180,7 @@ export default function home(obj) {
 							Tell us more about your future Web Platform
 							<textarea name="project-details" id="project-details" cols="30" rows="10"></textarea required>
 						</label>
-						<button class="width-fit-content">Let it Fly!</button>
+						<button class="button-primary">Let it Fly!</button>
 					</form>
 				</div>
 			</div>
