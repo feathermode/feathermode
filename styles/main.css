@@ -176,7 +176,7 @@ textarea {
 	color: var(--color-primary);
 }
 
-.button-main, .button-alt, .button-primary {
+.button-main, .button-alt, .button-light, .button-primary {
 	border-radius: var(--radius-md);
 	padding: 0.5rem 1rem;
 	transition: 0.5s;
@@ -202,6 +202,17 @@ textarea {
 	color: var(--color-primary);
 }
 
+.button-light {
+	background: var(--color-light);
+	color: var(--color-dark);
+	border: 2px solid var(--color-light);
+}
+
+.button-light:hover, .button-light:focus {
+	background: var(--color-dark);
+	color: var(--color-light);
+}
+
 .button-primary {
 	background: var(--color-light);
 	color: var(--color-primary);
@@ -211,6 +222,13 @@ textarea {
 .button-primary:hover, .button-primary:focus {
 	background: var(--color-primary);
 	color: var(--color-light);
+}
+
+.hero_clouds {
+	width: 150%;
+	padding-top: 4rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .card-icon {
@@ -234,18 +252,40 @@ textarea {
 	aspect-ratio: 16 / 9;
 }
 
+.form_cta {
+	background: var(--color-primary);
+	color: var(--color-light);
+}
+
 section {
-	min-height: 80dvh;
+/*	min-height: 80dvh;*/
 	scroll-padding: 4rem;
+}
+
+section:not(:first-of-type) {
+	margin-top: 6rem;
+}
+
+details {
+	padding: 1.5rem 1rem;
+}
+
+details[open] {
+    color: var(--color-primary);
+}
+
+details[open] summary {
+	color: var(--color-dark);
+	text-decoration: underline;
 }
 
 footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 2rem;
 	font-size: 10px;
 	font-family: var(--font-secondary);
+	padding: 3rem 0;
 }
 
 .footer-icon {

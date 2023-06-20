@@ -45,17 +45,15 @@
 	
 			
 		<!-- HERO -->
-		<section style="padding-top: 2rem;">
-			<div class="wrapper">
-				<div class="flex">
-					<div class="card | flex flex-column gap-1 height-fit-content">
-						<h1>Web Platforms <br/>Made to Fly</h1>
-						<p>We create custom websites and web applications, small and large, from the ground up to fit each unique story.</p>
-						<a class="button-alt" href="#services">Learn About Our Services</a>
-					</div>
-					<iframe src="https://app.vectary.com/p/7NxUVmbcUImjLSapgk009v" frameborder="0" width="100%" height="480"></iframe>
+		<section class="overflow-hidden" style="padding: 2rem 0 4rem 0;">
+			<div class="wrapper flex content-center">
+				<div class="card | flex flex-column items-center gap-1 height-fit-content width-fit-content text-center">
+					<h1>Web Platforms <br/>Made to Fly</h1>
+					<p>We create custom websites and web applications, small and large, from the ground up to fit each unique story.</p>
+					<a class="button-alt" href="#services">Learn About Our Services</a>
 				</div>
 			</div>
+			<img class="hero_clouds" src="/assets/clouds.svg" alt="">
 		</section>
 
 		<!-- SERVICES -->
@@ -118,9 +116,11 @@
 				</div>
 
 				<br/>
+				<br>
+
 				<div class="flex flex-column">
 					<h2>Recent Projects</h2>
-					<div class="auto-grid">
+					<div class="auto-grid gap-1" data-min-size="30">
 						<div class="test-image"></div>
 						<div class="test-image"></div>
 						<div class="test-image"></div>
@@ -134,37 +134,33 @@
 
 		<!-- PROCESS -->
 		<section id="process">
-			<div class="wrapper">
+			<div class="wrapper | stack gap-1">
 				<div>
 					<h2>Our Process</h2>
 					<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Aliquam sequi, obcaecati repudiandae. Velit incidunt ut perspiciatis iste neque voluptates veniam.</p>
 				</div>
-			</div>
-
-			<div class="stream">
-				<div class="card">
-					<h3>Detail</h3>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
+				<div class="auto-grid gap-1" data-min-size="30">
+					<div class="card">
+						<h3>Detail</h3>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
+					</div>
+					<div class="card">
+						<h3>Design</h3>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
+					</div>
+					<div class="card">
+						<h3>Develop</h3>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
+					</div>
+					<div class="card">
+						<h3>Deploy</h3>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
+					</div>
+					<div class="card">
+						<h3>Dedicate</h3>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
+					</div>
 				</div>
-				<div class="card">
-					<h3>Design</h3>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
-				</div>
-				<div class="card">
-					<h3>Develop</h3>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
-				</div>
-				<div class="card">
-					<h3>Deploy</h3>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
-				</div>
-				<div class="card">
-					<h3>Dedicate</h3>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tempora?</p>
-				</div>
-			</div>
-
-			<div class="wrapper">	
 				<p>Learn more about our 5D Web Creation Process <a href="">here.</a></p>
 			</div>
 		</section>
@@ -174,7 +170,7 @@
 			<div class="wrapper">
 				<div class="form_cta | card | flex items-center content-between width-100">
 					<p>During a Free Web Consultation we'll walk you through the web creation process and if you have already have a website we'll provide you with tips to improve your website even if you decide not to partner with us.</p>
-					<button class="button-primary">Sign Up For a Web Consultation</button>
+					<a class="button-light" href="#sign-up">Sign Up For a Web Consultation</a>
 				</div>
 			</div>
 		</section>
@@ -186,6 +182,22 @@
 			<div class="wrapper">
 				<div class="card width-100">
 					<h2>FAQ</h2>
+					<details>
+						<summary>What web building platform do you use?</summary>
+						All of our websites and web apps are custom built. The structure is handcrafted, the styling is bespoke and the databases, content management systems and external integrations are all hardwired according to the particular project.
+					</details>
+					<details>
+						<summary>How much does it cost?</summary>
+						Every website and web app is different. We handle small portfolio sites for content creators as well as eCommerce stores for startups and solopreneurs. Since, each web platform requires different structural, styling and data needs each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by <a class="text-underline" href="#sign-up">signing up for a free web consultation with us</a>.
+					</details>
+					<details>
+						<summary>Why should my business or project take the form of a web app?</summary>
+						An installable web app allows you and your audience to have a more intimate relationship. If you run an online store, your audience can download your app to their phone and you can send them notifications when new products are released or when you have updated the company blog. If you're a content creator you can let your audience know when you've published new content. That's just the stratosphere of what is possible with a progressive web app. The bigger you dream the higher you'll fly!
+					</details>
+					<details>
+						<summary>How long will it take to put my web platform up on the World Wide Web?</summary>
+						It depends. A straightforward blogging website with no web app functionality usually will take 2-4 weeks from the web consultation to deployment. If a project has layers of complexity it will require us to meet more frequently to review design and development decisions.
+					</details>
 				</div>
 			</div>
 		</section>
