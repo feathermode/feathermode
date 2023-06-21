@@ -306,6 +306,46 @@ section:first-of-type h1, section:first-of-type span {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--color-dark)), url("/assets/noise.svg");
 }
 
+.case-study-thumbnail {
+	object-fit: cover;
+	border: 2px solid var(--color-primary);
+	border-radius: var(--radius-md);
+}
+
+.case-study {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	width: 100%;
+	min-height: 50dvh;
+	max-height: 100dvh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background: var(--color-light);
+	color: var(--color-dark);
+}
+
+.case-study-heading, .case-study-sub {
+	text-align: center;
+}
+
+.case-study-heading {
+	font-size: 40px;
+}
+
+.case-study-sub {
+	font-size: 30px;
+}
+
+.case-study-content {
+	width: 75ch;
+}
+
+.case-study-content * + * {
+	margin-top: 2rem;
+}
+
 details {
 	padding: 1.5rem 1rem;
 }

@@ -62,16 +62,19 @@
 		<!-- RECENT WORKS -->
 		<section id="work">
 			<div class="wrapper">
-				<div class="card | flex flex-column | lg-flex-row gap-1">
+				<div class="card | flex flex-column | lg-flex-row gap-2">
 					<div class="stack gap-1">
 						<h2>Case Study</h2>
-						<div>
-							<h3>Artist Retreats</h3>
-							<p>An eCommerce platform for artist workshops hosted in Sicily where art students browse and sign up for workshops using a custom storefront.</p>
+						<div class="stack gap-1">
+							<div>
+								<h3>Artist Retreats</h3>
+								<p>An eCommerce platform for artist workshops hosted in Sicily where art students browse and sign up for workshops using a custom storefront.</p>
+							</div>
+							<button class="case-study-button button-primary">Explore</button>
 						</div>
 					</div>
 				
-					<div class="test-image"></div>
+					<img class="case-study-thumbnail width-70" src="/assets/ar_thumb.png" alt="thumbnail of homepage for Artist Retreats">
 				</div>
 
 				<br/>
@@ -86,6 +89,26 @@
 						<div class="test-image"></div>
 						<div class="test-image"></div>
 						<div class="test-image"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="case-study | position-relative stack items-center">
+				<nav class="flex content-between items-center width-100 bg-light padding-md position-sticky top-0 left-0 z-1000">
+					<p>feathermode</p>
+					<button class="bg-light border-none cursor-pointer">&#10006;</button>
+				</nav>
+				<div class="wrapper stack items-center">
+					<p class="case-study-heading">Artist Retreats</p>
+					<p class="case-study-sub">Online Booking Platform for a Variety of Artist Workshops Hosted in Sicily, Italy.</p>
+					<div class="case-study-content">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptas libero ratione pariatur, reprehenderit impedit accusamus molestiae possimus nemo amet animi placeat quibusdam mollitia. Pariatur similique quibusdam nulla tempore reiciendis!</p>
+						<div class="test-image"></div>
+
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptas libero ratione pariatur, reprehenderit impedit accusamus molestiae possimus nemo amet animi placeat quibusdam mollitia. Pariatur similique quibusdam nulla tempore reiciendis!</p>
+						<div class="test-image"></div>
+
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptas libero ratione pariatur, reprehenderit impedit accusamus molestiae possimus nemo amet animi placeat quibusdam mollitia. Pariatur similique quibusdam nulla tempore reiciendis!</p>
 					</div>
 				</div>
 			</div>
