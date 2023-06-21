@@ -60,7 +60,7 @@
 		</section>
 
 		<!-- RECENT WORKS -->
-		<section id="works">
+		<section id="work">
 			<div class="wrapper">
 				<div class="card | flex flex-column | lg-flex-row gap-1">
 					<div class="stack gap-1">
@@ -100,23 +100,23 @@
 				</div>
 				<div class="auto-grid gap-1" data-min-size="30">
 					<div class="card">
-						<h3>Detail</h3>
+						<h3>1. Detail</h3>
 						<p>In the Detail phase, we establish a project brief by going through a in-depth 1-1 session to figure out what content we have to work with, what content will be needed to launch the site and what the scope of the project is. We'll use the information to create the most appropriate design and infrastructure for your platform</p>
 					</div>
 					<div class="card">
-						<h3>Design</h3>
+						<h3>2. Design</h3>
 						<p>In the Design Phase, we'll create a home page that is a mix off of your style preferences and our decisions on the structural necessities for your website or app. Once we confirm the home page we can use the resulting design system to create subsequent pages. We'll review asynchronously throughout the phase and come together at key points.</p>
 					</div>
 					<div class="card">
-						<h3>Develop</h3>
+						<h3>3. Develop</h3>
 						<p>In the Develop Phase, we'll take the green lit designs and hand code the website in a way that is adaptable to any screen, accessible, featherweight and performant. You'll be able to test the website or web app for interactivity and responsiveness.</p>
 					</div>
 					<div class="card">
-						<h3>Deploy</h3>
+						<h3>4. Deploy</h3>
 						<p>In the Deploy Phase, we'll hook your website or web app files up to our hosting platform and connect your domain name as well as any other external integrations your platform may need. Once everything is ready to fly, we'll make it live for the world to see.</p>
 					</div>
 					<div class="card">
-						<h3>Dedicate</h3>
+						<h3>5. Dedicate</h3>
 						<p>By hosting with us, you'll be provided with year-round site maintenance and security as well as privacy-friendly analytics. We only host and dedicate our services to websites and web apps that preserve user privacy and security. Your site is hosted on a platform with a global reach so you can communicate with your audience no matter where they live in the world.</p>
 					</div>
 				</div>
@@ -172,7 +172,7 @@
 								Name
 								<input id="name" name="name" type="text" required>
 							</label>
-							<label for="name">
+							<label for="company">
 								Company (optional)
 								<input id="company" name="company" type="text">
 							</label>
@@ -182,7 +182,7 @@
 							</label>
 						</div>
 
-						<label for="name">
+						<label for="service">
 							What type of Platform or Service are you interested in?	
 							<select class="width-fit-content" name="service" id="service" required>
 								<option value="websites">Website</option>
