@@ -7,7 +7,7 @@ export default function navigation() {
 				<li><a href="#work">Work</a></li>
 				<li><a href="#process">Process</a></li>
 				<li><a href="#faq">FAQ</a></li>
-				<li><a href="">Blog</a></li>
+				<li><a href="https://wwwinged.com">Blog</a></li>
 			</ul>
 			<a class="button-main" href="#sign-up">Free Web Consultation</a>
 		</nav>
