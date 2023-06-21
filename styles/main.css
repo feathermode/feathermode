@@ -307,6 +307,10 @@ section:first-of-type .star {
 .form_cta {
 	background: var(--color-primary);
 	color: var(--color-light);
+	background-image: url("/assets/feather-icon.svg");
+	background-repeat: repeat;
+	background-size: 35px;
+	background-blend-mode: color-burn;
 }
 
 section {
@@ -347,6 +351,14 @@ section:first-of-type h1, section:first-of-type span {
 
 #work {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--color-dark)), url("/assets/noise.svg");
+}
+
+.case-study-card {
+	background: var(--color-light);
+	color: var(--color-dark);
+	background-image: url("/assets/feather-icon.svg");
+	background-repeat: repeat;
+	background-size: 35px;
 }
 
 .case-study-thumbnail {

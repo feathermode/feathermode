@@ -62,7 +62,7 @@
 		<!-- RECENT WORKS -->
 		<section id="work">
 			<div class="wrapper">
-				<div class="card | flex flex-column | lg-flex-row gap-2">
+				<div class="case-study-card card | flex flex-column | lg-flex-row gap-2">
 					<div class="stack gap-1">
 						<h2>Case Study</h2>
 						<div class="stack gap-1">
