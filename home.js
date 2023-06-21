@@ -93,10 +93,10 @@
 				</div>
 			</div>
 
-			<div class="case-study | position-relative stack items-center">
+			<div class="case-study | position-relative none">
 				<nav class="flex content-between items-center width-100 bg-light padding-md position-sticky top-0 left-0 z-1000">
 					<p>feathermode</p>
-					<button class="bg-light border-none cursor-pointer">&#10006;</button>
+					<button class="case-study-close | bg-light border-none cursor-pointer">&#10006;</button>
 				</nav>
 				<div class="wrapper stack items-center">
 					<p class="case-study-heading">Artist Retreats</p>
