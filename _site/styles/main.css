@@ -347,6 +347,10 @@ section:first-of-type h1, section:first-of-type span {
 	margin-top: 2rem;
 }
 
+.work-thumbnail {
+	border-radius: var(--radius-md);
+}
+
 details {
 	padding: 1.5rem 1rem;
 }

@@ -74,7 +74,7 @@
 						</div>
 					</div>
 				
-					<img class="case-study-thumbnail width-70" src="/assets/ar_thumb.png" alt="thumbnail of homepage for Artist Retreats">
+					<img class="case-study-thumbnail width-70" src="/assets/case-thumb.png" alt="thumbnail of homepage for Artist Retreats">
 				</div>
 
 				<br/>
@@ -83,12 +83,12 @@
 				<div class="flex flex-column">
 					<h2>Recent Projects</h2>
 					<div class="auto-grid gap-1" data-min-size="30">
-						<div class="test-image"></div>
-						<div class="test-image"></div>
-						<div class="test-image"></div>
-						<div class="test-image"></div>
-						<div class="test-image"></div>
-						<div class="test-image"></div>
+						<img class="work-thumbnail" src="/assets/work-1.jpg" alt="thumbnail of recent work">
+						<img class="work-thumbnail" src="/assets/work-2.jpg" alt="thumbnail of recent work">
+						<img class="work-thumbnail" src="/assets/work-3.jpg" alt="thumbnail of recent work">
+						<img class="work-thumbnail" src="/assets/work-4.jpg" alt="thumbnail of recent work">
+						<img class="work-thumbnail" src="/assets/work-1.jpg" alt="thumbnail of recent work">
+						<img class="work-thumbnail" src="/assets/work-6.png" alt="thumbnail of recent work">
 					</div>
 				</div>
 			</div>
