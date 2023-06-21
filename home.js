@@ -195,7 +195,7 @@
 			<div class="wrapper">
 				<div class="card width-100">
 					<h2> Start Your Next Digital Story with a Free Web Consultation</h2>
-					<form class="flex flex-column gap-1" action="">\
+					<form netlify class="flex flex-column gap-1" name="web-consultation">\
 						<div class="auto-grid">
 							<label for="name">
 								Name
