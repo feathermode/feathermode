@@ -1,0 +1,418 @@
+/* Animation Utility Classes */
+.animate-area {}
+
+.animate-trigger {}
+
+.animate {
+	animation: var(--anim-name) var(--anim-duration) var(--anim-timing) var(--anim-delay) var(--anim-iteration) var(--anim-direction) var(--anim-fill) var(--anim-play-state);
+}
+
+.anim-500ms {
+	--anim-duration: 500ms;
+}
+
+.anim-1s {
+	--anim-duration: 1s;
+}
+
+.anim-1500ms {
+	--anim-duration: 1500ms;
+}
+
+.anim-2s {
+	--anim-duration: 2s;
+}
+
+.anim-ease {
+	--anim-timing: ease;
+}
+
+.anim-ease-in {
+	--anim-timing: ease-in;
+}
+
+.anim-ease-out {
+	--anim-timing: ease-out;
+}
+
+.anim-ease-io {
+	--anim-timing: ease-in-out;
+}
+
+.anim-linear {
+	--anim-timing: linear;
+}
+
+.anim-ss {
+	--anim-timing: step-start;
+}
+
+.anim-se {
+	--anim-timing: step-end;
+}
+
+.anim-once {
+	--anim-iteration: 1;
+}
+
+.anim-infinite {
+	--anim-iteration: infinite;
+}
+
+.anim-forwards {
+	--anim-fill: forwards;
+}
+
+.anim-backwards {
+	--anim-fill: backwards;
+}
+
+.anim-paused {
+	--anim-play-state: paused;
+}
+
+.anim-running {
+	--anim-play-state: running;
+}
+
+
+/* Core Attention Animations  */
+/* BOUNCE */
+@keyframes bounce {
+	from,
+	20%,
+	53%,
+	to {
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		transform: translate3d(0, 0, 0);
+	}
+
+	40%,
+	43% {
+		animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+		transform: translate3d(0, -30px, 0) scaleY(1.1);
+	}
+
+	70% {
+		animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+		transform: translate3d(0, -15px, 0) scaleY(1.05);
+	}
+
+	80% {
+		transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		transform: translate3d(0, 0, 0) scaleY(0.95);
+	}
+
+	90% {
+		transform: translate3d(0, -4px, 0) scaleY(1.02);
+	}
+}
+
+.bounce {
+	--anim-name: bounce;
+	transform-origin: center bottom;
+}
+
+/* SWELL */
+@keyframes swell {
+	from,
+	to
+	{
+		transform: scale3d(1, 1, 1);
+	}
+	
+	50% {
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+}
+
+.swell {
+	--anim-name: swell;
+	--anim-timing: var(--curve, cubic-bezier(0.2, 2, 0.8, 2.0));
+}
+
+/* BEAT */
+@keyframes beat {
+	0%,
+	28%,
+	70%
+	{
+		transform: scale(1);
+	}
+	
+	14%,
+	42%
+	{
+		transform: scale(1.1);
+	}
+}
+
+.beat {
+	--anim-name: beat;
+	--anim-timing: ease-in-out;
+}
+
+/* SPIN */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+	--anim-name: spin;
+	--anim-timing: linear;
+	--anim-iteration: infinite;
+}
+
+/* PING */
+@keyframes signal {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.signal {
+	--anim-name: signal;
+	--anim-timing: cubic-bezier(0, 0, 0.2, 1);
+	--anim-iteration: infinite;
+}
+
+/* PULSE */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.pulse {
+	--anim-name: pulse;
+	--anim-timing: cubic-bezier(0.4, 0, 0.6, 1);
+	--anim-iteration: infinite;
+}
+
+/* Fade Animations */
+/* FADE IN */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	--anim-name: fadeIn;
+}
+
+/* FADE IN DOWN */
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -10%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.fade-in-down {
+	--anim-name: fadeInDown;
+}
+
+/* FADE IN UP */
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 10%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.fade-in-up {
+	--anim-name: fadeInUp;
+}
+
+/* FADE OUT */
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.fade-out {
+	--anim-name: fadeOut;
+}
+
+/* FADE OUT DOWN */
+@keyframes fadeOutDown {
+	from {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(0, 10%, 0);
+	}
+}
+
+.fade-out-down {
+	--anim-name: fadeOutDown;
+}
+
+/* FADE OUT UP */
+@keyframes fadeOutUp {
+	from {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(0, -10%, 0);
+	}
+}
+
+.fade-out-up {
+	--anim-name: fadeOutUp;
+}
+
+/* SLIDE OUT LEFT */
+@keyframes slideOutLeft {
+	0% {
+		transform: translate(0%);
+	}
+
+	100% {
+		transform: translate(-10%);
+	}
+}
+
+.slide-out-l {
+	--anim-name: slideOutLeft;
+}
+
+/* SLIDE OUT LEFT */
+@keyframes slideOutRight {
+	0% {
+		transform: translate(0%);
+	}
+
+	100% {
+		transform: translate(10%);
+	}
+}
+
+.slide-out-r {
+	--anim-name: slideOutRight;
+}
+
+/* SLIDE OUT TOP */
+@keyframes slideOutTop {
+	0% {
+		transform: translateY(0%);
+	}
+
+	100% {
+		transform: translateY(-10%);
+	}
+}
+
+.slide-out-t {
+	--anim-name: slideOutTop;
+}
+
+/* SLIDE OUT BOTTOM */
+@keyframes slideOutBottom {
+	0% {
+		transform: translateY(0%);
+	}
+
+	100% {
+		transform: translateY(10%);
+	}
+}
+
+.slide-out-b {
+	--anim-name: slideOutBottom;
+}
+
+/* SLIDE IN LEFT */
+@keyframes slideInRight {
+	0% {
+		transform: translate(-10%);
+	}
+
+	100% {
+		transform: translate(0%);
+	}
+}
+
+.slide-in-r {
+	--anim-name: slideInRight;
+}
+
+/* SLIDE IN RIGHT */
+@keyframes slideInLeft {
+	0% {
+		transform: translate(10%);
+	}
+
+	100% {
+		transform: translate(0%);
+	}
+}
+
+.slide-in-l {
+	--anim-name: slideInLeft;
+}
+
+/* SLIDE IN DOWN */
+@keyframes slideInDown {
+	0% {
+		transform: translateY(-10%);
+	}
+
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.slide-in-down {
+	--anim-name: slideInDown;
+}
+
+/* SLIDE IN UP */
+@keyframes slideInUp {
+	0% {
+		transform: translateY(10%);
+	}
+
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.slide-in-up {
+	--anim-name: slideInUp;
+}

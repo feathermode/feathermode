@@ -1,0 +1,17 @@
+[
+	{
+		"type": "page",
+		"name": "home",
+		"path": "/",
+		"layout": "_includes/layout.js",
+		"inputs": "home.js",
+		"data": {
+			"meta": {
+				"title" : "Home | Site Name",
+				"description" : "Description...",
+				"scripts": []
+			},
+			"home": "_data/home.json"
+		}
+	}
+]

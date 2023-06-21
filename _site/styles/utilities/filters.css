@@ -1,0 +1,170 @@
+/* Image and Media Filters */
+/* Blur */
+.backdrop-blur-10 {
+	webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.backdrop-blur-20 {
+	webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+}
+
+.blur-none {
+	filter: blur(0);
+}
+
+.blur-sm {
+	filter: blur(4px);
+}
+
+.blur-md {
+	filter: blur(8px);
+}
+
+.blur-lg {
+	filter: blur(12px);
+}
+
+.blur-xl {
+	filter: blur(16px);
+}
+
+/* Brightness */
+.dark {
+	filter: brightness(0.85);
+}
+
+.darker {
+	filter: brightness(0.5);
+}
+
+.darkest {
+	filter: brightness(0.25);
+}
+
+.pitch {
+	filter: brightness(0);
+}
+
+.bright-regular {
+	filter: brightness(1);
+}
+
+.bright {
+	filter: brightness(1.25);
+}
+
+.brighter {
+	filter: brightness(1.5);
+}
+
+.brightest {
+	filter: brightness(1.85);
+}
+
+.stark {
+	filter: brightness(2);
+}
+
+/* Contrast */
+.contrast-none {
+ 	filter: contrast(1);
+}
+
+.contrast-negative-1 {
+ 	filter: contrast(.75);
+}
+
+.contrast-negative-2 {
+ 	filter: contrast(.5);
+}
+
+.contrast-negative-3 {
+ 	filter: contrast(0);
+}
+
+.contrast-positive-1 {
+ 	filter: contrast(1.25);
+}
+
+.contrast-positive-2 {
+ 	filter: contrast(1.5);
+}
+
+.contrast-positive-3 {
+ 	filter: contrast(2);
+}
+
+/* Grayscale */
+.grayscale-none {
+	filter: grayscale(0);
+}
+
+.grayscale {
+	filter: grayscale(100%);
+}
+
+/* Hue Rotate */
+.hue-rotate-0 {
+	filter: hue-rotate(0deg);
+}
+
+.hue-rotate-15 {
+	filter: hue-rotate(15deg);
+}
+
+.hue-rotate-30 {
+	filter: hue-rotate(30deg);
+}
+
+.hue-rotate-60 {
+	filter: hue-rotate(60deg);
+}
+
+.hue-rotate-90 {
+	filter: hue-rotate(90deg);
+}
+
+.hue-rotate-180 {
+	filter: hue-rotate(180deg);
+}
+
+/* Invert */
+.invert-none {
+	filter: invert(0);
+}
+
+.invert {
+	filter: invert(100%);
+}
+
+/* Saturate */
+.saturate-none {
+	filter: saturate(0);
+}
+
+.saturate-light {
+	filter: saturate(.5);
+}
+
+.saturate-medium {
+	filter: saturate(1);
+}
+
+.saturate-heavy {
+	filter: saturate(1.5);
+}
+
+.saturate-heaviest {
+	filter: saturate(2);
+}
+
+/* Sepia */
+.sepia-none {
+	filter: sepia(0);
+}
+
+.sepia {
+	filter: sepia(100%);
+}

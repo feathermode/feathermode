@@ -1,0 +1,278 @@
+/* Utilities for colors on the webpage */
+/* Backgrounds */
+.bg-dark {
+	background-color: var(--color-dark);
+}
+
+.bg-light {
+	background-color: var(--color-light);
+}
+
+.bg-gray {
+	background-color: var(--color-gray);
+}
+
+.bg-primary {
+	background-color: var(--color-primary);
+}
+
+.bg-secondary {
+	background-color: var(--color-secondary);
+}
+
+.bg-tertiary {
+	background-color: var(--color-tertiary);
+}
+
+.bg-quaternary {
+	background-color: var(--color-quaternary);
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+.bg-0 {
+	opacity: 0;
+}
+
+.bg-success {
+	background-color: var(--color-success);
+}
+
+.bg-warning {
+	background-color: var(--color-warning);
+}
+
+.bg-error {
+	background-color: var(--color-error);
+}
+
+.bg-accent {
+	background-color: var(--color-accent);
+}
+
+.bg-notify {
+	background-color: var(--color-notification);
+}
+
+
+/* Colors */
+.color-dark {
+	color: var(--color-dark);
+}
+
+.color-light {
+	color: var(--color-light);
+}
+
+.color-primary {
+	color: var(--color-primary);
+}
+
+.color-secondary {
+	color: var(--color-secondary);
+}
+
+.color-tertiary {
+	color: var(--color-tertiary);
+}
+
+.color-transparent {
+	color: transparent;
+}
+
+.color-success {
+	color: var(--color-success);
+}
+
+.color-warning {
+	color: var(--color-warning);
+}
+
+.color-error {
+	color: var(--color-error);
+}
+
+.color-accent {
+	color: var(--color-accent);
+}
+
+.color-notify {
+	color: var(--color-notification);
+}
+
+
+/* Fills (for svgs) */
+.fill-dark {
+	fill: var(--color-dark);
+}
+
+.fill-light {
+	fill: var(--color-light);
+}
+
+.fill-primary {
+	fill: var(--color-primary);
+}
+
+/* Accents */
+.accent-dark {
+	accent-color: var(--color-dark);
+}
+
+.accent-light {
+	accent-color: var(--color-light);
+}
+
+.accent-primary {
+	accent-color: var(--color-primary);
+}
+
+.accent-secondary {
+	accent-color: var(--color-secondary);
+}
+
+.accent-tertiary {
+	accent-color: var(--color-tertiary);
+}
+
+@media (min-width: 1200px) {
+	/* Backgrounds */
+	.lg-bg-dark {
+		background-color: var(--color-dark);
+	}
+	
+	.lg-bg-light {
+		background-color: var(--color-light);
+	}
+	
+	.lg-bg-gray {
+		background-color: var(--color-gray);
+	}
+	
+	.lg-bg-primary {
+		background-color: var(--color-primary);
+	}
+	
+	.lg-bg-secondary {
+		background-color: var(--color-secondary);
+	}
+	
+	.lg-bg-tertiary {
+		background-color: var(--color-tertiary);
+	}
+	
+	.lg-bg-quaternary {
+		background-color: var(--color-quaternary);
+	}
+	
+	.lg-bg-transparent {
+		background-color: transparent;
+	}
+	
+	.lg-bg-0 {
+		opacity: 0;
+	}
+	
+	.lg-bg-success {
+		background-color: var(--color-success);
+	}
+	
+	.lg-bg-warning {
+		background-color: var(--color-warning);
+	}
+	
+	.lg-bg-error {
+		background-color: var(--color-error);
+	}
+	
+	.lg-bg-accent {
+		background-color: var(--color-accent);
+	}
+	
+	.lg-bg-notify {
+		background-color: var(--color-notification);
+	}
+	
+	
+	/* Colors */
+	.lg-color-dark {
+		color: var(--color-dark);
+	}
+	
+	.lg-color-light {
+		color: var(--color-light);
+	}
+	
+	.lg-color-primary {
+		color: var(--color-primary);
+	}
+	
+	.lg-color-secondary {
+		color: var(--color-secondary);
+	}
+	
+	.lg-color-tertiary {
+		color: var(--color-tertiary);
+	}
+	
+	.lg-color-transparent {
+		color: transparent;
+	}
+	
+	.lg-color-success {
+		color: var(--color-success);
+	}
+	
+	.lg-color-warning {
+		color: var(--color-warning);
+	}
+	
+	.lg-color-error {
+		color: var(--color-error);
+	}
+	
+	.lg-color-accent {
+		color: var(--color-accent);
+	}
+	
+	.lg-color-notify {
+		color: var(--color-notification);
+	}
+	
+	
+	/* Fills (for svgs) */
+	.lg-fill-dark {
+		fill: var(--color-dark);
+	}
+	
+	.lg-fill-light {
+		fill: var(--color-light);
+	}
+	
+	.lg-fill-primary {
+		fill: var(--color-primary);
+	}
+
+	/* Accents */
+	.lg-accent-dark {
+		accent-color: var(--color-dark);
+	}
+
+	.lg-accent-light {
+		accent-color: var(--color-light);
+	}
+
+	.lg-accent-primary {
+		accent-color: var(--color-primary);
+	}
+
+	.lg-accent-secondary {
+		accent-color: var(--color-secondary);
+	}
+
+	.lg-accent-tertiary {
+		accent-color: var(--color-tertiary);
+	}
+}

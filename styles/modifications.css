@@ -1,0 +1,163 @@
+/* General Mods */
+[data-percent="10"] {
+	--percent: 10%;
+}
+
+[data-percent="20"] {
+	--percent: 20%;
+}
+
+[data-percent="30"] {
+	--percent: 30%;
+}
+
+[data-percent="40"] {
+	--percent: 40%;
+}
+
+[data-percent="50"] {
+	--percent: 50%;
+}
+
+[data-percent="60"] {
+	--percent: 60%;
+}
+
+[data-percent="70"] {
+	--percent: 70%;
+}
+
+[data-percent="80"] {
+	--percent: 80%;
+}
+
+[data-percent="90"] {
+	--percent: 90%;
+}
+
+[data-percent="100"] {
+	--percent: 100%;
+}
+
+[data-gap="0.5"] {
+	--gap: 0.5rem;
+}
+
+[data-gap="1"] {
+	--gap: 1rem;
+}
+
+[data-gap="1.5"] {
+	--gap: 1.5rem;
+}
+
+[data-gap="2"] {
+	--gap: 2rem;
+}
+
+/* Composition Mods */
+/* STACK */
+.stack[data-state="reverse"] {
+	flex-direction: column-reverse;
+}
+
+/* STREAM */
+.stream[data-flow="x"] {
+	overflow-x: scroll;
+	scroll-snap-type: x var(--scroll-strictness);
+}
+
+.stream[data-flow="y"] {
+	overflow-y: scroll;
+	scroll-snap-type: y var(--scroll-strictness);
+}
+
+.stream[data-flow="hidden"] {
+	overflow: hidden;
+}
+
+.stream[data-strictness="mandatory"] {
+	--scroll-strictness: mandatory;
+}
+
+.stream[data-strictness="proximity"] {
+	--scroll-strictness: proximity;
+}
+
+.stream[data-direction="y"] {
+	--direction: column;
+	--touch-action: pan-y;
+}
+
+.stream[data-direction="x"] {
+	--direction: row;
+	--touch-action: pan-x;
+}
+
+.stream[data-item-width="100"] {
+	--item-width: 100%;
+}
+
+.stream[data-item-width="80"] {
+	--item-width: 80%;
+}
+
+.stream[data-item-width="50"] {
+	--item-width: 50%;
+}
+
+.stream[data-item-height="100"] {
+	--item-height: 100%;
+}
+
+.stream[data-item-height="80"] {
+	--item-height: 80%;
+}
+
+.stream[data-item-height="50"] {
+	--item-height: 50%;
+}
+
+.stream[data-item-align="start"] {
+	--item-align: start;
+}
+
+.stream[data-item-align="center"] {
+	--item-align: center;
+}
+
+.stream[data-item-align="end"] {
+	--snap-align: end;
+}
+
+.stream[data-item-events="none"] {
+	--item-events: none;
+}
+
+/* SIDEBAR */
+
+
+/* AUTO GRID */
+.auto-grid[data-min-size="small"] {
+	--item-min-size: 200px;
+}
+
+.auto-grid[data-min-size="medium"] {
+	--item-min-size: 300px;
+}
+
+.auto-grid[data-min-size="large"] {
+	--item-min-size: 400px;
+}
+
+.auto-grid[data-min-size="30"] {
+	--item-min-size: 30%;
+}
+
+.auto-grid[data-min-size="40"] {
+	--item-min-size: 40%;
+}
+
+.auto-grid[data-min-size="50"] {
+	--item-min-size: 50%;
+}
