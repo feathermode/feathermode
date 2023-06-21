@@ -18,9 +18,9 @@
 		<section id="services">
 			<div class="wrapper">
 				<p class="hook">${obj.data.home.hero_des}</p>
-				<div class="card | flex flex-column gap-1 width-100">
+				<div class="card | stack gap-1 width-100">
 					<h2>Our Services</h2>
-					<div class="services | flex gap-1 width-100">
+					<div class="services | stack lg-flex-row gap-1 width-100">
 						<div class="stack gap-1">
 							<div class="flex items-center gap-1">
 								<h3>Websites</h3>
@@ -74,7 +74,7 @@
 						</div>
 					</div>
 				
-					<img class="case-study-thumbnail width-70" src="/assets/case-thumb.png" alt="thumbnail of homepage for Artist Retreats">
+					<img class="case-study-thumbnail width-100 | lg-width-70" src="/assets/case-thumb.png" alt="thumbnail of homepage for Artist Retreats">
 				</div>
 
 				<br/>
@@ -82,13 +82,13 @@
 
 				<div class="flex flex-column">
 					<h2>Recent Projects</h2>
-					<div class="auto-grid gap-1" data-min-size="30">
+					<div class="auto-grid gap-1">
 						<img class="work-thumbnail" src="/assets/work-1.jpg" alt="thumbnail of recent work">
 						<img class="work-thumbnail" src="/assets/work-2.jpg" alt="thumbnail of recent work">
 						<img class="work-thumbnail" src="/assets/work-3.jpg" alt="thumbnail of recent work">
 						<img class="work-thumbnail" src="/assets/work-4.jpg" alt="thumbnail of recent work">
-						<img class="work-thumbnail" src="/assets/work-1.jpg" alt="thumbnail of recent work">
 						<img class="work-thumbnail" src="/assets/work-6.png" alt="thumbnail of recent work">
+						<img class="work-thumbnail" src="/assets/work-7.png" alt="thumbnail of recent work">
 					</div>
 				</div>
 			</div>
@@ -98,17 +98,23 @@
 					<p>feathermode</p>
 					<button class="case-study-close | bg-light border-none cursor-pointer">&#10006;</button>
 				</nav>
-				<div class="wrapper stack items-center">
+				<div class="wrapper stack items-center padding-tb-sm">
 					<p class="case-study-heading">Artist Retreats</p>
 					<p class="case-study-sub">Online Booking Platform for a Variety of Artist Workshops Hosted in Sicily, Italy.</p>
+					<p>Web Builder | Oof</p>
 					<div class="case-study-content">
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptas libero ratione pariatur, reprehenderit impedit accusamus molestiae possimus nemo amet animi placeat quibusdam mollitia. Pariatur similique quibusdam nulla tempore reiciendis!</p>
-						<div class="test-image"></div>
+						<p>I met with the Artist Retreats team to establish the type of platform they wanted by focusing on the goals they had for their business. They wanted have an easy way for artists to sign up for their classes while providing all of the required information for the workshop. I worked with their Program Director to hone in the branding and design system.</p>
+						<img class="case-thumbnail" src="/assets/ar-screen-icons.png" alt="thumbnail of recent work">
 
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptas libero ratione pariatur, reprehenderit impedit accusamus molestiae possimus nemo amet animi placeat quibusdam mollitia. Pariatur similique quibusdam nulla tempore reiciendis!</p>
-						<div class="test-image"></div>
+						<p>The main factor when it comes to this particular design is finding the right balance of web design and content design. Since this platform was to feature artwork and photography from workshop participants, the mantra was, "let the content speak loudest". So the web design is centered around providing a touch of Sicily on each page while remaining largely out of the way so web visitors could appreciate the art and photography on the website.</p>
+						<img class="case-thumbnail" src="/assets/ar-screen-1.png" alt="thumbnail of recent work">
 
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptas libero ratione pariatur, reprehenderit impedit accusamus molestiae possimus nemo amet animi placeat quibusdam mollitia. Pariatur similique quibusdam nulla tempore reiciendis!</p>
+						<p>Each workshop page lead into a checkout process that was straightforward and required the visitor to fulfill one task at a time. Checkouts that require the user to attend to many things at once before moving onto the next step oftentimes discourage the user from continuing. Providing a unique and custom checkout process while maintaining that principle was a primary goal as I designed and developed the site.</p>
+						<img class="case-thumbnail" src="/assets/ar-screen-2.png" alt="thumbnail of recent work">
+
+						<p>I had a blast working with the Artist Retreats team and I can't wait to see how their web platform continues to grow.</p>
+
+						<p>- Oof</p>
 					</div>
 				</div>
 			</div>
@@ -121,7 +127,7 @@
 					<h2>Our Process</h2>
 					<p>The 5D's of Web Creation is a process we created to provide unique and poignant websites and web apps to clients in a timely and professional manner.</p>
 				</div>
-				<div class="auto-grid gap-1" data-min-size="30">
+				<div class="auto-grid gap-1">
 					<div class="card">
 						<h3>1. Detail</h3>
 						<p>In the Detail phase, we establish a project brief by going through a in-depth 1-1 session to figure out what content we have to work with, what content will be needed to launch the site and what the scope of the project is. We'll use the information to create the most appropriate design and infrastructure for your platform</p>
@@ -150,7 +156,7 @@
 		<!-- FORM LINK SECTION -->
 		<section>
 			<div class="wrapper">
-				<div class="form_cta | card | flex items-center content-between width-100">
+				<div class="form_cta | card | stack lg-flex-row items-center content-between width-100">
 					<p>${obj.data.home.form_cta}</p>
 					<a class="button-light" href="#sign-up">Sign Up For a Web Consultation</a>
 				</div>

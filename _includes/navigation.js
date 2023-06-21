@@ -1,6 +1,6 @@
 export default function navigation() {
 	return `
-		<nav class="nav flex items-center content-between padding-md">
+		<nav class="nav stack | lg-flex-row | items-center content-between padding-md">
 			<a href="#"><img class="nav-logo" src="/assets/fm_logo-white.svg" alt="feathermode"></a>
 			<ul class="flex gap-1 list-none">
 				<li><a href="#services">Services</a></li>

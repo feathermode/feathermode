@@ -146,6 +146,45 @@ textarea {
 	resize: vertical;
 }
 
+/* width */
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: var(--radius-md);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
+	border-radius: var(--radius-md);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-secondary);
+}
+
+.wrapper {
+	position: relative;
+	min-width: 80vw;
+	max-width: 80%;
+	margin-inline: auto;
+}
+
+.case-study::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.case-study {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 
 .icon {
 	height: 30px;
@@ -153,7 +192,7 @@ textarea {
 
 .nav {
 	position: sticky;
-	top: 10px;
+	top: 0;
 	left: 0;
 	z-index: 1000;
 	width: 100%;
@@ -230,7 +269,7 @@ textarea {
 }
 
 .hero_clouds {
-	width: 150%;
+	width: 250%;
 	padding-top: 4rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -238,7 +277,7 @@ textarea {
 
 section:first-of-type .star {
 	position: absolute;
-    top: 37%;
+    top: 47%;
     left: 15%;
     height: 70px;
     opacity: 0.8;
@@ -287,15 +326,19 @@ section:first-of-type {
 }
 
 section:first-of-type h1, section:first-of-type span {
-	font-size: 130px;
+	font-size: 60px;
 	text-align: center;
 }
 
 .hook {
 	color: var(--color-light);
 	text-align: center;
-	font-size: 60px;
+	font-size: 50px;
 	padding: 6rem 0;
+}
+
+.auto-grid {
+	--item-min-size: 100%;
 }
 
 #services {
@@ -339,16 +382,16 @@ section:first-of-type h1, section:first-of-type span {
 	font-size: 30px;
 }
 
-.case-study-content {
-	width: 75ch;
-}
-
 .case-study-content * + * {
 	margin-top: 2rem;
 }
 
 .work-thumbnail {
 	border-radius: var(--radius-md);
+}
+
+.case-thumbnail {
+	width: 100%;
 }
 
 details {
@@ -386,6 +429,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 1rem;
 	font-size: 10px;
 	font-family: var(--font-secondary);
 	padding: var(--space-lg) 0;
@@ -405,8 +449,44 @@ footer {
 }
 
 @media (min-width: 899px) {
+	.wrapper {
+		position: relative;
+		min-width: 80vw;
+		max-width: 1100px;
+		margin-inline: auto;
+	}
+
+	.nav {
+		top: 10px;
+	}
+
 	.nav-logo {
 		height: 28px;
+	}
+
+	section:first-of-type h1, section:first-of-type span {
+		font-size: 130px;
+	}
+
+	section:first-of-type .star {
+	position: absolute;
+    top: 37%;
+}
+
+	.hero_clouds {
+		width: 150%;
+	}
+
+	.hook {
+		font-size: 60px;
+	}
+
+	.auto-grid {
+		--item-min-size: 30%;
+	}
+
+	.case-study-content {
+		width: 75ch;
 	}
 
 	.form_cta p {
