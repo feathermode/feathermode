@@ -466,6 +466,10 @@ details[open] {
     color: var(--color-primary);
 }
 
+summary {
+	cursor: pointer;
+}
+
 details[open] summary {
 	color: var(--color-dark);
 	text-decoration: underline;
