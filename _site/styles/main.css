@@ -129,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
 	font-family: var(--font-secondary);
+	overflow-x: hidden;
 }
 
 html, body {
@@ -475,6 +476,7 @@ form {
 }
 
 form input, textarea, select {
+	background: var(--color-light);
 	border: 3px solid var(--color-dark);
 	border-radius: var(--radius-md);
 	padding: 0.5rem;
