@@ -416,7 +416,7 @@ section:first-of-type h1, section:first-of-type span {
 .fbl-2 {
 	position: absolute;
 	top: 20%;
-	left: 50%;
+	left: 35%;
 	animation-delay: 0.1s;
 }
 
@@ -437,7 +437,7 @@ section:first-of-type h1, section:first-of-type span {
 .fbl-5 {
 	position: absolute;
 	top: 70%;
-	left: 40%;
+	left: 35%;
 	animation-delay: 2s;
 }
 
