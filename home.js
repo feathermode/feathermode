@@ -193,8 +193,11 @@
 			</div>
 		</section>
 
+		<!-- Separator -->
+		<section class="curved"></section>
+
 		<!-- FORM -->
-		<section id="sign-up">
+		<section id="sign-up" class="bg-primary">
 			<div class="wrapper">
 				<div class="card width-100 | trigger opacity-0 fade-in">
 					<h2> Start Your Next Digital Story with a Free Web Consultation</h2>

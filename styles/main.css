@@ -373,9 +373,9 @@ section:first-of-type h1, section:first-of-type span {
 .case-study-card {
 	background: var(--color-light);
 	color: var(--color-dark);
-	background-image: url("/assets/feather-icon.svg");
+	/*background-image: url("/assets/feather-icon.svg");
 	background-repeat: repeat;
-	background-size: 35px;
+	background-size: 35px;*/
 }
 
 .case-study-thumbnail {
@@ -456,6 +456,28 @@ section:first-of-type h1, section:first-of-type span {
 	top: 70%;
 	left: 35%;
 	animation-delay: 2s;
+}
+
+.curved {
+  position: relative;
+  background: var(--color-dark);
+  height: 30vh;
+}
+
+.curved::after {
+  content: '';
+  border-top-left-radius: 60% 100%;
+  border-top-right-radius: 60% 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: var(--color-primary);
+  height: 50%;
+}
+
+#sign-up {
+/*	background: linear-gradient(45deg, var(--color-primary) 0%, var(--color-secondary) 25%, var(--color-tertiary) 30%, var(--color-primary 31%));*/
+background: linear-gradient(7deg, var(--color-primary) 0%, var(--color-primary) 20%, var(--color-secondary) 35%, var(--color-tertiary) 40%, var(--color-primary) 70%);
 }
 
 details {
@@ -598,6 +620,12 @@ footer {
 		position: absolute;
 		top: 70%;
 		left: 70%;
+	}
+
+	.curved::after {
+	  border-top-left-radius: 30% 100%;
+	  border-top-right-radius: 30% 100%;
+	  height: 70%;
 	}
 
 	.form_cta p {
