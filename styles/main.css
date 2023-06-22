@@ -341,6 +341,22 @@ section:first-of-type h1, section:first-of-type span {
 	padding: 6rem 0;
 }
 
+.airship {
+	position: absolute;
+	top: 0%;
+	left: 15%;
+	height: 50px;
+	opacity: 0.8;
+}
+
+.balloon {
+	position: absolute;
+	top: 20%;
+	right: 8%;
+	width: 45px;
+	opacity: 0.8;
+}
+
 .auto-grid {
 	--item-min-size: 100%;
 }
@@ -530,6 +546,14 @@ footer {
 
 	.hook {
 		font-size: 60px;
+	}
+
+	.balloon {
+		position: absolute;
+		top: 25%;
+		right: 7%;
+		width: 45px;
+		opacity: 0.8;
 	}
 
 	.auto-grid {

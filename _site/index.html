@@ -41,7 +41,7 @@
 				<li><a href="#work">Work</a></li>
 				<li><a href="#process">Process</a></li>
 				<li><a href="#faq">FAQ</a></li>
-				<li><a href="https://wwwinged.com">Blog</a></li>
+				<li><a href="https://wwwinged.com" noopener noreferrer target="_blank">Blog</a></li>
 			</ul>
 			<a class="button-main" href="#sign-up">Free Web Consultation</a>
 		</nav>
@@ -50,11 +50,6 @@
 		<!-- HERO -->
 		<section class="position-relative overflow-hidden">
 			<div class="wrapper flex content-center">
-				<!-- <div class="card | flex flex-column items-center gap-1 height-fit-content width-fit-content text-center">
-					<h1>Web Platforms <br/>Made to <span class="color-primary">Fly</span></h1>
-					<p>We create custom websites and web applications, small and large, from the ground up to fit each unique story.</p>
-					<a class="button-alt" href="#services">Learn About Our Services</a>
-				</div> -->
 				<h1>Web Platforms <br/>Made to <span class="color-primary">Fly</span></h1>
 			</div>
 			<img class="star" src="/assets/shooting_star.svg">
@@ -62,12 +57,14 @@
 		</section>
 
 		<!-- SERVICES -->
-		<section id="services">
+		<section class="position-relative" id="services">
+			<img class="airship" src="/assets/airship.svg" alt="">
+			<img class="balloon" src="/assets/balloon.svg" alt="">
 			<div class="wrapper">
 				<p class="hook">We create custom websites and web applications, small and large, from the ground up to fit each unique story.</p>
 				<div class="card | stack gap-1 width-100">
 					<h2>Our Services</h2>
-					<div class="services | stack lg-flex-row gap-1 width-100">
+					<div class="services | stack lg-flex-row gap-2 width-100">
 						<div class="stack gap-1">
 							<div class="flex items-center gap-1">
 								<h3>Websites</h3>
@@ -92,14 +89,14 @@
 								<h3>Web Apps</h3>
 								<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
 							</div>
-							<p>Web Apps are used predominantly by businesses who offer software as a service or who have a need to provide dynamic functionality that goes beyond your regular contact form. However, we’re pushing every web creator to start converting their websites into Installable Web Apps. These apps operate and function just like native apps that you’d download from the App Store or Play Store, however they can be downloaded right from your website and saved on the users device. Learn more about Installable Web Apps here.</p>
+							<p>Web Apps were once used predominantly by businesses who offered software as a service (SaSS) or who had a need to provide dynamic functionality that went beyond your standard contact form. However, feathermode is pushing every web creator to start converting their websites into Installable/Progressive Web Apps. These apps operate and function just like native apps you’d download from the App Store or Play Store, but they are downloaded right from your website and saved on the users device. Learn more about Installable Web Apps <a href="https://wwwinged.com" noopener norefferer target="_blank">here.</a></p>
 						</div>
 						<div class="stack gap-1">
 							<div class="flex items-center gap-1">
 								<h3>Content Marketing</h3>
 								<img class="card-icon" src="/assets/fm_icon-content.svg" alt="website icon">
 							</div>
-							<p>Content is King. The content you provide your users is what they will use to determine the validity and trustworthiness of your platform. We can help you find your voice, provide content that for the launch of your new site that you can expand upon and enhance as you grow and help you establish a content marketing process along with the tools you'll need to communicate with your audience.</p>
+							<p>Content is King. Visitors will use the content your provide to determine the validity and trustworthiness of your platform. We can help you find your voice, provide content for the launch of your new site that you can expand upon and enhance as you grow and help you establish a content marketing process along with the digital tools you'll need to communicate with your audience.</p>
 						</div>
 					</div>
 				</div>
@@ -148,7 +145,7 @@
 				<div class="wrapper stack items-center padding-tb-sm">
 					<p class="case-study-heading">Artist Retreats</p>
 					<p class="case-study-sub">Online Booking Platform for a Variety of Artist Workshops Hosted in Sicily, Italy.</p>
-					<p>Web Builder | Oof</p>
+					<p>Web Captain | Oof</p>
 					<div class="case-study-content">
 						<p>I met with the Artist Retreats team to establish the type of platform they wanted by focusing on the goals they had for their business. They wanted have an easy way for artists to sign up for their classes while providing all of the required information for the workshop. I worked with their Program Director to hone in the branding and design system.</p>
 						<img class="case-thumbnail" src="/assets/ar-screen-icons.png" alt="thumbnail of recent work">
@@ -202,7 +199,7 @@
 						<p>By hosting with us, you'll be provided with year-round site maintenance and security as well as privacy-friendly analytics. We only host and dedicate our services to websites and web apps that preserve user privacy and security. Your site is hosted on a platform with a global reach so you can communicate with your audience no matter where they live in the world.</p>
 					</div>
 				</div>
-				<!-- <p>Learn more about our 5D Web Creation Process <a href="">here.</a></p> -->
+				<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.com" noopener noreferrer target="_blank">here.</a></p>
 			</div>
 		</section>
 
@@ -229,7 +226,7 @@
 					</details>
 					<details>
 						<summary>How much does it cost?</summary>
-						Every website and web app is different. We handle small portfolio sites for content creators as well as eCommerce stores for startups and solopreneurs. Since, each web platform requires different structural, styling and data needs each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by <a class="text-underline" href="#sign-up">signing up for a free web consultation with us</a>.
+						Every website and web app is different. We handle small portfolio sites for content creators as well as eCommerce stores for solopreneurs and startups. Since each web platform requires different structural, styling and data needs each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by <a class="text-underline" href="#sign-up">signing up for a free web consultation with us</a>.
 					</details>
 					<details>
 						<summary>Why should my business or project take the form of a web app?</summary>
@@ -274,6 +271,15 @@
 						<label for="on-the-web">
 							Do you have a live website or app? If so, let us know it's domain address.
 							<input name="on-the-web" type="text" required>
+						</label>
+						<label for="budget">
+							What is your budget? This will help us provide you with the appropriate project scope.
+							<select class="width-fit-content" name="budget" id="budget" required>
+								<option value="1-to-5k">$1000 - $5000</option>
+								<option value="5-to-10k">$5000 - $10,000</option>
+								<option value="10-to-15k">10,000 - $15,000</option>
+								<option value="15k">$15,000 +</option>
+							</select>
 						</label>
 						<label for="project-details">
 							Tell us more about your future Web Platform.
