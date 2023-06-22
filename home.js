@@ -122,11 +122,11 @@
 
 		<!-- PROCESS -->
 		<section id="process" class="position-relative">
-			<img class="fbl-1" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 200px; height: 200px;">
-			<img class="fbl-2" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 200px; height: 200px;">
-			<img class="fbl-3" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 100px; height: 100px;">
-			<img class="fbl-4" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 100px; height: 100px;">
-			<img class="fbl-5" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 200px; height: 200px;">
+			<img class="fbl-1 | animate swell anim-infinite anim-running anim-2500ms" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 200px; height: 200px;">
+			<img class="fbl-2 | animate swell anim-infinite anim-running anim-2500ms" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 200px; height: 200px;">
+			<img class="fbl-3 | animate swell anim-infinite anim-running anim-2500ms" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 100px; height: 100px;">
+			<img class="fbl-4 | animate swell anim-infinite anim-running anim-2500ms" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 100px; height: 100px;">
+			<img class="fbl-5 | animate swell anim-infinite anim-running anim-2500ms" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 200px; height: 200px;">
 
 			<div class="wrapper | stack gap-1">
 				<div>

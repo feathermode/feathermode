@@ -23,6 +23,10 @@
 	--anim-duration: 2s;
 }
 
+.anim-2500ms {
+	--anim-duration: 2500ms;
+}
+
 .anim-ease {
 	--anim-timing: ease;
 }
@@ -122,13 +126,13 @@
 	}
 	
 	50% {
-		transform: scale3d(1.1, 1.1, 1.1);
+		transform: scale3d(1.5, 1.5, 1.5);
 	}
 }
 
 .swell {
 	--anim-name: swell;
-	--anim-timing: var(--curve, cubic-bezier(0.2, 2, 0.8, 2.0));
+	--anim-timing: ease-in-out;
 }
 
 /* BEAT */
