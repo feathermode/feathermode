@@ -421,6 +421,8 @@ section:first-of-type h1, section:first-of-type span {
 
 .case-thumbnail {
 	width: 100%;
+	border-radius: solid 2px var(--color-dark);
+	border-radius: var(--radius-md);
 }
 
 .fbl-1 {
@@ -471,13 +473,16 @@ section:first-of-type h1, section:first-of-type span {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: var(--color-primary);
+  background: var(--color-dark);
+  background-image: url("/assets/noise.svg");
   height: 50%;
 }
 
 #sign-up {
 /*	background: linear-gradient(45deg, var(--color-primary) 0%, var(--color-secondary) 25%, var(--color-tertiary) 30%, var(--color-primary 31%));*/
-background: linear-gradient(7deg, var(--color-primary) 0%, var(--color-primary) 20%, var(--color-secondary) 35%, var(--color-tertiary) 40%, var(--color-primary) 70%);
+/*background: linear-gradient(7deg, var(--color-dark) 0%, var(--color-dark) 20%, var(--color-secondary) 35%, var(--color-tertiary) 40%, var(--color-dark) 70%);*/
+background-color: var(--color-dark);
+background-image: url("/assets/noise.svg");
 }
 
 details {
@@ -524,6 +529,7 @@ footer {
 	font-size: 10px;
 	font-family: var(--font-secondary);
 	padding: var(--space-lg) 0;
+	background-image: url("/assets/noise.svg");
 }
 
 .footer-icon {
