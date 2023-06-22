@@ -9,7 +9,7 @@ export default function navigation() {
 				<li><a href="/#faq">FAQ</a></li>
 				<li><a href="https://wwwinged.com" noopener noreferrer target="_blank">Blog</a></li>
 			</ul>
-			<a class="button-main" href="#sign-up">Free Web Consultation</a>
+			<a class="button-main" href="/#sign-up">Free Web Consultation</a>
 		</nav>
 	`;
 }
