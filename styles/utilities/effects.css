@@ -28,7 +28,7 @@
 }
 
 /* Opacity */
-.opacity-none {
+.opacity-none, .opacity-0 {
 	opacity: 0;
 }
 

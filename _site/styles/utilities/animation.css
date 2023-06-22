@@ -1,8 +1,4 @@
 /* Animation Utility Classes */
-.animate-area {}
-
-.animate-trigger {}
-
 .animate {
 	animation: var(--anim-name) var(--anim-duration) var(--anim-timing) var(--anim-delay) var(--anim-iteration) var(--anim-direction) var(--anim-fill) var(--anim-play-state);
 }

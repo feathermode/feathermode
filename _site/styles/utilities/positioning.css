@@ -17,7 +17,7 @@
 	display: none;
 }
 
-.hidden {
+.hidden, .invisible {
 	border: 0;
 	clip: rect(0 0 0 0);
 	height: auto;

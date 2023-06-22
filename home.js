@@ -3,7 +3,7 @@
 		<!-- HERO -->
 		<section class="position-relative overflow-hidden">
 			<div class="wrapper flex content-center">
-				<h1>${obj.data.home.hero_heading}</h1>
+				<h1 class="trigger opacity-0 fade-in">${obj.data.home.hero_heading}</h1>
 			</div>
 			<img class="star" src="/assets/shooting_star.svg">
 			<img class="hero_clouds" src="/assets/clouds.svg" alt="">
@@ -14,8 +14,8 @@
 			<img class="airship" src="/assets/airship.svg" alt="">
 			<img class="balloon" src="/assets/balloon.svg" alt="">
 			<div class="wrapper">
-				<p class="hook">${obj.data.home.hero_des}</p>
-				<div class="card | stack gap-1 width-100">
+				<p class="hook | trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
+				<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
 					<h2>Our Services</h2>
 					<div class="services | stack lg-flex-row gap-2 width-100">
 						<div class="stack gap-1">
@@ -59,7 +59,7 @@
 		<!-- RECENT WORKS -->
 		<section id="work">
 			<div class="wrapper">
-				<div class="case-study-card card | flex flex-column | lg-flex-row gap-2">
+				<div class="case-study-card card | flex flex-column | lg-flex-row gap-2 | trigger opacity-0 fade-in">
 					<div class="stack gap-1">
 						<h2>Case Study</h2>
 						<div class="stack gap-1">
@@ -77,7 +77,7 @@
 				<br/>
 				<br>
 
-				<div class="flex flex-column">
+				<div class="flex flex-column | trigger opacity-0 fade-in">
 					<h2>Recent Projects</h2>
 					<div class="auto-grid gap-1">
 						<img class="work-thumbnail" src="/assets/work-1.jpg" alt="thumbnail of recent work">
@@ -130,7 +130,7 @@
 					<h2>Our Process</h2>
 					<p>The 5D's of Web Creation is a process we created to provide unique and poignant websites and web apps to clients in a timely and professional manner.</p>
 				</div>
-				<div class="auto-grid gap-1">
+				<div class="auto-grid gap-1 | trigger opacity-0 fade-in">
 					<div class="card">
 						<h3>1. Detail</h3>
 						<p>In the Detail phase, we establish a project brief by going through a in-depth 1-1 session to figure out what content we have to work with, what content will be needed to launch the site and what the scope of the project is. We'll use the information to create the most appropriate design and infrastructure for your platform</p>
@@ -159,7 +159,7 @@
 		<!-- FORM LINK SECTION -->
 		<section>
 			<div class="wrapper">
-				<div class="form_cta | card | stack lg-flex-row items-center content-between width-100">
+				<div class="form_cta | card | stack lg-flex-row items-center content-between width-100 | trigger opacity-0 fade-in">
 					<p>${obj.data.home.form_cta}</p>
 					<a class="button-light" href="#sign-up">Sign Up For a Web Consultation</a>
 				</div>
@@ -171,7 +171,7 @@
 		<!-- FAQ -->
 		<section id="faq">
 			<div class="wrapper">
-				<div class="card width-100">
+				<div class="card width-100 | trigger opacity-0 fade-in">
 					<h2>FAQ</h2>
 					<details>
 						<summary>What web building platform do you use?</summary>
@@ -196,7 +196,7 @@
 		<!-- FORM -->
 		<section id="sign-up">
 			<div class="wrapper">
-				<div class="card width-100">
+				<div class="card width-100 | trigger opacity-0 fade-in">
 					<h2> Start Your Next Digital Story with a Free Web Consultation</h2>
 					<form netlify class="flex flex-column gap-1" name="web-consultation">\
 						<div class="auto-grid">
