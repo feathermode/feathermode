@@ -406,6 +406,36 @@ section:first-of-type h1, section:first-of-type span {
 	width: 100%;
 }
 
+.fbl-1 {
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+
+.fbl-2 {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+}
+
+.fbl-3 {
+	position: absolute;
+	top: 80%;
+	left: 20%;
+}
+
+.fbl-4 {
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+
+.fbl-5 {
+	position: absolute;
+	top: 70%;
+	left: 40%;
+}
+
 details {
 	padding: 1.5rem 1rem;
 }
@@ -499,6 +529,36 @@ footer {
 
 	.case-study-content {
 		width: 75ch;
+	}
+
+	.fbl-1 {
+		position: absolute;
+		top: 10%;
+		left: 20%;
+	}
+
+	.fbl-2 {
+		position: absolute;
+		top: 20%;
+		left: 50%;
+	}
+
+	.fbl-3 {
+		position: absolute;
+		top: 80%;
+		left: 20%;
+	}
+
+	.fbl-4 {
+		position: absolute;
+		top: 10%;
+		left: 80%;
+	}
+
+	.fbl-5 {
+		position: absolute;
+		top: 70%;
+		left: 70%;
 	}
 
 	.form_cta p {
