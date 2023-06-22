@@ -198,7 +198,7 @@
 			<div class="wrapper">
 				<div class="card width-100 | trigger opacity-0 fade-in">
 					<h2> Start Your Next Digital Story with a Free Web Consultation</h2>
-					<form netlify class="flex flex-column gap-1" name="web-consultation">\
+					<form netlify class="flex flex-column gap-1" name="web-consultation" action="/thank-you">
 						<div class="auto-grid">
 							<label for="name">
 								Name

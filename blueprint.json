@@ -7,11 +7,39 @@
 		"inputs": "home.js",
 		"data": {
 			"meta": {
-				"title" : "Home | Site Name",
+				"title" : "Home | feathermode",
 				"description" : "Description...",
 				"scripts": []
 			},
 			"home": "_data/home.json"
+		}
+	},
+	{
+		"type": "page",
+		"name": "404",
+		"path": "/404",
+		"layout": "_includes/layout.js",
+		"inputs": "404.js",
+		"data": {
+			"meta": {
+				"title" : "404 | feathermode",
+				"description" : "Description...",
+				"scripts": []
+			}
+		}
+	},
+	{
+		"type": "page",
+		"name": "thank_you",
+		"path": "/thank-you",
+		"layout": "_includes/layout.js",
+		"inputs": "thank_you.js",
+		"data": {
+			"meta": {
+				"title" : "Thank You! | feathermode",
+				"description" : "Description...",
+				"scripts": []
+			}
 		}
 	}
 ]
