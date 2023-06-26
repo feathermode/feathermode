@@ -133,23 +133,23 @@
 				<div class="auto-grid gap-1 | trigger opacity-0 fade-in">
 					<div class="card">
 						<h3>1. Detail</h3>
-						<p>In the Detail phase, we establish a project brief by going through a in-depth 1-1 session to figure out what content we have to work with, what content will be needed to launch the site and what the scope of the project is. We'll use the information to create the most appropriate design and infrastructure for your platform</p>
+						<p>In the Detail phase, we establish a project brief by going through a in-depth 1-1 session to figure out what content we have to work with, what content will be needed to launch the site and what the scope of the project is. We will use the information to create the most appropriate design and infrastructure for your platform</p>
 					</div>
 					<div class="card">
 						<h3>2. Design</h3>
-						<p>In the Design Phase, we'll create a home page that is a mix off of your style preferences and our decisions on the structural necessities for your website or app. Once we confirm the home page we can use the resulting design system to create subsequent pages. We'll review asynchronously throughout the phase and come together at key points.</p>
+						<p>In the Design Phase, we create a home page that is a mix off of your style preferences and our decisions on the structural necessities for your website or app. Once we confirm the home page we can use the resulting design system to create subsequent pages. We will review asynchronously throughout the phase and come together at key points.</p>
 					</div>
 					<div class="card">
 						<h3>3. Develop</h3>
-						<p>In the Develop Phase, we'll take the green lit designs and hand code the website in a way that is adaptable to any screen, accessible, featherweight and performant. You'll be able to test the website or web app for interactivity and responsiveness.</p>
+						<p>In the Develop Phase, we take the green-lit designs and hand code the website in a way that is adaptable to any screen, accessible, featherweight and performant. You will be able to test the website or web app for interactivity and responsiveness.</p>
 					</div>
 					<div class="card">
 						<h3>4. Deploy</h3>
-						<p>In the Deploy Phase, we'll hook your website or web app files up to our hosting platform and connect your domain name as well as any other external integrations your platform may need. Once everything is ready to fly, we'll make it live for the world to see.</p>
+						<p>In the Deploy Phase, we hook your website or web app files up to our hosting platform and connect your domain name as well as any other external integrations your platform may need. Once everything is ready to fly, we make it live for the world to see.</p>
 					</div>
 					<div class="card">
 						<h3>5. Dedicate</h3>
-						<p>By hosting with us, you'll be provided with year-round site maintenance and security as well as privacy-friendly analytics. We only host and dedicate our services to websites and web apps that preserve user privacy and security. Your site is hosted on a platform with a global reach so you can communicate with your audience no matter where they live in the world.</p>
+						<p>By hosting with us, you will be provided with year-round site maintenance and security as well as privacy-friendly analytics. <strong>We only host and dedicate our services to websites and web apps that preserve user privacy and user data.</strong> Your site is hosted on a platform with a global reach so you can connect with your audience no matter where they live in the world.</p>
 					</div>
 				</div>
 				<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.com" noopener noreferrer target="_blank">here.</a></p>
