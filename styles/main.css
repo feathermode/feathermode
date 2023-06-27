@@ -507,7 +507,7 @@ summary {
 }
 
 details[open] summary {
-	color: var(--color-dark);
+	color: var(--color-light);
 	text-decoration: underline;
 }
 
