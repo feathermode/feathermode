@@ -22,7 +22,7 @@
 
 	--color-dark-rgb: 19, 19, 22;
 	--color-dark: rgba(19, 19, 22, 1);
-	--color-light: #FFFFFF;
+	--color-light: #FAFAFA;
 	--color-gray: #434347;
 	--color-primary: #177EFE;
 	--color-secondary: #FFD700;
@@ -230,6 +230,8 @@ textarea {
 }
 
 .button-main {
+	background: none;
+	color: var(--color-light);
 	border: var(--border-width) var(--border-style) var(--color-light);
 }
 
@@ -349,18 +351,33 @@ section:first-of-type h1, section:first-of-type span {
 
 .airship {
 	position: absolute;
-	top: 0%;
+	top: 4%;
 	left: 15%;
-	height: 50px;
-	opacity: 0.8;
+	width: 100px;
+	opacity: 0.9;
+	color: black;
+	transition: 0.5s;
+}
+
+.airship:hover {
+	color: var(--color-secondary);
+/*	background: linear-gradient(15deg, var(--color-secondary), var(--color-tertiary));*/
+	transform: rotate(15deg);
 }
 
 .balloon {
 	position: absolute;
-	top: 20%;
+	top: 21%;
 	right: 8%;
 	width: 45px;
-	opacity: 0.8;
+	opacity: 0.9;
+	color: black;
+	transition: 0.5s;
+}
+
+.balloon:hover {
+	color: var(--color-secondary);
+	transform: translateY(-20px);
 }
 
 .auto-grid {
@@ -507,7 +524,7 @@ summary {
 }
 
 details[open] summary {
-	color: var(--color-dark);
+	color: var(--color-light);
 	text-decoration: underline;
 }
 

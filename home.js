@@ -11,8 +11,19 @@
 
 		<!-- SERVICES -->
 		<section class="position-relative" id="services">
-			<img class="airship" src="/assets/airship.svg" alt="">
-			<img class="balloon" src="/assets/balloon.svg" alt="">
+			<!-- <img class="airship" src="/assets/airship.svg" alt=""> -->
+			<svg class="airship" viewBox="0 0 421 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<ellipse cx="209.5" cy="85.5" rx="209.5" ry="72.5" fill="currentColor"/>
+				<path d="M99 137H270V178H124L99 137Z" fill="currentColor"/>
+				<path d="M421 0L384.721 60H290L421 0Z" fill="currentColor"/>
+				<path d="M419 167L382.721 107L288 107L419 167Z" fill="currentColor"/>
+			</svg>
+			<!-- <img class="balloon" src="/assets/balloon.svg" alt=""> -->
+			<svg class="balloon" viewBox="0 0 202 304" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M158.504 178.576C184.789 160.882 202 131.391 202 98C202 43.8761 156.781 0 101 0C45.2192 0 0 43.8761 0 98C0 130.419 16.2232 159.161 41.222 177H41C43.1363 179.532 45.3234 182.025 47.4997 184.506C59.076 197.701 70.3435 210.545 72 227H129C128.307 210.109 139.848 198.061 154.959 182.285C156.121 181.072 157.304 179.837 158.504 178.576Z" fill="currentColor"/>
+				<rect x="76" y="258" width="50" height="46" fill="currentColor"/>
+			</svg>
+
 			<div class="wrapper">
 				<p class="hook | trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
 				<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
@@ -28,11 +39,13 @@
 								<ul class="list-inside">
 									<li>branding</li>
 									<li>content architecture</li>
-									<li>digital business architecture</li>
-									<li>design systems</li>
+									<li>business architecture</li>
+									<li>design system creation (DS)</li>
 									<li>web design</li>
 									<li>web development</li>
+									<li>database management system (DBMS)</li>
 									<li>domain and site maintenance plans</li>
+									<li>content marketing setup</li>
 								</ul>
 							</div>
 								
@@ -42,7 +55,7 @@
 								<h3>Web Apps</h3>
 								<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
 							</div>
-							<p>Web Apps were once used predominantly by businesses who offered software as a service (SaSS) or who had a need to provide dynamic functionality that went beyond your standard contact form. However, feathermode is pushing every web creator to start converting their websites into Installable/Progressive Web Apps. These apps operate and function just like native apps you would download from the App Store or Play Store, but they are downloaded right from your website and saved on the users device. Learn more about Installable/Progressive Web Apps <a href="https://wwwinged.com" noopener norefferer target="_blank">here.</a></p>
+							<p>Web Apps were once used predominantly by businesses who offered software as a service (SaaS) or who had a need to provide dynamic functionality that went beyond your standard contact form. However, feathermode is pushing every web creator to start converting their websites into Installable/Progressive Web Apps. These apps operate and function just like native apps you would download from the App Store or Play Store, but they are downloaded right from your website and saved on the users device. Learn more about Installable/Progressive Web Apps <a href="https://wwwinged.com" noopener norefferer target="_blank">here.</a></p>
 						</div>
 					</div>
 				</div>
@@ -60,7 +73,7 @@
 								<h3>Artist Retreats</h3>
 								<p>An eCommerce platform for artist workshops hosted in Sicily where art students browse and sign up for workshops using a custom storefront.</p>
 							</div>
-							<button class="case-study-button button-primary">Explore</button>
+							<button class="case-study-button button-main">Explore</button>
 						</div>
 					</div>
 				
@@ -235,7 +248,7 @@
 							Tell us more about your future Web Platform.
 							<textarea name="project-details" id="project-details" cols="30" rows="10"></textarea required>
 						</label>
-						<button class="button-primary">Let it Fly!</button>
+						<button class="button-main">Let it Fly!</button>
 					</form>
 				</div>
 			</div>
