@@ -402,7 +402,7 @@ section:first-of-type h1, section:first-of-type span {
 
 .case-study-thumbnail {
 	object-fit: cover;
-	border: 2px solid var(--color-primary);
+	border: 2px solid var(--color-gray);
 	border-radius: var(--radius-md);
 }
 
