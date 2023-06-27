@@ -44,13 +44,6 @@
 							</div>
 							<p>Web Apps were once used predominantly by businesses who offered software as a service (SaSS) or who had a need to provide dynamic functionality that went beyond your standard contact form. However, feathermode is pushing every web creator to start converting their websites into Installable/Progressive Web Apps. These apps operate and function just like native apps you would download from the App Store or Play Store, but they are downloaded right from your website and saved on the users device. Learn more about Installable/Progressive Web Apps <a href="https://wwwinged.com" noopener norefferer target="_blank">here.</a></p>
 						</div>
-						<div class="stack gap-1">
-							<div class="flex items-center gap-1">
-								<h3>Content Marketing</h3>
-								<img class="card-icon" src="/assets/fm_icon-content.svg" alt="website icon">
-							</div>
-							<p>Content is King. Visitors will use the content your provide to determine the validity and trustworthiness of your platform. We can help you find your voice, provide content for the launch of your new site that you can expand upon and enhance as you grow and help you establish a content marketing process along with the digital tools you will need to communicate with your audience.</p>
-						</div>
 					</div>
 				</div>
 			</div>
