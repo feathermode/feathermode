@@ -32,7 +32,7 @@
 	/* BORDERS */
 	--border-width: 2px;
 	--border-style: solid;
-	--border-color: var(--color-dark);
+	--border-color: var(--color-gray);
 	--border: var(--border-width) var(--border-style) var(--border-color);
 
 	/* RADIUS */
@@ -193,13 +193,14 @@ textarea {
 
 .nav {
 	position: sticky;
-	top: 0;
+	top: 10px;
 	left: 0;
 	z-index: 1000;
-	width: 100%;
+	width: 95%;
 	max-width: 1200px;
 	margin-left: auto;
-  	margin-right: auto;
+  margin-right: auto;
+  border: var(--border);
 	border-radius: var(--radius-md);
 	background: rgba(var(--color-dark-rgb), 0.75);
 	-webkit-backdrop-filter: saturate(180%) blur(10px);
@@ -229,7 +230,7 @@ textarea {
 }
 
 .button-main {
-	border: 3px solid var(--color-light);
+	border: var(--border-width) var(--border-style) var(--color-light);
 }
 
 .button-main:hover, .button-main:focus {
@@ -239,7 +240,7 @@ textarea {
 
 .button-alt {
 	background: var(--color-light);
-	border: 3px solid var(--color-dark);
+	border: var(--border-width) var(--border-style) var(--color-dark);
 }
 
 .button-alt:hover, .button-alt:focus {
@@ -250,7 +251,7 @@ textarea {
 .button-light {
 	background: var(--color-light);
 	color: var(--color-dark);
-	border: 3px solid var(--color-light);
+	border: var(--border-width) var(--border-style) var(--color-light);
 }
 
 .button-light:hover, .button-light:focus {
@@ -261,7 +262,7 @@ textarea {
 .button-primary {
 	background: var(--color-light);
 	color: var(--color-dark);
-	border: 3px solid var(--color-primary);
+	border: var(--border-width) var(--border-style) var(--color-primary);
 }
 
 .button-primary:hover, .button-primary:focus {
@@ -289,10 +290,14 @@ section:first-of-type .star {
 }
 
 .card {
-	background: var(--color-light);
-	color: var(--color-dark);
+	background: rgba(var(--color-dark-rgb), 0.75);
+	color: var(--color-light);
 	padding: var(--space-md);
+	border: var(--border);
 	border-radius: var(--radius-md);
+	-webkit-backdrop-filter: saturate(180%) blur(7px);
+	backdrop-filter: saturate(180%) blur(7px);
+  box-shadow: 10px 10px 30px var(--color-dark);
 }
 
 .services > * {
@@ -371,8 +376,8 @@ section:first-of-type h1, section:first-of-type span {
 }
 
 .case-study-card {
-	background: var(--color-light);
-	color: var(--color-dark);
+	/*background: var(--color-light);
+	color: var(--color-dark);*/
 	/*background-image: url("/assets/feather-icon.svg");
 	background-repeat: repeat;
 	background-size: 35px;*/
@@ -395,8 +400,8 @@ section:first-of-type h1, section:first-of-type span {
 	max-height: 100dvh;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	background: var(--color-light);
-	color: var(--color-dark);
+	background: var(--color-dark);
+	color: var(--color-light);
 }
 
 .case-study-heading, .case-study-sub {
@@ -421,7 +426,7 @@ section:first-of-type h1, section:first-of-type span {
 
 .case-thumbnail {
 	width: 100%;
-	border-radius: solid 2px var(--color-dark);
+	border: var(--border);
 	border-radius: var(--radius-md);
 }
 
@@ -458,6 +463,10 @@ section:first-of-type h1, section:first-of-type span {
 	top: 70%;
 	left: 35%;
 	animation-delay: 2s;
+}
+
+#faq {
+	background: linear-gradient(to bottom, var(--color-dark), rgba(0, 0, 0, 0)), url("/assets/noise.svg")
 }
 
 .curved {
@@ -558,7 +567,7 @@ footer {
 	}
 
 	.nav-logo {
-		height: 28px;
+		height: 24px;
 	}
 
 	.nav-logo a {

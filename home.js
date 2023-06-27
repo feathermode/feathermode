@@ -91,9 +91,9 @@
 			</div>
 
 			<div class="case-study | position-relative none">
-				<nav class="flex content-between items-center width-100 bg-light padding-md position-sticky top-0 left-0 z-1000">
-					<p>feathermode</p>
-					<button class="case-study-close | bg-light border-none cursor-pointer">&#10006;</button>
+				<nav class="nav flex content-between items-center width-100 padding-sm position-sticky top-0 left-0 z-1000">
+					<a href="/#"><img class="nav-logo" src="/assets/fm_logo-white.svg" alt="feathermode"></a>
+					<button class="case-study-close | button-main bg-dark color-light border-none cursor-pointer">&#10006;</button>
 				</nav>
 				<div class="wrapper stack items-center padding-tb-sm">
 					<p class="case-study-heading">Artist Retreats</p>
@@ -194,7 +194,7 @@
 		</section>
 
 		<!-- Separator -->
-		<section class="curved"></section>
+		<!-- <section class="curved"></section> -->
 
 		<!-- FORM -->
 		<section id="sign-up" class="bg-primary">
