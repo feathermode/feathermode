@@ -514,8 +514,14 @@ details {
 	padding: 1.5rem 1rem;
 }
 
+details:not(:first-of-type) {
+	margin-top: 1rem;
+}
+
 details[open] {
-    color: var(--color-primary);
+    color: var(--color-light);
+    border: var(--border);
+    border-radius: var(--radius-md);
 }
 
 summary {
@@ -523,7 +529,7 @@ summary {
 }
 
 details[open] summary {
-	color: var(--color-light);
+	color: var(--color-primary);
 	text-decoration: underline;
 }
 
