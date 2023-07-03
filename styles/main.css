@@ -210,6 +210,18 @@ textarea {
 	height: 22px;
 }
 
+/*.nav-logo:hover > * {
+	fill: var(--color-primary);
+}
+
+.logo-name:hover {
+	fill: var(--color-primary);
+}
+
+.logo-icon:hover {
+	fill: var(--color-secondary);
+}*/
+
 .nav a {
 	text-decoration: none;
 	font-size: 16px;
@@ -387,7 +399,7 @@ section:first-of-type h1, section:first-of-type span {
 	background-image: url("/assets/noise.svg");
 }
 
-#work {
+#projects {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--color-dark)), url("/assets/noise.svg");
 }
 
@@ -481,7 +493,7 @@ section:first-of-type h1, section:first-of-type span {
 	animation-delay: 2s;
 }
 
-#faq {
+#faqs {
 	background: linear-gradient(to bottom, var(--color-dark), rgba(0, 0, 0, 0)), url("/assets/noise.svg")
 }
 
@@ -565,6 +577,17 @@ footer {
 
 .footer-icon {
 	height: 14px;
+}
+
+.mtf {
+	display: flex;
+	gap: 0.25rem;
+	align-items: center;
+	color: var(--color-light);
+}
+
+.feather:hover {
+	fill: var(--color-quaternary);
 }
 
 

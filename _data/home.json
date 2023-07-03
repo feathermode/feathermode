@@ -1,6 +1,31 @@
 {
-	"hero_heading": "Web Platforms <br/>Made to <span class=\"color-primary\">Fly</span>",
+	"hero_heading": "Web Platforms <br/>Made to <span class=\"color-primary\">FLY</span>",
 	"hero_des": "We create custom websites and web applications, small and large, from the ground up to fit each unique story.",
 	"hero_cta": "Learn About Our Services",
-	"form_cta": "During a Free Web Consultation we'll walk you through the web creation process and if you already have a website we'll provide you with tips to improve your website even if you decide not to partner with us."
+	"form_cta": "During a Free Web Consultation we'll walk you through the web creation process and if you already have a website we'll provide you with tips to improve your website even if you decide not to partner with us.",
+	"detail_list": [
+		"Establish a project brief through an in-depth 1-1 session",
+		"Assess what content we have to work with, and what content will be needed to launch the site",
+		"Utilize information to create the most appropriate design and infrastructure for your platform",
+		"Determine scope of the project"
+	],
+	"design_list": [
+		"Create a home page that is a mix off your style preferences and our decisions on the structural necessities for your website or app",
+		"Confirm the home page with you so we can use the resulting design system to create subsequent pages",
+		"Review asynchronously throughout this phase and come together at key points"
+	],
+	"develop_list": [
+		"Utilize the green-lit designs and hand code the website in a way that is adaptable to any screen, accessible, featherweight and performant",
+		"Provide you the ability to test the website or web app for interactivity and responsiveness"
+	],
+	"deploy_list": [
+		"Connect your website or web app files up to our hosting platform",
+		"Connect your domain name as well as any other external integrations your platform may need",
+		"Once everything is ready to FLY, make it live for the world to see"
+	],
+	"dedicate_list": [
+		"By hosting with us, provide you with year-round site maintenance and security as well as privacy-friendly analytics",
+		"Host and dedicate our services to websites and web apps that preserve your privacy and data",
+		"Host your site on a platform with a global reach so you can connect with your audience no matter where they live in the world"
+	]
 }

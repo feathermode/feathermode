@@ -35,17 +35,17 @@
 								<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
 							</div>
 							<div class="stack gap-1">
-								<p>We handle every aspect of the web creation process and build websites for content creators, solopreneurs and small businesses. Each project is individually scoped and may include, but is not limited to the following:</p>
+								<p>We handle every aspect of the web creation process and build websites for content creators, solopreneurs and small to medium-sized businesses. Each project is individually scoped and may include, but is not limited to the following:</p>
 								<ul class="list-inside">
-									<li>branding</li>
-									<li>content architecture</li>
-									<li>business architecture</li>
-									<li>design system creation (DS)</li>
-									<li>web design</li>
-									<li>web development</li>
-									<li>database management system (DBMS)</li>
-									<li>domain and site maintenance plans</li>
-									<li>content marketing setup</li>
+									<li>Branding</li>
+									<li>Content Architecture</li>
+									<li>Business Architecture</li>
+									<li>Design System creation (DS)</li>
+									<li>Web Design</li>
+									<li>Web Development</li>
+									<li>Database Management System (DBMS)</li>
+									<li>Domain and Site Maintenance plans</li>
+									<li>Content Marketing setup</li>
 								</ul>
 							</div>
 								
@@ -57,10 +57,10 @@
 							</div>
 							<p>Installable/Progressive Web Apps are websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store. They provide greater connections with visitors and allow visitors to have a more intimate and integrated experience with the web platform. Learn more about them <a href="https://wwwinged.com/the-future-is-an-installable-web" rel="noopener" target="_blank">here.</a> Installable/Progressive Web Apps give a website the following key superpowers among others:</p>
 							<ul class="list-inside">
-								<li>install to home screen of device</li>
-								<li>allow users to browse content offline or when connection is lost</li>
-								<li>allow web app owners to notify users of new content or new information through the device's built-in notification network</li>
-								<li>allow the web app to remember user choices and preferences</li>
+								<li>Install to home screen of device</li>
+								<li>Allow users to browse content offline or when connection is lost</li>
+								<li>Allow web app owners to notify users of new content or new information through the device's built-in notification network</li>
+								<li>Allow the web app to remember user choices and preferences</li>
 							</ul>
 						</div>
 					</div>
@@ -69,7 +69,7 @@
 		</section>
 
 		<!-- RECENT WORKS -->
-		<section id="work">
+		<section id="projects">
 			<div class="wrapper">
 				<div class="case-study-card card | flex flex-column | lg-flex-row gap-2 | trigger opacity-0 fade-in">
 					<div class="stack gap-1">
@@ -105,9 +105,13 @@
 			<div class="case-study | position-relative none">
 				<nav class="nav flex content-between items-center width-100 padding-sm position-sticky top-0 left-0 z-1000">
 					<a href="/#"><img class="nav-logo" src="/assets/fm_logo-white.svg" alt="feathermode"></a>
-					<button class="case-study-close | button-main bg-dark color-light border-none cursor-pointer">&#10006;</button>
+					<div>
+						<!-- <button class="case-study-close">&#8592;</button> -->
+						<button class="case-study-close | button-main bg-dark color-light border-none cursor-pointer">&#10006;</button>
+					</div>
+					
 				</nav>
-				<div class="wrapper stack items-center padding-tb-sm">
+				<div class="wrapper stack items-center padding-tb-lg">
 					<p class="case-study-heading">Artist Retreats</p>
 					<p class="case-study-sub">Online Booking Platform for a Variety of Artist Workshops Hosted in Sicily, Italy.</p>
 					<p>Web Captain | Oof</p>
@@ -145,23 +149,43 @@
 				<div class="auto-grid gap-1 | trigger opacity-0 fade-in">
 					<div class="card">
 						<h3>1. Detail</h3>
-						<p>In the Detail phase, we establish a project brief by going through a in-depth 1-1 session to figure out what content we have to work with, what content will be needed to launch the site and what the scope of the project is. We will use the information to create the most appropriate design and infrastructure for your platform</p>
+						<ul class="list-inside">
+							${obj.data.home.detail_list.map(element => {
+								return `<li>${element}</li>`
+							}).join('')}
+						</ul>
 					</div>
 					<div class="card">
 						<h3>2. Design</h3>
-						<p>In the Design Phase, we create a home page that is a mix off of your style preferences and our decisions on the structural necessities for your website or app. Once we confirm the home page we can use the resulting design system to create subsequent pages. We will review asynchronously throughout the phase and come together at key points.</p>
+						<ul class="list-inside">
+							${obj.data.home.design_list.map(element => {
+								return `<li>${element}</li>`
+							}).join('')}
+						</ul>
 					</div>
 					<div class="card">
 						<h3>3. Develop</h3>
-						<p>In the Develop Phase, we take the green-lit designs and hand code the website in a way that is adaptable to any screen, accessible, featherweight and performant. You will be able to test the website or web app for interactivity and responsiveness.</p>
+						<ul class="list-inside">
+							${obj.data.home.develop_list.map(element => {
+								return `<li>${element}</li>`
+							}).join('')}
+						</ul>
 					</div>
 					<div class="card">
 						<h3>4. Deploy</h3>
-						<p>In the Deploy Phase, we hook your website or web app files up to our hosting platform and connect your domain name as well as any other external integrations your platform may need. Once everything is ready to fly, we make it live for the world to see.</p>
+						<ul class="list-inside">
+							${obj.data.home.deploy_list.map(element => {
+								return `<li>${element}</li>`
+							}).join('')}
+						</ul>
 					</div>
 					<div class="card">
 						<h3>5. Dedicate</h3>
-						<p>By hosting with us, you will be provided with year-round site maintenance and security as well as privacy-friendly analytics. <strong>We only host and dedicate our services to websites and web apps that preserve user privacy and user data.</strong> Your site is hosted on a platform with a global reach so you can connect with your audience no matter where they live in the world.</p>
+						<ul class="list-inside">
+							${obj.data.home.dedicate_list.map(element => {
+								return `<li>${element}</li>`
+							}).join('')}
+						</ul>
 					</div>
 				</div>
 				<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.com/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
@@ -181,25 +205,25 @@
 		<!-- FROM WWWINGED -->
 
 		<!-- FAQ -->
-		<section id="faq">
+		<section id="faqs">
 			<div class="wrapper">
 				<div class="card width-100 | trigger opacity-0 fade-in">
-					<h2>FAQ</h2>
+					<h2>FAQs</h2>
 					<details>
 						<summary>What web building platform do you use?</summary>
 						All of our websites and web apps are custom built. The structure is handcrafted, the styling is bespoke and the databases, content management systems and external integrations are all hardwired according to the particular project.
 					</details>
 					<details>
 						<summary>How much does it cost?</summary>
-						Every website and web app is different. We handle small portfolio sites for content creators as well as eCommerce stores for solopreneurs and startups. Since each web platform requires different structural, styling and data needs each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by <a class="text-underline" href="#sign-up">signing up for a free web consultation with us</a>.
+						Every website and web app is different. We handle small portfolio sites for content creators as well as eCommerce stores for solopreneurs and startups. Since each web platform requires different structural, styling and data needs, each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by <a class="text-underline" href="#sign-up">signing up for a free web consultation with us</a>.
 					</details>
 					<details>
 						<summary>Why should my business or project take the form of a web app?</summary>
-						An installable web app allows you and your audience to have a more intimate relationship. If you run an online store, your audience can download your app to their phone and you can send them notifications when new products are released or when you have updated the company blog. If you're a content creator you can let your audience know when you've published new content. That's just the stratosphere of what is possible with a progressive web app. The bigger you dream the higher you'll fly!
+						An installable web app allows you and your audience to have a more intimate relationship. If you run an online store, your audience can download your app to their phone and you can send them notifications when new products are released or when you have updated the company blog. If you're a content creator you can let your audience know when you've published new content. That's just the stratosphere of what is possible with a progressive web app. The bigger you dream the higher you'll FLY!
 					</details>
 					<details>
 						<summary>How long will it take to put my web platform up on the World Wide Web?</summary>
-						It depends. A straightforward blogging website with no web app functionality usually will take 2-4 weeks from the web consultation to deployment. If a project has layers of complexity it will require us to meet more frequently to review design and development decisions.
+						It depends. A straightforward blogging website with no web app functionality usually will take 2-4 weeks from the web consultation to deployment. If a project has layers of complexity, it will require us to meet more frequently to review design and development decisions.
 					</details>
 				</div>
 			</div>
@@ -253,7 +277,7 @@
 							Tell us more about your future Web Platform.
 							<textarea name="project-details" id="project-details" cols="30" rows="10"></textarea required>
 						</label>
-						<button class="button-main">Let it Fly!</button>
+						<button class="button-main">Let it FLY!</button>
 					</form>
 				</div>
 			</div>
