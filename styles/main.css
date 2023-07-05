@@ -524,6 +524,8 @@ background-image: url("/assets/noise.svg");
 
 details {
 	padding: 1.5rem 1rem;
+	border: var(--color-dark) solid 2px;
+	transition: 0.5s;
 }
 
 details:not(:first-of-type) {
