@@ -35,7 +35,7 @@
 								<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
 							</div>
 							<div class="stack gap-1">
-								<p>We handle every aspect of the web creation process and build websites for content creators, solopreneurs and small to medium-sized businesses. Each project is individually scoped and may include, but is not limited to the following:</p>
+								<p>We handle every aspect of the web creation process and build websites for content creators, solopreneurs and small to medium-sized businesses. Each project is bespoke and may include, but is not limited to the following:</p>
 								<ul class="list-inside">
 									<li>Branding</li>
 									<li>Content Architecture</li>
@@ -113,21 +113,21 @@
 				</nav>
 				<div class="wrapper stack items-center padding-tb-lg">
 					<p class="case-study-heading">Artist Retreats</p>
-					<p class="case-study-sub">Online Booking Platform for a Variety of Artist Workshops Hosted in Sicily, Italy.</p>
-					<p>Web Captain | Oof</p>
+					<p class="case-study-sub">Online Booking Platform for a Variety of Artist Workshops Hosted in Sicily, Italy</p>
+					<p>Web Captain | OOF</p>
 					<div class="case-study-content">
 						<p>I met with the Artist Retreats team to establish the type of platform they wanted by focusing on the goals they had for their business. They wanted have an easy way for artists to sign up for their classes while providing all of the required information for the workshop. I worked with their Program Director to hone in the branding and design system.</p>
 						<img class="case-thumbnail" src="/assets/ar-screen-icons.png" alt="thumbnail of recent work">
 
-						<p>The main factor when it comes to this particular design is finding the right balance of web design and content design. Since this platform was to feature artwork and photography from workshop participants, the mantra was, "let the content speak loudest". So the web design is centered around providing a touch of Sicily on each page while remaining largely out of the way so web visitors could appreciate the art and photography on the website.</p>
+						<p>The main factor when it comes to this particular design is finding the right balance of web design and content design. Since this platform was to feature artwork and photography from workshop participants, the mantra was, "let the content speak loudest." Therefore, the web design is centered around providing a subtle touch of Sicily on each page while web visitors can focus on appreciating the art and photography on the website.</p>
 						<img class="case-thumbnail" src="/assets/ar-screen-1.png" alt="thumbnail of recent work">
 
-						<p>Each workshop page lead into a checkout process that was straightforward and required the visitor to fulfill one task at a time. Checkouts that require the user to attend to many things at once before moving onto the next step oftentimes discourage the user from continuing. Providing a unique and custom checkout process while maintaining that principle was a primary goal as I designed and developed the site.</p>
+						<p>Each workshop page leads into a checkout process that is straightforward and requires the visitor to fulfill one task at a time. Checkouts that require the user to attend to many things at once before moving onto the next step oftentimes discourage the user from continuing. Providing a unique and custom checkout process while maintaining that principle was a primary goal as I designed and developed the site.</p>
 						<img class="case-thumbnail" src="/assets/ar-screen-2.png" alt="thumbnail of recent work">
 
 						<p>I had a blast working with the Artist Retreats team and I can't wait to see how their web platform continues to grow.</p>
 
-						<p>- Oof</p>
+						<p>- OOF</p>
 					</div>
 				</div>
 			</div>
@@ -219,11 +219,11 @@
 					</details>
 					<details>
 						<summary>Why should my business or project take the form of a web app?</summary>
-						An installable web app allows you and your audience to have a more intimate relationship. If you run an online store, your audience can download your app to their phone and you can send them notifications when new products are released or when you have updated the company blog. If you're a content creator you can let your audience know when you've published new content. That's just the stratosphere of what is possible with a progressive web app. The bigger you dream the higher you'll FLY!
+						An installable web app allows you and your audience to have a more intimate relationship. If you run an online store, your audience can download your app to their phone and you can send them notifications when new products are released or when you have updated the company blog. If you are a content creator, you can let your audience know when you have published new content. This is just the stratosphere of what is possible with a progressive web app. The bigger you dream the higher you'll FLY!
 					</details>
 					<details>
 						<summary>How long will it take to put my web platform up on the World Wide Web?</summary>
-						It depends. A straightforward blogging website with no web app functionality usually will take 2-4 weeks from the web consultation to deployment. If a project has layers of complexity, it will require us to meet more frequently to review design and development decisions.
+						It depends. A straightforward blogging website with no web app functionality usually will take 2-4 weeks from the web consultation to deployment. If a project has layers of complexity, it will require longer design and development phases. We will discuss your specific timeline during your <a class="text-underline" href="#sign-up">free web consultation</a>.
 					</details>
 				</div>
 			</div>
