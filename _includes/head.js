@@ -3,7 +3,7 @@ export default function head() {
 		<head>
 			<!-- GENERAL -->
 			<title>feathermode | Digital Storytelling and Web Creation Services</title>
-			<meta name="description" content="feathermode is a service that offers bespoke website creation for individuals and businesses looking to tel their story on the web." />
+			<meta name="description" content="feathermode is a service that offers bespoke website and web app creation for individuals and businesses looking to tell their story on the web." />
 			<meta name="author" content="feathermode">
 			
 			<!-- META -->
@@ -16,7 +16,7 @@ export default function head() {
 			<meta property="og:url" content="https://feathermode.com"/>
 			<meta property="og:site_name" content="feathermode"/>
 			<meta property="og:image" content="/assets/fm_logo-white.svg"/>
-			<meta property="og:description" content="feathermode is a service that offers bespoke website creation for individuals and businesses looking to tel their story on the web."/>
+			<meta property="og:description" content="feathermode is a service that offers bespoke website and web app creation for individuals and businesses looking to tell their story on the web."/>
 			
 			<!-- ICONS -->
 			<link rel="icon" href="/assets/fm_icon-bird.svg" />
