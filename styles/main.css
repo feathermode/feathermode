@@ -467,6 +467,23 @@ section:first-of-type h1, section:first-of-type span {
 	border-radius: var(--radius-md);
 }
 
+#process {
+	top: 0;
+	left: 0;
+}
+
+.process-lists p, .process-lists li {
+	font-size: 26px;
+}
+
+.process-lists * + * {
+	margin-top: 28px;
+}
+
+.process-element, [data-process-title] {
+	transition: 0.5s;
+}
+
 .fbl-1 {
 	position: absolute;
 	top: 10%;

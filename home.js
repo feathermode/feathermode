@@ -142,13 +142,66 @@
 			<img class="fbl-4 | animate swell anim-infinite anim-running anim-2500ms" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 100px; height: 100px;">
 			<img class="fbl-5 | animate swell anim-infinite anim-running anim-2500ms" src="/assets/fuzzy_blue_light.svg" alt="" style="width: 200px; height: 200px;">
 
-			<div class="wrapper | stack gap-1">
+			<div class="wrapper | none | lg-grid gap-2" style="grid-template-columns: 1fr 2fr;">
+				<div class="position-relative">
+					<div class="stack gap-2 position-sticky top-0 left-0" style="top: 100px">
+						<div>
+							<h2 data-process-title="process">Our Process</h2>
+							<p style="font-size: 30px;" data-process-title="detail">1. Detail</p>
+							<p style="font-size: 30px;" data-process-title="design">2. Design</p>
+							<p style="font-size: 30px;" data-process-title="develop">3. Develop</p>
+							<p style="font-size: 30px;" data-process-title="deploy">4. Deploy</p>
+							<p style="font-size: 30px;" data-process-title="dedicate">5. Dedicate</p>
+						</div>
+
+						<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.com/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
+					</div>
+				</div>
+				<div class="process-lists stack gap-1 | trigger opacity-0 fade-in">
+					<div class="" style="height: 50vh;" data-process-element="process">
+						<p class="process-element">The 5D's of Web Creation is a process we created to provide unique and poignant websites and web apps to clients in a timely and professional manner.</p>
+					</div>
+
+					<ul class="list-inside" style="height: 50vh" data-process-element="detail">
+						${obj.data.home.detail_list.map(element => {
+							return `<li class="process-element">${element}</li>`
+						}).join('')}
+					</ul>
+
+					<ul class="list-inside" style="height: 50vh" data-process-element="design">
+						${obj.data.home.design_list.map(element => {
+							return `<li class="process-element">${element}</li>`
+						}).join('')}
+					</ul>
+
+					<ul class="list-inside" style="height: 50vh" data-process-element="develop">
+						${obj.data.home.develop_list.map(element => {
+							return `<li class="process-element">${element}</li>`
+						}).join('')}
+					</ul>
+
+					<ul class="list-inside" style="height: 50vh" data-process-element="deploy">
+						${obj.data.home.deploy_list.map(element => {
+							return `<li class="process-element">${element}</li>`
+						}).join('')}
+					</ul>
+
+					<ul class="list-inside" style="height: 50vh" data-process-element="dedicate">
+						${obj.data.home.dedicate_list.map(element => {
+							return `<li class="process-element">${element}</li>`
+						}).join('')}
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="wrapper | stack gap-1 | lg-none">
 				<div>
 					<h2>Our Process</h2>
 					<p>The 5D's of Web Creation is a process we created to provide unique and poignant websites and web apps to clients in a timely and professional manner.</p>
 				</div>
 				<div class="auto-grid gap-1 | trigger opacity-0 fade-in">
-					<div class="card">
+					<div class="stack gap-1 padding-md">
 						<h3>1. Detail</h3>
 						<ul class="list-inside">
 							${obj.data.home.detail_list.map(element => {
@@ -156,7 +209,7 @@
 							}).join('')}
 						</ul>
 					</div>
-					<div class="card">
+					<div class="stack gap-1 padding-md">
 						<h3>2. Design</h3>
 						<ul class="list-inside">
 							${obj.data.home.design_list.map(element => {
@@ -164,7 +217,7 @@
 							}).join('')}
 						</ul>
 					</div>
-					<div class="card">
+					<div class="stack gap-1 padding-md">
 						<h3>3. Develop</h3>
 						<ul class="list-inside">
 							${obj.data.home.develop_list.map(element => {
@@ -172,7 +225,7 @@
 							}).join('')}
 						</ul>
 					</div>
-					<div class="card">
+					<div class="stack gap-1 padding-md">
 						<h3>4. Deploy</h3>
 						<ul class="list-inside">
 							${obj.data.home.deploy_list.map(element => {
@@ -180,7 +233,7 @@
 							}).join('')}
 						</ul>
 					</div>
-					<div class="card">
+					<div class="stack gap-1 padding-md">
 						<h3>5. Dedicate</h3>
 						<ul class="list-inside">
 							${obj.data.home.dedicate_list.map(element => {
