@@ -8,6 +8,7 @@ export default function layout(obj, global_data) {
 		<html lang="en">
 		${head()}
 		<body>
+			<div data-anchor="top"></div>
 			${navigation()}
 			${obj.inputs}
 			${footer()}

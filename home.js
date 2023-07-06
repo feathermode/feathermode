@@ -103,7 +103,7 @@
 			</div>
 
 			<div class="case-study | position-relative none">
-				<nav class="nav flex content-between items-center width-100 padding-sm position-sticky top-0 left-0 z-1000">
+				<nav class="nav nav-scrolled flex content-between items-center width-100 padding-sm position-sticky top-0 left-0 z-1000">
 					<a href="/#"><img class="nav-logo" src="/assets/fm_logo-white.svg" alt="feathermode"></a>
 					<div>
 						<!-- <button class="case-study-close">&#8592;</button> -->
@@ -112,6 +112,7 @@
 					
 				</nav>
 				<div class="wrapper stack items-center padding-tb-lg">
+					<div data-anchor="case"></div>
 					<p class="case-study-heading">Artist Retreats</p>
 					<p class="case-study-sub">Online Booking Platform for a Variety of Artist Workshops Hosted in Sicily, Italy</p>
 					<p>Web Captain | OOF</p>

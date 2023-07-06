@@ -25,3 +25,29 @@ trigger({
 		rootMargin: "0px 0px -200px 0px"
 	}
 });
+
+
+// Navigation
+const anchors = document.querySelectorAll('[data-anchor]');
+const nav = document.querySelector('.nav');
+
+const anchor_options = {
+	rootMargin: "100px 0px 0px 0px"
+}
+
+const nav_animator = new IntersectionObserver(function(entries, animator) {
+	entries.forEach(entry => {
+		if (!entry.isIntersecting) {
+			console.log("connected")
+			nav.classList.add('nav-scrolled');
+			return;
+		} else {
+			console.log('not')
+			nav.classList.remove('nav-scrolled');
+		}
+	});
+}, anchor_options);
+
+anchors.forEach(anchor => {
+	nav_animator.observe(anchor);
+});

@@ -199,15 +199,24 @@ textarea {
 	max-width: 1200px;
 	margin-left: auto;
   margin-right: auto;
-  border: var(--border);
+  border: transparent solid 2px;
 	border-radius: var(--radius-md);
-	background: rgba(var(--color-dark-rgb), 0.75);
-	-webkit-backdrop-filter: saturate(180%) blur(10px);
-	backdrop-filter: saturate(180%) blur(20px);
+	background: rgba(var(--color-dark-rgb), 0);
+	-webkit-backdrop-filter: saturate(0%) blur(0px);
+	backdrop-filter: blur(0px);
+	transition: 0.5s;
 }
 
 .nav-logo {
 	height: 22px;
+}
+
+.nav-scrolled {
+	border: var(--border);
+	border-radius: var(--radius-md);
+	background: rgba(var(--color-dark-rgb), 0.75);
+	-webkit-backdrop-filter: saturate(180%) blur(10px);
+	backdrop-filter: saturate(180%) blur(20px);
 }
 
 /*.nav-logo:hover > * {
