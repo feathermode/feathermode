@@ -15,7 +15,7 @@ export default function head() {
 			<meta property="og:type" content="website"/>
 			<meta property="og:url" content="https://feathermode.com"/>
 			<meta property="og:site_name" content="feathermode"/>
-			<meta property="og:image" content="/assets/fm_logo-white.svg"/>
+			<meta property="og:image" content="/assets/fm_icon-shadow-color.jpg"/>
 			<meta property="og:description" content="feathermode is a service that offers bespoke website and web app creation for individuals and businesses looking to tell their story on the web."/>
 			
 			<!-- ICONS -->
