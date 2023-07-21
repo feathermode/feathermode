@@ -324,7 +324,9 @@
 								<option value="1-to-5k">$1000 - $5000</option>
 								<option value="5-to-10k">$5000 - $10,000</option>
 								<option value="10-to-15k">10,000 - $15,000</option>
-								<option value="15k">$15,000 +</option>
+								<option value="15k-to-30k">$15,000 - $30,000</option>
+								<option value="30k-to-50k">$30,000 - 50,000</option>
+								<option value="50k+">$50,000 +</option>
 							</select>
 						</label>
 						<label for="project-details">
