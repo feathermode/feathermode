@@ -1,8 +1,29 @@
 {
 	"hero_heading": "Web Platforms <br/>Made to <span class=\"color-primary\">FLY</span>",
-	"hero_des": "We create custom websites and web applications, small and large, from the ground up to fit each unique story.",
+	"hero_des": "My name is OOF, and through my New York web design studio, I create custom websites and web applications, small and large, from the ground up to fit each unique story.",
 	"hero_cta": "Learn About Our Services",
+	"websites_des": "I handle every aspect of the web creation process and build websites for content creators, solopreneurs and small to medium-sized businesses and organizations. Each project is bespoke and may include, but is not limited to the following:",
+	"websites_list": [
+		"Branding",
+		"Content Architecture",
+		"Business Architecture",
+		"Search Engine Optimization (SEO)",
+		"Design System creation (DS)",
+		"Web Design",
+		"Web Development",
+		"Database Management System (DBMS)",
+		"Domain and Site maintenance plans",
+		"Content Marketing setup",
+	],
+	"apps_des": "Progressive Web Apps (PWAs) are installable websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store. They provide greater connections with visitors and allow visitors to have a more intimate and integrated experience with the web platform. Learn more about them here. Progressive Web Apps allow users to do the following among others:",
+	"apps_list": [
+		"Install website to home screen of device",
+		"Browse content offline or when connection is lost",
+		"Receive notifications on new content or new information from the phone or desktop",
+		"Set available website preferences for subsequent visits"
+	],
 	"form_cta": "During a Free Web Consultation we will walk you through the web creation process. If you already have a website, we will provide you with tips to improve your site. If you do not have one yet, we will help you flesh out your vision.",
+	"process_des": "I created the 5D Web Creation Process to provide unique and poignant websites and web apps to clients in a timely and professional manner.",
 	"detail_list": [
 		"Establish a project brief through an in-depth, 1-on-1 session",
 		"Assess what content we have to work with, and what content will be needed to launch the site",
@@ -27,5 +48,23 @@
 		"Provide you with feathermode's year-round site maintenance and security as well as privacy-friendly analytics",
 		"Host and dedicate our services to websites and web apps that preserve your privacy and data",
 		"Host your site on a platform with a global reach so you can connect with your audience no matter where they live in the world"
+	],
+	"faqs": [
+		{
+			"summary": "What web building platform do you use?",
+			"details": "All websites and web apps are custom built. The structure is handcrafted, the styling is bespoke and the databases, content management systems and external integrations are all hardwired according to the particular project."
+		},
+		{
+			"summary": "How much does it cost?",
+			"details": "Every website and web app is different. I create websites as small as simple portfolios for content creators and as large as eCommerce stores for solopreneurs and startups. Since each web platform requires different structural, styling and data needs, each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by signing up for a free web consultation with me."
+		},
+		{
+			"summary": "Why should my business or project take the form of a web app?",
+			"details": "An installable web app allows you and your audience to have a more intimate relationship. If you run an online store, your audience can download your app to their phone and you can send them notifications when new products are released or when you have updated the company blog. If you are a content creator, you can let your audience know when you have published new content. This is just the stratosphere of what is possible with a progressive web app. The bigger you dream the higher you'll FLY!"
+		},
+		{
+			"summary": "How long will it take to put my web platform up on the World Wide Web?",
+			"details": "It depends. A straightforward blogging website with no web app functionality usually will take 2-4 weeks from the web consultation to deployment. If a project has more layers of complexity, it will require longer design and development phases. We will discuss your specific timeline during your free web consultation."
+		}
 	]
 }
