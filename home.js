@@ -25,9 +25,9 @@
 			</svg>
 
 			<div class="wrapper">
-				<p class="hook | trigger opacity-0 fade-in text-left">${obj.data.home.hero_des}</p>
+				<p class="hook | trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
 				<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
-					<h2>Our Services</h2>
+					<h2>Services</h2>
 					<div class="services | stack lg-flex-row gap-2 width-100">
 						<div class="stack gap-1">
 							<div class="flex items-center gap-1">
