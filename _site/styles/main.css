@@ -364,7 +364,6 @@ section:first-of-type h1, section:first-of-type span {
 
 .hook {
 	color: var(--color-light);
-	text-align: center;
 	font-size: 50px;
 	padding: 6rem 0;
 }

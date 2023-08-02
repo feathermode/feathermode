@@ -25,7 +25,7 @@
 			</svg>
 
 			<div class="wrapper">
-				<p class="hook | trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
+				<p class="hook | trigger opacity-0 fade-in text-left">${obj.data.home.hero_des}</p>
 				<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
 					<h2>Our Services</h2>
 					<div class="services | stack lg-flex-row gap-2 width-100">
@@ -35,17 +35,11 @@
 								<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
 							</div>
 							<div class="stack gap-1">
-								<p>We handle every aspect of the web creation process and build websites for content creators, solopreneurs and small to medium-sized businesses. Each project is bespoke and may include, but is not limited to the following:</p>
+								<p>${obj.data.home.websites_des}</p>
 								<ul class="list-inside">
-									<li>Branding</li>
-									<li>Content Architecture</li>
-									<li>Business Architecture</li>
-									<li>Design System creation (DS)</li>
-									<li>Web Design</li>
-									<li>Web Development</li>
-									<li>Database Management System (DBMS)</li>
-									<li>Domain and Site Maintenance plans</li>
-									<li>Content Marketing setup</li>
+									${obj.data.home.websites_list.map(element => {
+										return `<li>${element}</li>`;
+									}).join('')}
 								</ul>
 							</div>
 								
@@ -55,12 +49,11 @@
 								<h3>Web Apps</h3>
 								<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
 							</div>
-							<p>Installable/Progressive Web Apps are websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store. They provide greater connections with visitors and allow visitors to have a more intimate and integrated experience with the web platform. Learn more about them <a href="https://wwwinged.com/the-future-is-an-installable-web" rel="noopener" target="_blank">here.</a> Installable/Progressive Web Apps give a website the following key superpowers among others:</p>
+							<p>${obj.data.home.apps_des}</p>
 							<ul class="list-inside">
-								<li>Install to home screen of device</li>
-								<li>Allow users to browse content offline or when connection is lost</li>
-								<li>Allow web app owners to notify users of new content or new information through the device's built-in notification network</li>
-								<li>Allow the web app to remember user choices and preferences</li>
+								${obj.data.home.apps_list.map(element => {
+									return `<li>${element}</li>`;
+								}).join('')}
 							</ul>
 						</div>
 					</div>
@@ -154,12 +147,12 @@
 							<p style="font-size: 30px;" data-process-title="dedicate">5. Dedicate</p>
 						</div>
 
-						<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.com/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
+						<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.feathermode.com/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
 					</div>
 				</div>
 				<div class="process-lists stack gap-1 | trigger opacity-0 fade-in">
 					<div class="" style="height: 50vh;" data-process-element="process">
-						<p class="process-element">The 5D's of Web Creation is a process we created to provide unique and poignant websites and web apps to clients in a timely and professional manner.</p>
+						<p class="process-element">${obj.data.home.process_des}</p>
 					</div>
 
 					<ul class="list-inside" style="height: 50vh" data-process-element="detail">
@@ -198,7 +191,7 @@
 			<div class="wrapper | stack gap-1 | lg-none">
 				<div>
 					<h2>Our Process</h2>
-					<p>The 5D's of Web Creation is a process we created to provide unique and poignant websites and web apps to clients in a timely and professional manner.</p>
+					<p>${obj.data.home.process_des}</p>
 				</div>
 				<div class="auto-grid gap-1 | trigger opacity-0 fade-in">
 					<div class="stack gap-1 padding-md">
@@ -242,7 +235,7 @@
 						</ul>
 					</div>
 				</div>
-				<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.com/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
+				<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.feathermode.com/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
 			</div>
 		</section>
 
@@ -263,28 +256,17 @@
 			<div class="wrapper">
 				<div class="card width-100 | trigger opacity-0 fade-in">
 					<h2>FAQs</h2>
-					<details>
-						<summary>What web building platform do you use?</summary>
-						All of our websites and web apps are custom built. The structure is handcrafted, the styling is bespoke and the databases, content management systems and external integrations are all hardwired according to the particular project.
-					</details>
-					<details>
-						<summary>How much does it cost?</summary>
-						Every website and web app is different. We handle small portfolio sites for content creators as well as eCommerce stores for solopreneurs and startups. Since each web platform requires different structural, styling and data needs, each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by <a class="text-underline" href="#sign-up">signing up for a free web consultation with us</a>.
-					</details>
-					<details>
-						<summary>Why should my business or project take the form of a web app?</summary>
-						An installable web app allows you and your audience to have a more intimate relationship. If you run an online store, your audience can download your app to their phone and you can send them notifications when new products are released or when you have updated the company blog. If you are a content creator, you can let your audience know when you have published new content. This is just the stratosphere of what is possible with a progressive web app. The bigger you dream the higher you'll FLY!
-					</details>
-					<details>
-						<summary>How long will it take to put my web platform up on the World Wide Web?</summary>
-						It depends. A straightforward blogging website with no web app functionality usually will take 2-4 weeks from the web consultation to deployment. If a project has layers of complexity, it will require longer design and development phases. We will discuss your specific timeline during your <a class="text-underline" href="#sign-up">free web consultation</a>.
-					</details>
+					${obj.data.home.faqs.map(faq => {
+						return `
+							<details>
+								<summary>${faq.summary}</summary>
+								${faq.details}
+							</details>
+						`;
+					}).join('')}
 				</div>
 			</div>
 		</section>
-
-		<!-- Separator -->
-		<!-- <section class="curved"></section> -->
 
 		<!-- FORM -->
 		<section id="sign-up" class="bg-primary">

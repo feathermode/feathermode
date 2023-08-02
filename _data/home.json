@@ -13,9 +13,9 @@
 		"Web Development",
 		"Database Management System (DBMS)",
 		"Domain and Site maintenance plans",
-		"Content Marketing setup",
+		"Content Marketing setup"
 	],
-	"apps_des": "Progressive Web Apps (PWAs) are installable websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store. They provide greater connections with visitors and allow visitors to have a more intimate and integrated experience with the web platform. Learn more about them here. Progressive Web Apps allow users to do the following among others:",
+	"apps_des": "Progressive Web Apps (PWAs) are installable websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store. They provide greater connections with visitors and allow visitors to have a more intimate and integrated experience with the web platform. Learn more about them <a href=\"https://wwwinged.feathermode.com/the-future-is-an-installable-web\" rel=\"noopener\" target=\"_blank\">here.</a>. Progressive Web Apps allow users to do the following among others:",
 	"apps_list": [
 		"Install website to home screen of device",
 		"Browse content offline or when connection is lost",
@@ -56,7 +56,7 @@
 		},
 		{
 			"summary": "How much does it cost?",
-			"details": "Every website and web app is different. I create websites as small as simple portfolios for content creators and as large as eCommerce stores for solopreneurs and startups. Since each web platform requires different structural, styling and data needs, each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by signing up for a free web consultation with me."
+			"details": "Every website and web app is different. I create websites as small as simple portfolios for content creators and as large as eCommerce stores for solopreneurs and startups. Since each web platform requires different structural, styling and data needs, each project has unique pricing that is tailored to the project. You can find out the pricing for your future platform by <a class=\"text-underline\" href=\"#sign-up\">signing up for a free web consultation with me</a>."
 		},
 		{
 			"summary": "Why should my business or project take the form of a web app?",

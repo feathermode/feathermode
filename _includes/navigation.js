@@ -57,7 +57,7 @@ export default function navigation() {
 				<li><a href="/#projects">Projects</a></li>
 				<li><a href="/#process">Process</a></li>
 				<li><a href="/#faqs">FAQs</a></li>
-				<li><a href="https://wwwinged.com" noopener noreferrer target="_blank">Blog</a></li>
+				<li><a href="https://wwwinged.feathermode.com" noopener noreferrer>Blog</a></li>
 			</ul>
 			<a class="button-main" href="/#sign-up">Free Web Consultation</a>
 		</nav>
