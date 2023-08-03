@@ -6,7 +6,8 @@ Gondola({
 			"styles",
 			"functions",
 			"assets",
-			"fonts"
+			"fonts",
+			"_redirects"
 		]
 	}
 }).build();
