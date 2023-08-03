@@ -26,35 +26,42 @@
 
 			<div class="wrapper">
 				<p class="hook | trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
-				<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
-					<h2>Services</h2>
-					<div class="services | stack lg-flex-row gap-2 width-100">
-						<div class="stack gap-1">
-							<div class="flex items-center gap-1">
-								<h3>Websites</h3>
-								<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
-							</div>
+				<h2 class="group-title">Services</h2>
+				<div class="stack | lg-flex-row">
+					<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
+
+						<div class="services | stack lg-flex-row gap-2 width-100">
 							<div class="stack gap-1">
-								<p>${obj.data.home.websites_des}</p>
+								<div class="flex items-center gap-1">
+									<h3>Websites</h3>
+									<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
+								</div>
+								<div class="stack gap-1">
+									<p>${obj.data.home.websites_des}</p>
+									<ul class="list-inside">
+										${obj.data.home.websites_list.map(element => {
+											return `<li>${element}</li>`;
+										}).join('')}
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
+						<div class="services | stack lg-flex-row gap-2 width-100">
+							<div class="stack gap-1">
+								<div class="flex items-center gap-1">
+									<h3>Web Apps</h3>
+									<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
+								</div>
+								<p>${obj.data.home.apps_des}</p>
 								<ul class="list-inside">
-									${obj.data.home.websites_list.map(element => {
+									${obj.data.home.apps_list.map(element => {
 										return `<li>${element}</li>`;
 									}).join('')}
 								</ul>
 							</div>
-								
-						</div>
-						<div class="stack gap-1">
-							<div class="flex items-center gap-1">
-								<h3>Web Apps</h3>
-								<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
-							</div>
-							<p>${obj.data.home.apps_des}</p>
-							<ul class="list-inside">
-								${obj.data.home.apps_list.map(element => {
-									return `<li>${element}</li>`;
-								}).join('')}
-							</ul>
 						</div>
 					</div>
 				</div>
@@ -64,9 +71,10 @@
 		<!-- RECENT WORKS -->
 		<section id="projects">
 			<div class="wrapper">
+				<h2 class="group-title">Case Study</h2>
 				<div class="case-study-card card | flex flex-column | lg-flex-row gap-2 | trigger opacity-0 fade-in">
 					<div class="stack gap-1">
-						<h2>Case Study</h2>
+
 						<div class="stack gap-1">
 							<div>
 								<h3>Artist Retreats</h3>
@@ -83,7 +91,7 @@
 				<br>
 
 				<div class="flex flex-column | trigger opacity-0 fade-in">
-					<h2>Recent Projects</h2>
+					<h2 class="group-title">Recent Projects</h2>
 					<div class="auto-grid gap-1">
 						<img class="work-thumbnail" src="/assets/work-1.jpg" alt="thumbnail of recent work">
 						<img class="work-thumbnail" src="/assets/work-2.jpg" alt="thumbnail of recent work">
@@ -254,8 +262,9 @@
 		<!-- FAQ -->
 		<section id="faqs">
 			<div class="wrapper">
+				<h2 class="group-title">FAQs</h2>
 				<div class="card width-100 | trigger opacity-0 fade-in">
-					<h2>FAQs</h2>
+
 					${obj.data.home.faqs.map(faq => {
 						return `
 							<details>
@@ -271,8 +280,9 @@
 		<!-- FORM -->
 		<section id="sign-up" class="bg-primary">
 			<div class="wrapper">
+				<h2 class="group-title"> Start Your Next Digital Story with a Free Web Consultation</h2>
 				<div class="card width-100 | trigger opacity-0 fade-in">
-					<h2> Start Your Next Digital Story with a Free Web Consultation</h2>
+
 					<form netlify class="flex flex-column gap-1" name="web-consultation" action="/thank-you">
 						<div class="auto-grid">
 							<label for="name">

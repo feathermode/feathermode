@@ -23,7 +23,7 @@
 	--color-dark-rgb: 19, 19, 22;
 	--color-dark: rgba(19, 19, 22, 1);
 	--color-light: #FAFAFA;
-	--color-gray: #434347;
+	--color-gray: #8c8c8c;
 	--color-primary: #177EFE;
 	--color-secondary: #FFD700;
 	--color-tertiary: #D5A224;
@@ -149,11 +149,12 @@ textarea {
 
 /* width */
 ::-webkit-scrollbar {
-	width: 20px;
+	width: 12px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
+	background: var(--color-dark);
 	border-radius: var(--radius-lg);
 }
 
@@ -305,6 +306,10 @@ section:first-of-type .star {
     left: 15%;
     height: 70px;
     opacity: 0.8;
+}
+
+.group-title {
+	margin-bottom: 1.5rem;
 }
 
 .card-icon {
