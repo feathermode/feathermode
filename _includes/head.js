@@ -10,7 +10,7 @@ export default function head() {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<meta name="generator" content="Gondola" />
-			<link rel="canonical" href="feathermode.com" />
+			<link rel="canonical" href="https://feathermode.com" />
 			<meta property="og:title" content="Your Digital Story, Made to Fly"/>
 			<meta property="og:type" content="website"/>
 			<meta property="og:url" content="https://feathermode.com"/>

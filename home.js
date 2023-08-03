@@ -5,7 +5,7 @@
 			<div class="wrapper flex content-center">
 				<h1 class="trigger opacity-0 fade-in">${obj.data.home.hero_heading}</h1>
 			</div>
-			<img class="star" src="/assets/shooting_star.svg">
+			<img class="star" src="/assets/shooting_star.svg" alt="">
 			<img class="hero_clouds" src="/assets/clouds.svg" alt="">
 		</section>
 
