@@ -1,0 +1,33 @@
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--color-dark);
+	border-radius: var(--radius-lg);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
+	border-radius: var(--radius-lg);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-secondary);
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.case-study {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Case Study Scrollbar */
+.case-study::-webkit-scrollbar {
+  display: none;
+}

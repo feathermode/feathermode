@@ -1,7 +1,7 @@
 /* WRAPPER */
 .wrapper {
 	position: relative;
-	min-width: 80vw;
+	width: 95%;
 	max-width: 1100px;
 	margin-inline: auto;
 }

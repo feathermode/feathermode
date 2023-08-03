@@ -1,0 +1,18 @@
+form {
+	margin-top: 2rem;
+}
+
+form input, textarea, select {
+	background: var(--color-light);
+	border: 3px solid var(--color-dark);
+	border-radius: var(--radius-md);
+	padding: 0.5rem;
+}
+
+form input:hover, form input:focus, textarea:hover, textarea:focus, select:hover, select:focus {
+	border-color: var(--color-primary);
+}
+
+form button {
+	margin-left: auto;
+}
