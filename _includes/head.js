@@ -26,7 +26,6 @@ export default function head() {
 			
 			<!-- ANALYTICS -->
 			<script src="https://cdn.usefathom.com/script.js" data-site="MJCILIZC" defer></script>
-
 			<script src="/functions/main.js" type="module" defer></script>
 		</head>
 	`;
