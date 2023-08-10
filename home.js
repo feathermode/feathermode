@@ -25,7 +25,7 @@
 			</svg>
 
 			<div class="wrapper">
-				<p class="hook | trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
+				<p class="hook | font-bold trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
 				<h2 class="group-title">Services</h2>
 				<div class="stack | lg-flex-row">
 					<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
@@ -268,7 +268,7 @@
 					${obj.data.home.faqs.map(faq => {
 						return `
 							<details>
-								<summary>${faq.summary}</summary>
+								<summary class="font-bold">${faq.summary}</summary>
 								${faq.details}
 							</details>
 						`;

@@ -62,8 +62,24 @@
 				0 46px 60px -6px rgba(0, 0, 0, 0.2);
 
 	/* FONTS */
-	--font-primary: sans-serif;
-	--font-secondary: sans-serif;
+	/* FONTS (Font stacks from modernfontstacks.com) */
+	--font-system: system-ui, sans-serif;
+	--font-transitional: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+	--font-old: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+	--font-humanist: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+	--font-geometric-humanist: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+	--font-classical-humanist: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+	--font-neo-grotesque: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+	--font-monospace-slab-serif: 'Nimbus Mono PS', 'Courier New', monospace;
+	--font-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	--font-industrial: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+	--font-rounded-sans: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+	--font-slab-serif: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+	--font-antique: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+	--font-didone: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
+	--font-handwritten: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+	--font-primary: var(--font-geometric-humanist);
+	--font-secondary: var(--font-geometric-humanist);
 	--text-base-size: 1rem;
 	--text-scale: 1.2;
 	--text-xs: calc((var(--text-base-size) / var(--text-scale)) / var(--text-scale));
@@ -107,7 +123,7 @@
 
 
 /* CUSTOM STYLES */
-@font-face {
+/*@font-face {
 	src: url("../fonts/Lato-Regular.ttf");
 	font-family: Lato-Regular;
 }
@@ -115,17 +131,17 @@
 @font-face {
 	src: url("../fonts/Lato-Bold.ttf");
 	font-family: Lato-Bold;
-}
+}*/
 
-:root {
-	/* FONTS */
+/*:root {
 	--font-primary: "Lato-Regular", sans-serif;
 	--font-secondary: "Lato-Bold", sans-serif;
-}
+}*/
 
 /* General */
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-primary);
+	font-weight: bold;
 }
 
 body {
