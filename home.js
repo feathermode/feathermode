@@ -247,6 +247,18 @@
 			</div>
 		</section>
 
+		<section>
+			<div class="wrapper">
+				<div class="pills | auto-flex content-center gap-2">
+				${obj.data.home.industries.map(industry => {
+					return `
+						<div class="pill"><p>${industry}</p></div>
+					`
+				}).join('')}
+				</div>
+			</div>
+		</section>
+
 		<!-- FORM LINK SECTION -->
 		<section>
 			<div class="wrapper">

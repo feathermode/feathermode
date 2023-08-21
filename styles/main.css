@@ -441,7 +441,24 @@ details[open] summary {
 	text-decoration: underline;
 }
 
+.pill {
+	padding: 1rem 0.5rem;
+	border: var(--border);
+	border-radius: var(--radius-lg);
+	color: light;
+	transition: var(--trans-short);
+	width: fit-content;
+}
 
+.pill:nth-of-type(odd):hover {
+	background: var(--color-tertiary);
+	transition: var(--trans-short);
+}
+
+.pill:nth-of-type(even):hover {
+	background: var(--color-secondary);
+	transition: var(--trans-short);
+}
 
 footer {
 	display: flex;
