@@ -26,20 +26,25 @@
 
 			<div class="wrapper">
 				<p class="hook | font-bold trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
-				<h2 class="group-title">Services</h2>
+				<div>
+					<h2 class="group-title">Services</h2>
+					<p class="group-title text-md">${obj.data.home.websites_des}</p>
+				</div>
+				
 				<div class="stack | lg-flex-row">
+					
 					<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
 
 						<div class="services | stack lg-flex-row gap-2 width-100">
 							<div class="stack gap-1">
 								<div class="flex items-center gap-1">
-									<h3>Websites</h3>
+									<h3>Branding and Web Design</h3>
 									<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
 								</div>
 								<div class="stack gap-1">
-									<p>${obj.data.home.websites_des}</p>
+									<p>${obj.data.home.branding_design_des}</p>
 									<ul class="list-inside">
-										${obj.data.home.websites_list.map(element => {
+										${obj.data.home.branding_design_list.map(element => {
 											return `<li>${element}</li>`;
 										}).join('')}
 									</ul>
@@ -52,12 +57,29 @@
 						<div class="services | stack lg-flex-row gap-2 width-100">
 							<div class="stack gap-1">
 								<div class="flex items-center gap-1">
-									<h3>Web Apps</h3>
+									<h3>Progressive Web Apps</h3>
 									<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
 								</div>
 								<p>${obj.data.home.apps_des}</p>
 								<ul class="list-inside">
 									${obj.data.home.apps_list.map(element => {
+										return `<li>${element}</li>`;
+									}).join('')}
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
+						<div class="services | stack lg-flex-row gap-2 width-100">
+							<div class="stack gap-1">
+								<div class="flex items-center gap-1">
+									<h3>Web Development and Hosting</h3>
+									<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
+								</div>
+								<p>${obj.data.home.development_hosting_des}</p>
+								<ul class="list-inside">
+									${obj.data.home.development_hosting_list.map(element => {
 										return `<li>${element}</li>`;
 									}).join('')}
 								</ul>
@@ -249,7 +271,7 @@
 
 		<section>
 			<div class="wrapper">
-				<div class="pills | auto-flex content-center gap-2">
+				<div class="pills | auto-flex content-center gap-2 | trigger opacity-0 fade-in">
 				${obj.data.home.industries.map(industry => {
 					return `
 						<div class="pill"><p>${industry}</p></div>
@@ -319,11 +341,11 @@
 							</select>
 						</label>
 						<label for="on-the-web">
-							Do you have a live website or app? If so, let us know it's domain address.
+							Do you have a live website or app? If so, let me know it's domain address.
 							<input name="on-the-web" type="text" required>
 						</label>
 						<label for="budget">
-							What is your budget? This will help us provide you with the appropriate project scope.
+							What is your budget? This will help me provide you with the appropriate project scope.
 							<select class="width-fit-content" name="budget" id="budget" required>
 								<option value="1-to-5k">$1000 - $5000</option>
 								<option value="5-to-10k">$5000 - $10,000</option>
@@ -335,7 +357,7 @@
 							</select>
 						</label>
 						<label for="project-details">
-							Tell us more about your future Web Platform.
+							Tell me more about your future Web Platform.
 							<textarea name="project-details" id="project-details" cols="30" rows="10"></textarea required>
 						</label>
 						<button class="button-main">Let it FLY!</button>

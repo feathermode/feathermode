@@ -442,7 +442,7 @@ details[open] summary {
 }
 
 .pill {
-	padding: 1rem 0.5rem;
+	padding: 1.25rem 2rem;
 	border: var(--border);
 	border-radius: var(--radius-lg);
 	color: light;

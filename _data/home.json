@@ -15,12 +15,33 @@
 		"Domain and Site maintenance plans",
 		"Content Marketing setup"
 	],
-	"apps_des": "Progressive Web Apps (PWAs) are installable websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store. They provide greater connections with visitors and allow visitors to have a more intimate and integrated experience with the web platform. Learn more about them <a href=\"https://wwwinged.feathermode.com/the-future-is-an-installable-web\" rel=\"noopener\" target=\"_blank\">here.</a>. Progressive Web Apps allow users to do the following among others:",
+	"branding_design_des": "Visual and structural integrity is of utmost importance on the web. Your brand identity allows visitors and users to feel safe, comfortable and secure when interacting with you. The design and structural representation of your website and app provides users with defined and concrete pathways through your content network and services. In this space I help with:",
+	"branding_design_list": [
+		"Logo and Icon Creation",
+		"Naming",
+		"Website and Web App Design",
+		"Content Architecture",
+		"Design System Creation"
+	],
+	"apps_des": "Progressive Web Apps (PWAs) are websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store without the need to manage an entire different codebase and ecosystem. They're installable and provide greater connections with visitors. PWAs allow visitors to have a more intimate and integrated experience with your web platform. Learn more about them <a href=\"https://wwwinged.feathermode.com/the-future-is-an-installable-web\" rel=\"noopener\" target=\"_blank\">here.</a> and download our blog app <a href=\"https://wwwinged.feathermode.com\" rel=\"noopener\">here</a> to give one a try! I create Progressive Web Apps with the following capabilities:",
 	"apps_list": [
-		"Install website to home screen of device",
-		"Browse content offline or when connection is lost",
-		"Receive notifications on new content or new information from the phone or desktop",
-		"Set available website preferences for subsequent visits"
+		"Offline Mode",
+		"Installable from Site",
+		"Push Notifications",
+		"Page Saves",
+		"User Customization",
+		"Device Database Integration"
+	],
+	"development_hosting_des": "Every site I create is developed from scratch. No site or app is the same. I keep my development process simple and straightforward to allow for quick design-to-launch times and when the site is complete, I provide simple and tailored hosting. I also handle external integrations like email automation software and analytics. Some common needs are:",
+	"development_hosting_list": [
+		"Edge Hosting",
+		"Database Management",
+		"Content Management",
+		"Analytics",
+		"External Integrations",
+		"Domain Management",
+		"Forms",
+		"Site Authentication"
 	],
 	"form_cta": "During a Free Web Consultation I will walk you through the web creation process. If you already have a website, I will provide you with tips to improve your site. If you do not have one yet, I will help you flesh out your vision.",
 	"process_des": "I created the 5D Web Creation Process to provide unique and poignant websites and web apps to clients in a timely and professional manner.",
@@ -64,7 +85,6 @@
 		"Finance",
 		"Fitness",
 		"Healthcare",
-		"HVAC",
 		"Law",
 		"Manufacturing",
 		"Marketing",
