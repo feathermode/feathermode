@@ -74,8 +74,8 @@
 						<div class="services | stack lg-flex-row gap-2 width-100">
 							<div class="stack gap-1">
 								<div class="flex items-center gap-1">
-									<h3>Web Development and Hosting</h3>
-									<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
+									<h3>Development and Hosting</h3>
+									<img class="card-icon" src="/assets/fm_icon-content.svg" alt="website icon">
 								</div>
 								<p>${obj.data.home.development_hosting_des}</p>
 								<ul class="list-inside">
