@@ -170,7 +170,7 @@
 				<div class="position-relative">
 					<div class="stack gap-2 position-sticky top-0 left-0" style="top: 100px">
 						<div>
-							<h2 data-process-title="process">Our Process</h2>
+							<h2 data-process-title="process">Process</h2>
 							<p style="font-size: 30px;" data-process-title="detail">1. Detail</p>
 							<p style="font-size: 30px;" data-process-title="design">2. Design</p>
 							<p style="font-size: 30px;" data-process-title="develop">3. Develop</p>
@@ -221,7 +221,7 @@
 
 			<div class="wrapper | stack gap-1 | lg-none">
 				<div>
-					<h2>Our Process</h2>
+					<h2>Process</h2>
 					<p>${obj.data.home.process_des}</p>
 				</div>
 				<div class="auto-grid gap-1 | trigger opacity-0 fade-in">
