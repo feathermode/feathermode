@@ -16,6 +16,36 @@
 	},
 	{
 		"type": "page",
+		"name": "spacelift",
+		"path": "/spacelift",
+		"layout": "_includes/layout.js",
+		"inputs": "spacelift.js",
+		"data": {
+			"meta": {
+				"title" : "SpaceLift | feathermode",
+				"description" : "Description...",
+				"scripts": []
+			},
+			"home": "_data/home.json"
+		}
+	},
+	{
+		"type": "page",
+		"name": "web-apps",
+		"path": "/web-apps",
+		"layout": "_includes/layout.js",
+		"inputs": "web-apps.js",
+		"data": {
+			"meta": {
+				"title" : "Web Apps | feathermode",
+				"description" : "Description...",
+				"scripts": []
+			},
+			"home": "_data/home.json"
+		}
+	},
+	{
+		"type": "page",
 		"name": "404",
 		"path": "/404",
 		"layout": "_includes/layout.js",
