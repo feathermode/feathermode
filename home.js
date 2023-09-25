@@ -479,7 +479,7 @@
 						<label for="service">
 							What type of Platform or Service are you interested in?	
 							<select class="width-fit-content" name="service" id="service" required>
-								<option value="websites">Website</option>
+								<option value="spacelift">Spacelift</option>
 								<option value="web-app">Web App</option>
 							</select>
 						</label>
