@@ -1,9 +1,9 @@
-export default function head() {
+export default function head(obj) {
 	return `
 		<head>
 			<!-- GENERAL -->
-			<title>feathermode | Digital Storytelling and Web Creation Services</title>
-			<meta name="description" content="feathermode is a service that offers bespoke website and web app creation for individuals and businesses looking to tell their story on the web." />
+			<title>${obj.data.meta.title}</title>
+			<meta name="description" content="${obj.data.meta.description}" />
 			<meta name="author" content="feathermode">
 			
 			<!-- META -->

@@ -6,7 +6,7 @@ export default function layout(obj, global_data) {
 	return `
 		<!DOCTYPE html>
 		<html lang="en">
-		${head()}
+		${head(obj)}
 		<body>
 			<div data-anchor="top"></div>
 			${navigation()}

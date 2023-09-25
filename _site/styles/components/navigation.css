@@ -9,7 +9,7 @@
 	margin-right: auto;
 	border: transparent solid 2px;
 	border-radius: var(--radius-md);
-	background: rgba(var(--color-dark-rgb), 0);
+	background: rgba(0, 20, 51, 0);
 	-webkit-backdrop-filter: saturate(0%) blur(0px);
 	backdrop-filter: blur(0px);
 	transition: 0.5s;
