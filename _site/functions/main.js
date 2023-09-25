@@ -13,6 +13,19 @@ document.addEventListener('click', e => {
 		case_study.classList.add('stack');
 		case_study.classList.remove('none');
 	}
+
+	if (e.target.matches('#button-mobile-menu')) {
+		const mobile_menu = document.querySelector('#mobile-menu');
+		mobile_menu.classList.toggle('none');
+		mobile_menu.classList.toggle('stack');
+
+		if (mobile_menu.classList.contains('stack')) {
+			console.log('HAS STACK')
+			e.target.innerText = 'Close Menu';
+		} else {
+			e.target.innerText = 'Menu';
+		}
+	}
 });
 
 
@@ -29,7 +42,7 @@ trigger({
 
 // Navigation
 const anchors = document.querySelectorAll('[data-anchor]');
-const nav = document.querySelector('.nav');
+const nav = document.querySelectorAll('.nav');
 
 const anchor_options = {
 	rootMargin: "100px 0px 0px 0px"
@@ -39,11 +52,11 @@ const nav_animator = new IntersectionObserver(function(entries, animator) {
 	entries.forEach(entry => {
 		if (!entry.isIntersecting) {
 			console.log("connected")
-			nav.classList.add('nav-scrolled');
+			nav.forEach(box => box.classList.add('nav-scrolled'));
 			return;
 		} else {
 			console.log('not')
-			nav.classList.remove('nav-scrolled');
+			nav.forEach(box => box.classList.remove('nav-scrolled'));
 		}
 	});
 }, anchor_options);

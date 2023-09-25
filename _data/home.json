@@ -1,8 +1,8 @@
 {
 	"hero_heading": "Your Website <br/>Made to <span class=\"color-primary\">FLY</span>",
-	"hero_des": "My name is OOF, and from my web design studio in New York, I create custom websites and web applications, small and large, from the ground up to fit each unique story.",
+	"hero_des": "My name is OOF, and from my web design studio in New York, I help web creators and website owners create better experiences for their audiences by enhancing and expanding upon current websites or building custom websites and web applications from the ground UP.",
 	"hero_cta": "Learn About Our Services",
-	"websites_des": "I handle every aspect of the web creation process and build websites for content creators, solopreneurs and small to medium-sized businesses and organizations. Each project is bespoke and may include, but is not limited to the following:",
+	"websites_des": "If you already have a website you may need a <strong>Spacelift</strong>, which is a makeover and enhancement service for your website. If you do not have a website or want to completely redo your current website you can sign up for a custom <strong>Web App</strong> service which offers the best way to interact and service your digital audience.",
 	"websites_list": [
 		"Branding",
 		"Content Architecture",
@@ -22,6 +22,14 @@
 		"Website and Web App Design",
 		"Content Architecture",
 		"Design System Creation"
+	],
+	"spacelift_des": "My SpaceLift service is for those who want to keep their website setup, but need help optimizing the design and performance of their website. You may have created your website on a web builder like Wix, Squarespace or Wordpress, but it didn't end up the way you wanted it to and you need some help pulling out it's potential. If so, a SpaceLift is perfect for you. A SpaceLift can apply to the following:",
+	"spacelift_list": [
+		"Website Redesign",
+		"Plugin Cleanup",
+		"SEO",
+		"Platform Upgrades",
+		"Site Performance Enhancement"
 	],
 	"apps_des": "Progressive Web Apps (PWAs) are websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store without the need to manage an entire different codebase and ecosystem. They're installable and provide greater connections with visitors. PWAs allow visitors to have a more intimate and integrated experience with your web platform. Learn more about them <a href=\"https://wwwinged.feathermode.com/the-future-is-an-installable-web\" rel=\"noopener\" target=\"_blank\">here.</a> and download our blog app <a href=\"https://wwwinged.feathermode.com\" rel=\"noopener\">here</a> to give one a try! I create Progressive Web Apps with the following capabilities:",
 	"apps_list": [

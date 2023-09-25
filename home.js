@@ -12,17 +12,17 @@
 		<!-- SERVICES -->
 		<section class="position-relative" id="services">
 			<!-- <img class="airship" src="/assets/airship.svg" alt=""> -->
-			<svg class="airship" viewBox="0 0 421 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<!-- <svg class="airship" viewBox="0 0 421 178" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<ellipse cx="209.5" cy="85.5" rx="209.5" ry="72.5" fill="currentColor"/>
 				<path d="M99 137H270V178H124L99 137Z" fill="currentColor"/>
 				<path d="M421 0L384.721 60H290L421 0Z" fill="currentColor"/>
 				<path d="M419 167L382.721 107L288 107L419 167Z" fill="currentColor"/>
-			</svg>
+			</svg> -->
 			<!-- <img class="balloon" src="/assets/balloon.svg" alt=""> -->
-			<svg class="balloon" viewBox="0 0 202 304" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<!-- <svg class="balloon" viewBox="0 0 202 304" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M158.504 178.576C184.789 160.882 202 131.391 202 98C202 43.8761 156.781 0 101 0C45.2192 0 0 43.8761 0 98C0 130.419 16.2232 159.161 41.222 177H41C43.1363 179.532 45.3234 182.025 47.4997 184.506C59.076 197.701 70.3435 210.545 72 227H129C128.307 210.109 139.848 198.061 154.959 182.285C156.121 181.072 157.304 179.837 158.504 178.576Z" fill="currentColor"/>
 				<rect x="76" y="258" width="50" height="46" fill="currentColor"/>
-			</svg>
+			</svg> -->
 
 			<div class="wrapper">
 				<p class="hook | font-bold trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
@@ -31,67 +31,208 @@
 					<p class="group-title text-md">${obj.data.home.websites_des}</p>
 				</div>
 				
-				<div class="stack | lg-flex-row">
-					
-					<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
+				<div class="stack gap-2">
 
+					<div id="spacelift" class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
 						<div class="services | stack lg-flex-row gap-2 width-100">
-							<div class="stack gap-1">
+							<div class="stack gap-3">
 								<div class="flex items-center gap-1">
-									<h3>Branding and Web Design</h3>
+									<h3>SpaceLift</h3>
 									<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
 								</div>
+
 								<div class="stack gap-1">
-									<p>${obj.data.home.branding_design_des}</p>
-									<ul class="list-inside">
-										${obj.data.home.branding_design_list.map(element => {
-											return `<li>${element}</li>`;
-										}).join('')}
-									</ul>
+									<div class="stack gap-1">
+										<p>Websites On...</p>
+										<div class="auto-flex gap-1 content-start font-bold">
+											<div class="pill" style="background: #dab800;">
+												<p>Wix</p>
+											</div>
+											<div class="pill" style="background: gray;">
+												<p>Squarespace</p>
+											</div>
+											<div class="pill" style="background: lightblue;">
+												<p>Wordpress</p>
+											</div>
+											<div class="pill" style="background: springgreen;">
+												<p>Shopify</p>
+											</div>
+											<div class="pill" style="background: rebeccapurple;">
+												<p>Webflow</p>
+											</div>
+											<div class="pill" style="background: royalblue;">
+												<p>Weebly</p>
+											</div>
+											<div class="pill" style="background: orange;">
+												<p>GoDaddy</p>
+											</div>
+											<div class="pill" style="background: black;">
+												<p>Ionos</p>
+											</div>
+											<div class="pill" style="background: darkgray;">
+												<p>Square</p>
+											</div>
+										</div>
+										
+										<p>can show up unfinished, generic, buggy and confusing to users. Web builders are great for getting started quickly, but they still require you to fine-tune and modify your website so that it is appropriate and effective for your audience. Generic, templated and unfinished websites do not convert users into customers. To remedy this common occurence I offer <strong>Spacelift</strong>, a service that involves diving into your setup, finding areas of improvement and providing effective solutions like:</p>
+									</div>
+
+									<div class="auto-flex content-start gap-1">
+										<div class="pill">
+											<p>Redesign</p>
+										</div>
+										<div class="pill">
+											<p>Plugin Assistance</p>
+										</div>
+										<div class="pill">
+											<p>SEO</p>
+										</div>
+										<div class="pill">
+											<p>Platform Upgrades</p>
+										</div>
+										<div class="pill">
+											<p>User Experience</p>
+										</div>
+										<div class="pill">
+											<p>Site Performance</p>
+										</div>
+									</div>
+
+									<!-- <div class="stack | lg-flex-row position-relative gap-1">
+										<div class="auto-flex lg-stack lg-items-start content-start gap-1">
+											<button class="button-main">
+												<p>Redesign</p>
+											</button>
+											<button class="button-main">
+												<p>Plugin Assistance</p>
+											</button>
+											<button class="button-main">
+												<p>SEO</p>
+											</button>
+											<button class="button-main">
+												<p>Platform Upgrades</p>
+											</button>
+											<button class="button-main">
+												<p>User Experience</p>
+											</button>
+											<button class="button-main">
+												<p>Site Performance</p>
+											</button>
+										</div>
+										<div class="width-100 lg-width-80" style="background: var(--color-light); aspect-ratio: 16 / 9; border-radius: var(--radius);">
+										</div>
+									</div> -->
+								</div>
+
+								<div class="stack gap-1">
+									<p>Turn your boring, templated, glitchy, unfinished webpages into a complete, integrated, helpful and effective website worthy of your digital story!</p>
+									<div class="flex flex-column | trigger opacity-0 fade-in">
+										<div class="auto-grid gap-1">
+											<img class="work-thumbnail" src="/assets/case-thumb.png" alt="thumbnail of recent work">
+											<img class="work-thumbnail" src="/assets/work-1.jpg" alt="thumbnail of recent work">
+											<img class="work-thumbnail" src="/assets/work-2.jpg" alt="thumbnail of recent work">
+											<img class="work-thumbnail" src="/assets/work-3.jpg" alt="thumbnail of recent work">
+											<img class="work-thumbnail" src="/assets/work-4.jpg" alt="thumbnail of recent work">
+											<img class="work-thumbnail" src="/assets/work-6.png" alt="thumbnail of recent work" style="height: 100%">
+											<img class="work-thumbnail" src="/assets/work-7.png" alt="thumbnail of recent work">
+											<img class="work-thumbnail" src="/assets/c4-cards.jpg" alt="thumbnail of recent work">
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
+					<div id="web-apps" class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
 						<div class="services | stack lg-flex-row gap-2 width-100">
-							<div class="stack gap-1">
+							<div class="stack gap-3">
 								<div class="flex items-center gap-1">
 									<h3>Progressive Web Apps</h3>
 									<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
 								</div>
-								<p>${obj.data.home.apps_des}</p>
-								<ul class="list-inside">
-									${obj.data.home.apps_list.map(element => {
-										return `<li>${element}</li>`;
-									}).join('')}
-								</ul>
-							</div>
-						</div>
-					</div>
-
-					<div class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
-						<div class="services | stack lg-flex-row gap-2 width-100">
-							<div class="stack gap-1">
-								<div class="flex items-center gap-1">
-									<h3>Development and Hosting</h3>
-									<img class="card-icon" src="/assets/fm_icon-content.svg" alt="website icon">
+								<div class="stack gap-1">
+									<p>${obj.data.home.apps_des}</p>
+									<div class="auto-flex content-start gap-1">
+										${obj.data.home.apps_list.map(element => {
+											return `<div class="pill">${element}</div>`;
+										}).join('')}
+									</div>
 								</div>
-								<p>${obj.data.home.development_hosting_des}</p>
-								<ul class="list-inside">
-									${obj.data.home.development_hosting_list.map(element => {
-										return `<li>${element}</li>`;
-									}).join('')}
-								</ul>
+								<div class="stack gap-1">
+									<p>I offer fine-tuned development and hosting for your site so you get the best of what your web app needs and appropraite plan pricing.</p>
+									<div class="auto-flex content-start gap-1">
+										${obj.data.home.development_hosting_list.map(element => {
+											return `<div class="pill">${element}</div>`;
+										}).join('')}
+									</div>
+								</div>
+								<div class="stack gap-1">
+									<h4 class="">FAQs</h4>
+									<div class="width-100 | trigger opacity-0 fade-in">
+
+										${obj.data.home.faqs.map(faq => {
+											return `
+												<details>
+													<summary class="font-bold">${faq.summary}</summary>
+													${faq.details}
+												</details>
+											`;
+										}).join('')}
+									</div>
+								</div>
+
+								<!-- <h4 class="group-title">Case Study</h4> -->
+								<!-- <div class="case-study-card card | flex flex-column | lg-flex-row gap-2 | trigger opacity-0 fade-in">
+									<div class="stack gap-1">
+										<div class="stack gap-1">
+											<div>
+												<h5>Artist Retreats</h5>
+												<p>An eCommerce platform for artist workshops hosted in Sicily where art students browse and sign up for workshops using a custom storefront.</p>
+											</div>
+											<button class="case-study-button button-main">Explore</button>
+										</div>
+									</div>
+								
+									<img class="case-study-thumbnail width-100 | lg-width-70" src="/assets/case-thumb.png" alt="thumbnail of homepage for Artist Retreats">
+								</div> -->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- <div class="case-study | position-relative none">
+				<nav class="nav nav-scrolled flex content-between items-center width-100 padding-sm position-sticky top-0 left-0 z-1000">
+					<a href="/#"><img class="nav-logo" src="/assets/fm_logo-white.svg" alt="feathermode"></a>
+					<div>
+						<button class="case-study-close | button-main bg-dark color-light border-none cursor-pointer">&#10006;</button>
+					</div>
+					
+				</nav>
+				<div class="wrapper stack items-center padding-tb-lg">
+					<div data-anchor="case"></div>
+					<p class="case-study-heading">Artist Retreats</p>
+					<p class="case-study-sub">Online Booking Platform for a Variety of Artist Workshops Hosted in Sicily, Italy</p>
+					<p>Web Captain | OOF</p>
+					<div class="case-study-content">
+						<p>I met with the Artist Retreats team to establish the type of platform they wanted by focusing on the goals they had for their business. They wanted have an easy way for artists to sign up for their classes while providing all of the required information for the workshop. I worked with their Program Director to hone in the branding and design system.</p>
+						<img class="case-thumbnail" src="/assets/ar-screen-icons.png" alt="thumbnail of recent work">
+
+						<p>The main factor when it comes to this particular design is finding the right balance of web design and content design. Since this platform was to feature artwork and photography from workshop participants, the mantra was, "let the content speak loudest." Therefore, the web design is centered around providing a subtle touch of Sicily on each page while web visitors can focus on appreciating the art and photography on the website.</p>
+						<img class="case-thumbnail" src="/assets/ar-screen-1.png" alt="thumbnail of recent work">
+
+						<p>Each workshop page leads into a checkout process that is straightforward and requires the visitor to fulfill one task at a time. Checkouts that require the user to attend to many things at once before moving onto the next step oftentimes discourage the user from continuing. Providing a unique and custom checkout process while maintaining that principle was a primary goal as I designed and developed the site.</p>
+						<img class="case-thumbnail" src="/assets/ar-screen-2.png" alt="thumbnail of recent work">
+
+						<p>I had a blast working with the Artist Retreats team and I can't wait to see how their web platform continues to grow.</p>
+
+						<p>- OOF</p>
+					</div>
+				</div>
+			</div> -->
 		</section>
 
 		<!-- RECENT WORKS -->
-		<section id="projects">
+		<!-- <section id="projects">
 			<div class="wrapper">
 				<h2 class="group-title">Case Study</h2>
 				<div class="case-study-card card | flex flex-column | lg-flex-row gap-2 | trigger opacity-0 fade-in">
@@ -130,7 +271,7 @@
 				<nav class="nav nav-scrolled flex content-between items-center width-100 padding-sm position-sticky top-0 left-0 z-1000">
 					<a href="/#"><img class="nav-logo" src="/assets/fm_logo-white.svg" alt="feathermode"></a>
 					<div>
-						<!-- <button class="case-study-close">&#8592;</button> -->
+						
 						<button class="case-study-close | button-main bg-dark color-light border-none cursor-pointer">&#10006;</button>
 					</div>
 					
@@ -156,7 +297,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- PROCESS -->
 		<section id="process" class="position-relative">
@@ -270,7 +411,8 @@
 			</div>
 		</section>
 
-		<section>
+		<!-- INDUSTRIES --> 
+		<section id="industries">
 			<div class="wrapper">
 				<div class="pills | auto-flex content-center gap-2 | trigger opacity-0 fade-in">
 				${obj.data.home.industries.map(industry => {
@@ -283,19 +425,19 @@
 		</section>
 
 		<!-- FORM LINK SECTION -->
-		<section>
+		<!-- <section>
 			<div class="wrapper">
 				<div class="form_cta | card | stack lg-flex-row items-center content-between width-100 | trigger opacity-0 fade-in">
 					<p>${obj.data.home.form_cta}</p>
 					<a class="button-light" href="#sign-up">Sign Up For a Web Consultation</a>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- FROM WWWINGED -->
 
 		<!-- FAQ -->
-		<section id="faqs">
+		<!-- <section id="faqs">
 			<div class="wrapper">
 				<h2 class="group-title">FAQs</h2>
 				<div class="card width-100 | trigger opacity-0 fade-in">
@@ -310,7 +452,7 @@
 					}).join('')}
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- FORM -->
 		<section id="sign-up" class="bg-primary">

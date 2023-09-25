@@ -21,10 +21,10 @@
 	--color-attention: orange;
 	--color-notification: blue;
 
-	--color-dark-rgb: 0, 8, 20;
-	--color-dark: #000814; /*rgba(19, 19, 22, 1)*/
+	--color-dark-rgb: 0, 20, 51;
+	--color-dark: #001433; /*rgba(19, 19, 22, 1)*/
 	--color-light: #FAFAFA;
-	--color-gray: #8c8c8c;
+	--color-gray: #313e4a;
 	--color-primary: #177EFE;
 	--color-secondary: #FFD700;
 	--color-tertiary: #D5A224;
@@ -163,6 +163,10 @@ textarea {
 	resize: vertical;
 }
 
+.nav {
+	transition: 0.5s;
+}
+
 .icon {
 	height: 30px;
 }
@@ -243,7 +247,7 @@ section:first-of-type h1, section:first-of-type span {
 
 .hook {
 	color: var(--color-light);
-	font-size: 50px;
+	font-size: 42px;
 	padding: 6rem 0;
 }
 
@@ -282,12 +286,19 @@ section:first-of-type h1, section:first-of-type span {
 	--item-min-size: 100%;
 }
 
-#services {
+/*#services {
 	background-image: url("/assets/noise.svg");
+}*/
+
+#services, #projects, #industries {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--color-dark)), url("/assets/noise.svg");
+}
+#industries {
+	background: linear-gradient(to top, rgba(0, 0, 0, 0), var(--color-dark)), url("/assets/noise.svg");
 }
 
-#projects {
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--color-dark)), url("/assets/noise.svg");
+#web-apps .card {
+/*	background: var(--color-primary);*/
 }
 
 .case-study-thumbnail {
@@ -442,7 +453,7 @@ details[open] summary {
 }
 
 .pill {
-	padding: 1.25rem 2rem;
+	padding: 1rem 2rem;
 	border: var(--border);
 	border-radius: var(--radius-lg);
 	color: light;
@@ -450,7 +461,7 @@ details[open] summary {
 	width: fit-content;
 }
 
-.pill:nth-of-type(odd):hover {
+/*.pill:nth-of-type(odd):hover {
 	background: var(--color-tertiary);
 	transition: var(--trans-short);
 }
@@ -458,7 +469,7 @@ details[open] summary {
 .pill:nth-of-type(even):hover {
 	background: var(--color-secondary);
 	transition: var(--trans-short);
-}
+}*/
 
 footer {
 	display: flex;
@@ -507,7 +518,7 @@ footer {
 	}
 
 	.hook {
-		font-size: 60px;
+		font-size: 50px;
 	}
 
 	.balloon {
