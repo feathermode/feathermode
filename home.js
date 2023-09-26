@@ -31,7 +31,7 @@
 					<p class="group-title text-md">${obj.data.home.websites_des}</p>
 				</div>
 				
-				<div class="flex gap-2">
+				<div class="stack | lg-flex-row gap-2">
 
 					<div class="stack gap-1 card">
 						<h3>SpaceLift</h3>
