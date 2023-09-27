@@ -31,18 +31,24 @@
 					<p class="group-title text-md">${obj.data.home.websites_des}</p>
 				</div>
 				
-				<div class="stack | lg-flex-row gap-2">
+				<div class="stack">
 
-					<div class="stack gap-1 card">
+					<div class="stack card bg-primary gap-1">
 						<h3>SpaceLift</h3>
 						<p>I will work on your website regardless of the web building software you use and make it more performant, user-friendly, beautiful and effective.</p>
 						<a class="button-main" href="/spacelift">Learn More</a>
 					</div>
 
-					<div class="stack gap-1 card">
+					<div class="stack card bg-secondary color-dark gap-1">
 						<h3>Web Apps</h3>
 						<p>I will create a website with app capabilities from scratch using the 5D Web Creation Process and provide fine-tuned hosting.</p>
-						<a class="button-main" href="/web-apps">Learn More</a>
+						<a class="button-dark" href="/web-apps">Learn More</a>
+					</div>
+
+					<div class="stack card bg-gray gap-1">
+						<h3>Copywriting</h3>
+						<p>I will help you craft content for your website, business and brand that utilizes the voice, subject matter and structure to appropriately engage with your audience and convert visitors into customers or subscribers.</p>
+						<!-- <a class="button-main" href="/web-apps">Learn More</a> -->
 					</div>
 					
 				</div>

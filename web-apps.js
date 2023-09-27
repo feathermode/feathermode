@@ -29,7 +29,7 @@ export default function web_apps(obj) {
 						</div>
 						<div class="stack gap-1">
 							<h4 class="">FAQs</h4>
-							<div class="width-100 | trigger opacity-0 fade-in">
+							<div class="width-100">
 
 								${obj.data.home.faqs.map(faq => {
 									return `

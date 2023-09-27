@@ -191,9 +191,9 @@ section:first-of-type .star {
 }
 
 .card {
-	background: rgba(var(--color-dark-rgb), 0.15);
-	color: var(--color-light);
-	padding: var(--space-md);
+	/*background: rgba(var(--color-dark-rgb), 0.15);
+	color: var(--color-light);*/
+	padding: var(--space-lg);
 	border: var(--border);
 	border-radius: var(--radius-md);
 	-webkit-backdrop-filter: saturate(100%) blur(3px);
