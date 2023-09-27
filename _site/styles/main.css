@@ -83,7 +83,7 @@
 	--text-base-size: 1rem;
 	--text-scale: 1.2;
 	--text-xs: calc((var(--text-base-size) / var(--text-scale)) / var(--text-scale));
-	--text-sm: calc(var(--text-xs) * var(--text-scale));
+	--text-sm: var(--text-base-size);
 	--text-md: calc(var(--text-sm) * var(--text-scale) * var(--text-scale));
 	--text-lg: calc(var(--text-md) * var(--text-scale));
 	--text-xl: calc(var(--text-lg) * var(--text-scale));
