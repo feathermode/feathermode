@@ -1,4 +1,20 @@
-export default function web_apps(obj) {
+export function config() {
+	const meta = {
+		"title" : "Web Apps | feathermode",
+		"description" : "Website or no website, go from idea to production-ready web app by hiring feathermode to ideate, design, develop and deploy your app.",
+		"scripts": []
+	}
+
+	return {
+		type: 'page',
+		layout: '_includes/layout.js',
+		state: 'publish',
+		path: '/web-apps',
+		meta: meta
+	}
+}
+
+export default function web_apps(data, collections) {
 	return `
 	<section>
 		<div class="wrapper | stack gap-3">
@@ -12,9 +28,9 @@ export default function web_apps(obj) {
 					<div class="stack gap-3">
 						
 						<div class="stack gap-1">
-							<p>${obj.data.home.apps_des}</p>
+							<p>${data.home.apps_des}</p>
 							<div class="auto-flex content-start gap-1">
-								${obj.data.home.apps_list.map(element => {
+								${data.home.apps_list.map(element => {
 									return `<div class="pill">${element}</div>`;
 								}).join('')}
 							</div>
@@ -22,7 +38,7 @@ export default function web_apps(obj) {
 						<div class="stack gap-1">
 							<p>I offer fine-tuned development and hosting for your site so you get the best of what your web app needs and appropraite plan pricing.</p>
 							<div class="auto-flex content-start gap-1">
-								${obj.data.home.development_hosting_list.map(element => {
+								${data.home.development_hosting_list.map(element => {
 									return `<div class="pill">${element}</div>`;
 								}).join('')}
 							</div>
@@ -31,7 +47,7 @@ export default function web_apps(obj) {
 							<h4 class="">FAQs</h4>
 							<div class="width-100">
 
-								${obj.data.home.faqs.map(faq => {
+								${data.home.faqs.map(faq => {
 									return `
 										<details>
 											<summary class="font-bold">${faq.summary}</summary>
@@ -84,10 +100,14 @@ export default function web_apps(obj) {
 					<label for="budget">
 						What is your budget? This will help me provide you with the appropriate project scope.
 						<select class="width-fit-content" name="budget" id="budget" required>
-							<option value="250-350">$250 - $350</option>
-							<option value="305-500">$350 - $500</option>
-							<option value="500-1k">$500-$1000</option>
-						</select>
+								<option value="1-to-5k">$1000 - $5000</option>
+								<option value="5-to-10k">$5000 - $10,000</option>
+								<option value="10-to-15k">$10,000 - $15,000</option>
+								<option value="15k-to-30k">$15,000 - $30,000</option>
+								<option value="30k-to-50k">$30,000 - $50,000</option>
+								<option value="50k-to-80k">$50,000 - $80,000</option>
+								<option value="80k+">$80,000 +</option>
+							</select>
 					</label>
 					<label for="project-details">
 						Tell me more about your future Web Platform.

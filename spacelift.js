@@ -1,3 +1,19 @@
+export function config() {
+	const meta = {
+		"title" : "SpaceLift | feathermode",
+		"description" : "Get a professional web designer to give your website a touch up that will make it more performant, user-friendly, beautiful and effective.",
+		"scripts": []
+	}
+
+	return {
+		type: 'page',
+		layout: '_includes/layout.js',
+		state: 'publish',
+		path: '/spacelift',
+		meta: meta
+	}
+}
+
 export default function spacelift(obj) {
 	return `
 	<section>

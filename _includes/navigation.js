@@ -61,7 +61,7 @@ export default function navigation() {
 					<li><a href="/spacelift">SpaceLift</a></li>
 					<li><a href="/web-apps">Web Apps</a></li>
 					<li><a href="/#process">Process</a></li>
-					<li><a href="https://wwwinged.feathermode.com" noopener noreferrer>Blog</a></li>
+					<!-- <li><a href="https://wwwinged.feathermode.com" noopener noreferrer>Blog</a></li> -->
 				</ul>
 				<a class="button-main" href="/#sign-up">Free Web Consultation</a>
 			</div>
@@ -123,7 +123,7 @@ export default function navigation() {
 				<li><a href="/spacelift">SpaceLift</a></li>
 				<li><a href="/web-apps">Web Apps</a></li>
 				<li><a href="/#process">Process</a></li>
-				<li><a href="https://wwwinged.feathermode.com" noopener noreferrer>Blog</a></li>
+				<!-- <li><a href="https://wwwinged.feathermode.com" noopener noreferrer>Blog</a></li> -->
 			</ul>
 			<a class="button-main" href="/#sign-up">Free Web Consultation</a>
 		</nav>

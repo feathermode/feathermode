@@ -486,6 +486,10 @@ footer {
 	height: 14px;
 }
 
+.blog-post h3 {
+	margin-top: 2rem;
+}
+
 
 /* MEDIA QUERIES */
 @media (min-width: 599px) {

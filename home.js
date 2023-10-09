@@ -1,9 +1,25 @@
-	export default function home(obj) {
+export function config() {
+	const meta = {
+		"title" : "feathermode | Digital Storytelling and Web Creation Services",
+		"description" : "feathermode is a service that offers bespoke website and web app creation for individuals and businesses looking to tell their story on the web.",
+		"scripts": []
+	}
+
+	return {
+		type: 'page',
+		layout: '_includes/layout.js',
+		state: 'publish',
+		path: '',
+		meta: meta
+	}
+}
+
+export default function home(data, collections) {
 	return `
 		<!-- HERO -->
 		<section class="position-relative overflow-hidden">
 			<div class="wrapper flex content-center">
-				<h1 class="trigger opacity-0 fade-in">${obj.data.home.hero_heading}</h1>
+				<h1 class="trigger opacity-0 fade-in">${data.home.hero_heading}</h1>
 			</div>
 			<img class="star" src="/assets/shooting_star.svg" alt="">
 			<img class="hero_clouds" src="/assets/clouds.svg" alt="">
@@ -25,10 +41,10 @@
 			</svg> -->
 
 			<div class="wrapper">
-				<p class="hook | font-bold trigger opacity-0 fade-in">${obj.data.home.hero_des}</p>
+				<p class="hook | font-bold trigger opacity-0 fade-in">${data.home.hero_des}</p>
 				<div>
 					<h2 class="group-title">Services</h2>
-					<p class="group-title text-md">${obj.data.home.websites_des}</p>
+					<p class="group-title text-md">${data.home.websites_des}</p>
 				</div>
 				
 				<div class="stack">
@@ -172,40 +188,40 @@
 							<p style="font-size: 30px;" data-process-title="dedicate">5. Dedicate</p>
 						</div>
 
-						<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.feathermode.com/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
+						<p>Learn more about our 5D Web Creation Process <a href="/articles/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
 					</div>
 				</div>
 				<div class="process-lists stack gap-1 | trigger opacity-0 fade-in">
 					<div class="" style="height: 50vh;" data-process-element="process">
-						<p class="process-element">${obj.data.home.process_des}</p>
+						<p class="process-element">${data.home.process_des}</p>
 					</div>
 
 					<ul class="list-inside" style="height: 50vh" data-process-element="detail">
-						${obj.data.home.detail_list.map(element => {
+						${data.home.detail_list.map(element => {
 							return `<li class="process-element">${element}</li>`
 						}).join('')}
 					</ul>
 
 					<ul class="list-inside" style="height: 50vh" data-process-element="design">
-						${obj.data.home.design_list.map(element => {
+						${data.home.design_list.map(element => {
 							return `<li class="process-element">${element}</li>`
 						}).join('')}
 					</ul>
 
 					<ul class="list-inside" style="height: 50vh" data-process-element="develop">
-						${obj.data.home.develop_list.map(element => {
+						${data.home.develop_list.map(element => {
 							return `<li class="process-element">${element}</li>`
 						}).join('')}
 					</ul>
 
 					<ul class="list-inside" style="height: 50vh" data-process-element="deploy">
-						${obj.data.home.deploy_list.map(element => {
+						${data.home.deploy_list.map(element => {
 							return `<li class="process-element">${element}</li>`
 						}).join('')}
 					</ul>
 
 					<ul class="list-inside" style="height: 50vh" data-process-element="dedicate">
-						${obj.data.home.dedicate_list.map(element => {
+						${data.home.dedicate_list.map(element => {
 							return `<li class="process-element">${element}</li>`
 						}).join('')}
 					</ul>
@@ -216,13 +232,13 @@
 			<div class="wrapper | stack gap-1 | lg-none">
 				<div>
 					<h2>Process</h2>
-					<p>${obj.data.home.process_des}</p>
+					<p>${data.home.process_des}</p>
 				</div>
 				<div class="auto-grid gap-1 | trigger opacity-0 fade-in">
 					<div class="stack gap-1 padding-md">
 						<h3>1. Detail</h3>
 						<ul class="list-inside">
-							${obj.data.home.detail_list.map(element => {
+							${data.home.detail_list.map(element => {
 								return `<li>${element}</li>`
 							}).join('')}
 						</ul>
@@ -230,7 +246,7 @@
 					<div class="stack gap-1 padding-md">
 						<h3>2. Design</h3>
 						<ul class="list-inside">
-							${obj.data.home.design_list.map(element => {
+							${data.home.design_list.map(element => {
 								return `<li>${element}</li>`
 							}).join('')}
 						</ul>
@@ -238,7 +254,7 @@
 					<div class="stack gap-1 padding-md">
 						<h3>3. Develop</h3>
 						<ul class="list-inside">
-							${obj.data.home.develop_list.map(element => {
+							${data.home.develop_list.map(element => {
 								return `<li>${element}</li>`
 							}).join('')}
 						</ul>
@@ -246,7 +262,7 @@
 					<div class="stack gap-1 padding-md">
 						<h3>4. Deploy</h3>
 						<ul class="list-inside">
-							${obj.data.home.deploy_list.map(element => {
+							${data.home.deploy_list.map(element => {
 								return `<li>${element}</li>`
 							}).join('')}
 						</ul>
@@ -254,13 +270,13 @@
 					<div class="stack gap-1 padding-md">
 						<h3>5. Dedicate</h3>
 						<ul class="list-inside">
-							${obj.data.home.dedicate_list.map(element => {
+							${data.home.dedicate_list.map(element => {
 								return `<li>${element}</li>`
 							}).join('')}
 						</ul>
 					</div>
 				</div>
-				<p>Learn more about our 5D Web Creation Process <a href="https://wwwinged.feathermode.com/5d-web-creation-process" rel="noopener" target="_blank">here.</a></p>
+				<p>Learn more about our 5D Web Creation Process <a href="/articles/the-5ds-of-web-creation" rel="noopener" target="_blank">here.</a></p>
 			</div>
 		</section>
 
@@ -268,7 +284,7 @@
 		<section id="industries">
 			<div class="wrapper">
 				<div class="pills | auto-flex content-center gap-2 | trigger opacity-0 fade-in">
-				${obj.data.home.industries.map(industry => {
+				${data.home.industries.map(industry => {
 					return `
 						<div class="pill"><p>${industry}</p></div>
 					`
@@ -281,7 +297,7 @@
 		<!-- <section>
 			<div class="wrapper">
 				<div class="form_cta | card | stack lg-flex-row items-center content-between width-100 | trigger opacity-0 fade-in">
-					<p>${obj.data.home.form_cta}</p>
+					<p>${data.home.form_cta}</p>
 					<a class="button-light" href="#sign-up">Sign Up For a Web Consultation</a>
 				</div>
 			</div>
@@ -295,7 +311,7 @@
 				<h2 class="group-title">FAQs</h2>
 				<div class="card width-100 | trigger opacity-0 fade-in">
 
-					${obj.data.home.faqs.map(faq => {
+					${data.home.faqs.map(faq => {
 						return `
 							<details>
 								<summary class="font-bold">${faq.summary}</summary>

@@ -1,3 +1,19 @@
+export function config() {
+	const meta = {
+		"title" : "Thank You! | feathermode",
+		"description" : "Thank you for contacting feathermode!",
+		"scripts": []
+	}
+
+	return {
+		type: 'page',
+		layout: '_includes/layout.js',
+		state: 'publish',
+		path: '/thank-you',
+		meta: meta
+	}
+}
+
 export default function thank_you() {
 	return `
 		<!-- HERO -->

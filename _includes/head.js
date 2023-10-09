@@ -2,8 +2,8 @@ export default function head(obj) {
 	return `
 		<head>
 			<!-- GENERAL -->
-			<title>${obj.data.meta.title}</title>
-			<meta name="description" content="${obj.data.meta.description}" />
+			<title>${obj.meta ? obj.meta.title : ''}</title>
+			<meta name="description" content="${obj.meta ? obj.meta.description : ''}" />
 			<meta name="author" content="feathermode">
 			
 			<!-- META -->

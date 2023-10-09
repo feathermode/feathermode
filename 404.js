@@ -1,3 +1,19 @@
+export function config() {
+	const meta = {
+		"title" : "404 | feathermode",
+		"description" : "We can't find the page you're looking for...",
+		"scripts": []
+	}
+
+	return {
+		type: 'page',
+		layout: '_includes/layout.js',
+		state: 'publish',
+		path: '/404',
+		meta: meta
+	}
+}
+
 export default function four(obj) {
 	return `
 		<!-- HERO -->
