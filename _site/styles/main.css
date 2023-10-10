@@ -471,6 +471,28 @@ details[open] summary {
 	transition: var(--trans-short);
 }*/
 
+.articles {
+	--gap: 1rem;
+	display: grid;
+	gap: var(--gap);
+	grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(
+        clamp(50% - var(--gap), 350px, 100%),
+        1fr
+      )
+    );
+	justify-content: center;
+	align-items: center;
+}
+
+.article-card {
+	border: var(--color-light) 2px solid;
+	padding: 1rem;
+	border-radius: var(--radius);
+}
+
 footer {
 	display: flex;
 	flex-direction: column;

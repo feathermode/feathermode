@@ -11,16 +11,8 @@ export default function layout(data, collection, obj) {
 			<div data-anchor="top"></div>
 			${navigation()}
 
-			<div class="wrapper articles padding-tb-lg">
-				${obj.data
-					.map(data_obj => {
-						return `<div class="article-card">
-						<p>${data_obj.title}</p>
-						<p>${data_obj.summary}</p>
-						</div>`
-					})
-					.join('')
-				}
+			<div class="wrapper blog-post padding-tb-lg">
+				${obj.contents}
 			</div>
 
 			${footer()}
