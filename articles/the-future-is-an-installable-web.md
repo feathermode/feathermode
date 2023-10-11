@@ -2,9 +2,11 @@
 collections: articles
 title: The Future is an Installable Web
 date: 10-09-2023
+layout: _includes/layout-post.js
 meta: 
   title: The Future is an Installable Web | feathermode
   description: The Rise of the Personal Web App
+summary: Every website can benefit from the power of Progressive Web App technologies. Let's look at how websites turn into progressive and installable web apps and also why websites should move towards this architecture.
 ---
 
 # The Future is an Installable Web

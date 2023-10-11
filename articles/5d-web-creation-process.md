@@ -2,9 +2,11 @@
 collections: articles
 title: The 5Ds of Web Creation
 date: 10-08-2023
+layout: _includes/layout-post.js
 meta:
   title: The 5Ds of Web Creation | feathermode
   description: A straightforward way of creating websites and web apps
+summary: Building a web platform to showcase your project, business or story can feel like a daunting task. At feathermode we use a streamlined process called 5D to keep web creation simple, manageable and consistent.
 ---
 
 # The 5D's of Web Creation
