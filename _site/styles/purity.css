@@ -36,6 +36,10 @@ ol[role="list"] {
   list-style: none;
 }
 
+ul {
+	list-style-position: var(--list-style-position);
+}
+
 /* LINKS */
 a:not([class]) {
   text-decoration-skip-ink: auto;

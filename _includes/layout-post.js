@@ -11,9 +11,11 @@ export default function layout(data, collection, obj) {
 			<div data-anchor="top"></div>
 			${navigation()}
 
+			<section>
 			<div class="wrapper blog-post padding-tb-lg">
 				${obj.contents}
 			</div>
+			</section>
 
 			${footer()}
 		</body>

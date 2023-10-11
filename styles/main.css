@@ -119,6 +119,8 @@
 	--anim-direction: normal;
 	--anim-fill: forwards;
 	--anim-play-state: paused;
+
+	--list-style-position: inside;
 }
 
 
@@ -487,10 +489,24 @@ details[open] summary {
 	align-items: center;
 }
 
+.articles a {
+	text-decoration: none;
+}
+
+.article-card * + * {
+	margin-top: 1rem;
+}
+
 .article-card {
 	border: var(--color-light) 2px solid;
 	padding: 1rem;
 	border-radius: var(--radius);
+	transition: 0.5s;
+}
+
+.article-card:hover {
+	background: var(--color-light);
+	color: var(--color-dark);
 }
 
 footer {
@@ -508,8 +524,20 @@ footer {
 	height: 14px;
 }
 
+.blog-post h2:first-of-type {
+	text-align: center;
+}
+
+.blog-post p:first-of-type {
+	text-align: center;
+}
+
 .blog-post h3 {
 	margin-top: 2rem;
+}
+
+.blog-post h4 {
+	margin-top: 1rem;
 }
 
 
