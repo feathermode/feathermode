@@ -540,6 +540,10 @@ footer {
 	margin-top: 1rem;
 }
 
+.blog-post p {
+	margin-top: 0.5rem;
+}
+
 
 /* MEDIA QUERIES */
 @media (min-width: 599px) {
