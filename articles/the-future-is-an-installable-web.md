@@ -6,6 +6,7 @@ layout: _includes/layout-post.js
 meta: 
   title: The Future is an Installable Web | feathermode
   description: The Rise of the Personal Web App
+  keywords: PWA, World Wide Web, Web App, Progressive web app, install website
 summary: Every website can benefit from the power of Progressive Web App technologies. Let's look at how websites turn into progressive and installable web apps and also why websites should move towards this architecture.
 ---
 
@@ -14,7 +15,7 @@ summary: Every website can benefit from the power of Progressive Web App technol
 by OOF | Web Captain @<a href="https://feathermode.com" target="_blank" rel="noopener">feathermode</a>
 				
 ### The Installable, Progressive Web App
-What if you have a website and want to create an app like the ones you have installed on your device, but don't have the time or resources to create dedicated apps that will run on iOS, Windows, Android and Linux devices? After all, you website isn't complex, you just want to be able to offer the users of your web store or web blog features like notifications when you create a new blog post, website access from their home screen or the ability to view your content offline.
+What if you have a website and want to create an app like the ones you have installed on your device, but don't have the time or resources to create dedicated apps that will run on iOS, Windows, Android and Linux devices? After all, you website isn't complex, you just want to be able to offer the users of your web store or web blog **features like notifications when you create a new blog post, website access from their home screen or the ability to view your content offline.**
 
 Enter Progressive Web Apps.
 
@@ -38,4 +39,4 @@ The World Wide Web started off as a way for researchers and scientists to share 
 
 First, we have to remove the barriers that are put in place by social media platforms, app stores and intermediaries who restrict creators and users who should be able to build and explore digital stories freely. We are seeing a shift of control from the few to the many; the ability to create installable web apps and have complete control over how that app is accessed is a crucial benchmark in this new age of the web.
 
-If you are interested in turning your website into an  Progressive Web App, please contact me <a href="https://feathermode.com/#sign-up" target="_blank" rel="noopener">here</a>.
+If you are interested in turning your website into a Progressive Web App, please contact me <a href="https://feathermode.com/#sign-up" target="_blank" rel="noopener">here</a>.

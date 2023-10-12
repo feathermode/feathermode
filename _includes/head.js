@@ -10,6 +10,7 @@ export default function head(obj) {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<meta name="generator" content="Gondola" />
+			<meta name="keywords" content="${obj.meta ? obj.meta.keywords : ''}">
 			<link rel="canonical" href="https://feathermode.com" />
 			<meta property="og:title" content="Your Digital Story, Made to Fly"/>
 			<meta property="og:type" content="website"/>
