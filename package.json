@@ -1,1 +1,5 @@
-{ "dependencies": { "ornithopter": "git@github.com:oofytronic/ornithopter.git" } }
+{
+  "dependencies": {
+    "gondola": "git@github.com:oofytronic/gondola.git#3ac057a"
+  }
+}
