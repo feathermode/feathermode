@@ -528,7 +528,7 @@ footer {
 	text-align: center;
 }
 
-.blog-post p:first-of-type {
+.blog-post > p:first-of-type {
 	text-align: center;
 }
 
@@ -542,6 +542,15 @@ footer {
 
 .blog-post p {
 	margin-top: 0.5rem;
+	text-indent: 24px;
+}
+
+.blog-post ol, .blog-post ul {
+	list-style-position: inside;
+}
+
+.blog-post ol li, .blog-post ul li {
+	margin-top: 1rem;
 }
 
 

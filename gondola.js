@@ -29,6 +29,15 @@ export default function settings() {
 		],
 		collect: [
 			articles
+		],
+		use: [
+			{
+				name: "syndication",
+				feed: 'articles',
+				title: 'feathermode Articles',
+				description: 'Articles from feathermode on web design, development, marketing, content creation and best practices for businesses and content creators.',
+				link: 'https://feathermode.com/articles'
+			}
 		]
 	}
 }
