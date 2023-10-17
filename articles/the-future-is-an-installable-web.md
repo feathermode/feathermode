@@ -1,6 +1,7 @@
 ---
 collections: articles
 title: The Future is an Installable Web
+description: The Rise of the Personal Web App
 date: 10-09-2023
 layout: _includes/layout-post.js
 meta: 

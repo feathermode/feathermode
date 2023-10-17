@@ -1,14 +1,15 @@
 ---
 collections: articles
 title: 5 Reasons Why You Need RSS in Your Life
+description: RSS is a web technology that was created in 1999 and is still the most effective way to consume tailored content on the web today. Let's review 5 reasons why you should have RSS in your life.
 date: 10-17-2023
 layout: _includes/layout-post.js
 state: publish
 meta:
-  title: The 5Ds of Web Creation | feathermode
-  description: A straightforward way of creating websites and web apps
-  keywords: Web design, web development, web hosting, website creation, world wide web
-summary: Building a web platform to showcase your project, business or story can feel like a daunting task. At feathermode we use a streamlined process called 5D to keep web creation simple, manageable and consistent.
+  title: 5 Reasons Why You Need RSS in Your Life | feathermode
+  description: RSS is a web technology that was created in 1999 and is still the most effective way to consume tailored content on the web today. Let's review 5 reasons why you should have RSS in your life.
+  keywords: RSS, social media, web syndication, content aggregation, content creation, web feeds
+summary: RSS is a web technology that was created in 1999 and is still the most effective way to consume tailored content on the web today. Let's review 5 reasons why you should have RSS in your life.
 ---
 
 # 5 Reasons Why You Need RSS in Your Life

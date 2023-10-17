@@ -1,6 +1,7 @@
 ---
 collections: articles
 title: The 5Ds of Web Creation
+description: A straightforward way of creating websites and web apps
 date: 10-08-2023
 layout: _includes/layout-post.js
 meta:
