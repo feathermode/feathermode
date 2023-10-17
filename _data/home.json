@@ -40,6 +40,19 @@
 		"User Customization",
 		"Device Database Integration"
 	],
+	"marketing_des": "I love content. The written word, images, videos, audio all come together to provide a worldview for your visitors. Content marketing centers around creating content that speaks to your visitors and gets them to act. The content on your website, the emails you communicate with, the forms your visitors fill out and other methods of digital communication provide pathways for your visitors to become subscribers, clients and buyers of your products. Now, while great content goes a long way, it first needs to be seen. That is where Search Engine Optimization (SEO) comes in. SEO is the act of making content rank higher on search engines. When people search for things you're providing, you want them to see your products or services first. There are many ways to optimize your content for search engines and I take those steps to help you rank higher.",
+	"marketing_list": [
+		"Form Creation",
+		"Email Automation",
+		"Email Creation",
+		"Content Strategies",
+		"Website Copy Creation",
+		"SEO Research",
+		"SEO Strategies",
+		"Blog Post Creation",
+		"Podcast Creation",
+		"Accounts Automation"
+	],
 	"development_hosting_des": "Every site I create is developed from scratch. No site or app is the same. I keep my development process simple and straightforward to allow for quick design-to-launch times and when the site is complete, I provide simple and tailored hosting. I also handle external integrations like email automation software and analytics. Some common needs are:",
 	"development_hosting_list": [
 		"Edge Hosting",

@@ -64,7 +64,7 @@ export default function home(data, collections) {
 					<div class="stack card bg-gray gap-1">
 						<h3>Content Marketing and SEO</h3>
 						<p>I will help you craft content and create content marketing strategies for your brand that utilize the voice, subject matter and structure to appropriately engage with your audience and convert visitors into customers or subscribers.</p>
-						<!-- <a class="button-main" href="/content-marketing">Learn More</a> -->
+						<a class="button-main" href="/content-marketing-seo">Learn More</a>
 					</div>
 					
 				</div>
