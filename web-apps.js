@@ -1,7 +1,7 @@
 export function config() {
 	const meta = {
-		"title" : "Web Apps | feathermode",
-		"description" : "Website or no website, go from idea to production-ready web app by hiring feathermode to ideate, design, develop and deploy your app.",
+		"title" : "Websites and Web Apps | feathermode",
+		"description" : "Website or no website, go from idea to production-ready web app by hiring feathermode to ideate, design, develop and deploy your website or web app (PWA).",
 		"scripts": []
 	}
 
@@ -19,8 +19,8 @@ export default function web_apps(data, collections) {
 	<section>
 		<div class="wrapper | stack gap-3">
 			<div class="flex items-center gap-1">
-				<h1>Web Apps</h1>
-				<img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon">
+				<h1>Websites and Web Apps</h1>
+				<!-- <img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon"> -->
 			</div>
 
 			<div id="web-apps" class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">

@@ -1,7 +1,7 @@
 export function config() {
 	const meta = {
-		"title" : "Content Marketing and SEO | feathermode",
-		"description" : "The written word, images, videos, audio all come together to provide a worldview for your visitors. Content marketing centers around creating content that speaks to your visitors and gets them to act.",
+		"title" : "Digital Marketing | feathermode",
+		"description" : "The written word, images, videos, audio all come together to provide a worldview for your visitors. Digital marketing centers around creating content pathways that gets your website visitors to act.",
 		"scripts": []
 	}
 
@@ -9,7 +9,7 @@ export function config() {
 		type: 'page',
 		layout: '_includes/layout.js',
 		state: 'publish',
-		path: '/content-marketing-seo',
+		path: '/digital-marketing',
 		meta: meta
 	}
 }
@@ -19,7 +19,7 @@ export default function web_apps(data, collections) {
 	<section>
 		<div class="wrapper | stack gap-3">
 			<div class="flex items-center gap-1">
-				<h1>Content Marketing and SEO</h1>
+				<h1>Digital Marketing</h1>
 				<!-- <img class="card-icon" src="/assets/fm_icon-web_app.svg" alt="website icon"> -->
 			</div>
 

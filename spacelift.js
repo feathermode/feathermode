@@ -20,7 +20,7 @@ export default function spacelift(obj) {
 		<div class="wrapper | stack gap-3">
 			<div class="flex items-center gap-1">
 				<h1>SpaceLift</h1>
-				<img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon">
+				<!-- <img class="card-icon" src="/assets/fm_icon-website.svg" alt="website icon"> -->
 			</div>
 
 			<div id="spacelift" class="card | stack gap-1 width-100 | trigger opacity-0 fade-in">
