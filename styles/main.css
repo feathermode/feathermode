@@ -509,6 +509,10 @@ details[open] summary {
 	color: var(--color-dark);
 }
 
+.article-card img {
+	width: 100%;
+}
+
 footer {
 	display: flex;
 	flex-direction: column;
@@ -543,6 +547,12 @@ footer {
 .blog-post p {
 	margin-top: 0.5rem;
 	text-indent: 24px;
+}
+
+.blog-post img {
+	width: 100%;
+	border-radius: var(--radius);
+	margin-top: 1rem;
 }
 
 .blog-post ol, .blog-post ul {

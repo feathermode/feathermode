@@ -16,6 +16,7 @@ export default function layout(data, collection, obj) {
 				${obj.data
 					.map(data_obj => {
 						return `<a href="${data_obj.path}"><div class="article-card">
+						<img src="${data_obj.thumbnail.image}" alt="${data_obj.thumbnail.alt}" title="${data_obj.thumbnail.alt}">
 						<h2 class="article-card-title">${data_obj.title}</h2s>
 						<p class="article-card-summary">${data_obj.summary}</p>
 						</div></a>`
