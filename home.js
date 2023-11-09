@@ -350,6 +350,7 @@ export default function home(data, collections) {
 							<select class="width-fit-content" name="service" id="service" required>
 								<option value="spacelift">Spacelift</option>
 								<option value="web-app">Web App</option>
+								<option value="digital-marketing">Digital Marketing</option>
 							</select>
 						</label>
 						<label for="on-the-web">
