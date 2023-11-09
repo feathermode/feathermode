@@ -2,10 +2,12 @@ http://feathermode.app/* https://feathermode.com/:splat 301!
 https://feathermode.app/* https://feathermode.com/:splat 301!
 http://feathermode.app http://feathermode.com
 https://feathermode.app https://feathermode.com
-http://wwwinged.com/* https://feathermode.com/wwinged/:splat 301!
-https://wwwinged.com/* https://feathermode.com/wwinged/:splat 301!
-http://wwwinged.com http://feathermode.com/wwinged
-https://wwwinged.com https://feathermode.com/wwinged
+http://wwwinged.com/* https://feathermode.com/wwwinged/:splat 301!
+https://wwwinged.com/* https://feathermode.com/wwwinged/:splat 301!
+http://wwwinged.com http://feathermode.com/wwwinged
+https://wwwinged.com https://feathermode.com/wwwinged
+http://wwwinged.feathermode.com/* https://feathermode.com/wwwinged/:splat 301!
+https://wwwinged.feathermode.com/* https://feathermode.com/wwwinged/:splat 301!
 /company https://motualis.com
 /blog https://feathermode.com/wwwinged
 /blog/* https://feathermode.com/wwwinged/:splat 301!
