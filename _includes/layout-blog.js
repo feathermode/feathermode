@@ -11,18 +11,20 @@ export default function layout(data, collection, obj) {
 			<div data-anchor="top"></div>
 			${navigation()}
 			<section>
-			<div class="wrapper articles padding-tb-lg">
-				<h1>Articles</h1>
-				${obj.data
-					.map(data_obj => {
-						return `<a href="${data_obj.path}"><div class="article-card">
-						<img src="${data_obj.thumbnail.image}" alt="${data_obj.thumbnail.alt}" title="${data_obj.thumbnail.alt}">
-						<h2 class="article-card-title">${data_obj.title}</h2s>
-						<p class="article-card-summary">${data_obj.summary}</p>
-						</div></a>`
-					})
-					.join('')
-				}
+				<div class="wrapper | stack gap-1">
+					<img class="width-100" src="/assets/wwwinged-logo.png" alt="WWWinged">
+					<div class="articles padding-tb-lg">
+						${obj.data
+							.map(data_obj => {
+								return `<a href="${data_obj.path}"><div class="article-card">
+								<img src="${data_obj.thumbnail.image}" alt="${data_obj.thumbnail.alt}" title="${data_obj.thumbnail.alt}">
+								<h2 class="article-card-title">${data_obj.title}</h2s>
+								<p class="article-card-summary">${data_obj.summary}</p>
+								</div></a>`
+							})
+							.join('')
+						}
+					</div>
 			</div>
 			</section>
 
