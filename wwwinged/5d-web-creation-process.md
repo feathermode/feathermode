@@ -1,5 +1,5 @@
 ---
-collections: articles
+collections: wwwinged
 title: The 5Ds of Web Creation
 subtitle: A straightforward way of creating websites and web apps
 date: 10-08-2023

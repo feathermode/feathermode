@@ -188,7 +188,7 @@ export default function home(data, collections) {
 							<p style="font-size: 30px;" data-process-title="dedicate">5. Dedicate</p>
 						</div>
 
-						<p>Learn more about our 5D Web Creation Process <a href="/articles/the-5ds-of-web-creation" rel="noopener" target="_blank">here.</a></p>
+						<p>Learn more about our 5D Web Creation Process <a href="/wwwinged/the-5ds-of-web-creation" rel="noopener" target="_blank">here.</a></p>
 					</div>
 				</div>
 				<div class="process-lists stack gap-1 | trigger opacity-0 fade-in">
@@ -276,7 +276,7 @@ export default function home(data, collections) {
 						</ul>
 					</div>
 				</div>
-				<p>Learn more about my 5D Web Creation Process <a href="/articles/the-5ds-of-web-creation" rel="noopener" target="_blank">here.</a></p>
+				<p>Learn more about my 5D Web Creation Process <a href="/wwwinged/the-5ds-of-web-creation" rel="noopener" target="_blank">here.</a></p>
 			</div>
 		</section>
 

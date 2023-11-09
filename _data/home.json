@@ -31,7 +31,7 @@
 		"Platform Upgrades",
 		"Site Performance Enhancement"
 	],
-	"apps_des": "Progressive Web Apps (PWAs) are websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store without the need to manage an entire different codebase and ecosystem. They're installable and provide greater connections with visitors. PWAs allow visitors to have a more intimate and integrated experience with your web platform. Learn more about them <a href=\"/articles/the-future-is-an-installable-web\" rel=\"noopener\" target=\"_blank\">here.</a> I create Progressive Web Apps with the following capabilities:",
+	"apps_des": "Progressive Web Apps (PWAs) are websites with a suite of superpowers that allow them to operate similarly to apps downloaded from an app store without the need to manage an entire different codebase and ecosystem. They're installable and provide greater connections with visitors. PWAs allow visitors to have a more intimate and integrated experience with your web platform. Learn more about them <a href=\"/wwwinged/the-future-is-an-installable-web\" rel=\"noopener\" target=\"_blank\">here.</a> I create Progressive Web Apps with the following capabilities:",
 	"apps_list": [
 		"Offline Mode",
 		"Installable from Site",

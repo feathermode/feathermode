@@ -1,5 +1,5 @@
 ---
-collections: articles
+collections: wwwinged
 title: 5 Reasons Why You Need RSS in Your Life
 subtitle: Reimagining Content Consumption in a Digital Age
 date: 10-17-2023

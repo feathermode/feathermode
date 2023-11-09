@@ -62,7 +62,7 @@ export default function navigation() {
 					<li><a href="/web-apps">Web Apps</a></li>
 					<li><a href="/digital-marketing">Digital Marketing</a></li>
 					<li><a href="/#process">Process</a></li>
-					<li><a href="/articles">Articles</a></li>
+					<li><a href="/wwwinged">Articles</a></li>
 				</ul>
 				<a class="button-main" href="/#sign-up">Free Web Consultation</a>
 			</div>
@@ -125,7 +125,7 @@ export default function navigation() {
 				<li><a href="/web-apps">Web Apps</a></li>
 				<li><a href="/digital-marketing">Digital Marketing</a></li>
 				<li><a href="/#process">Process</a></li>
-				<li><a href="/articles">Articles</a></li>
+				<li><a href="/wwwinged">Articles</a></li>
 			</ul>
 			<a class="button-main" href="/#sign-up">Free Web Consultation</a>
 		</nav>

@@ -1,5 +1,5 @@
 ---
-collections: articles
+collections: wwwinged
 title: The Future is an Installable Web
 subtitle: The Rise of the Personal Web App
 date: 10-09-2023
