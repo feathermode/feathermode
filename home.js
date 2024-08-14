@@ -95,6 +95,7 @@ export default function home(data, collections) {
 		</section>
 
 		<!-- RECENT WORKS -->
+		<!-- Comment -->
 		<!-- <section id="projects">
 			<div class="wrapper">
 				<h2 class="group-title">Case Study</h2>
