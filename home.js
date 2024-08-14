@@ -60,12 +60,6 @@ export default function home(data, collections) {
 						<p>I will create a website with app capabilities from scratch using the 5D Web Creation Process and provide fine-tuned hosting.</p>
 						<a class="button-dark" href="/web-apps">Learn More</a>
 					</div>
-
-					<div class="stack card bg-gray gap-1">
-						<h3>Digital Marketing</h3>
-						<p>I will help you craft content, create content marketing and SEO strategies that utilize the voice, subject matter and structure to appropriately engage with your audience and convert visitors into customers or subscribers.</p>
-						<a class="button-main" href="/digital-marketing">Learn More</a>
-					</div>
 					
 				</div>
 			</div>

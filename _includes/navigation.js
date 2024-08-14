@@ -60,7 +60,6 @@ export default function navigation() {
 				<ul class="auto-flex gap-1 list-none">
 					<li><a href="/spacelift">SpaceLift</a></li>
 					<li><a href="/web-apps">Web Apps</a></li>
-					<li><a href="/digital-marketing">Digital Marketing</a></li>
 					<li><a href="/#process">Process</a></li>
 					<li><a href="/wwwinged">Articles</a></li>
 				</ul>
@@ -123,7 +122,6 @@ export default function navigation() {
 			<ul class="flex gap-1 list-none">
 				<li><a href="/spacelift">SpaceLift</a></li>
 				<li><a href="/web-apps">Web Apps</a></li>
-				<li><a href="/digital-marketing">Digital Marketing</a></li>
 				<li><a href="/#process">Process</a></li>
 				<li><a href="/wwwinged">Articles</a></li>
 			</ul>
